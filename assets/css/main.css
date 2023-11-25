@@ -1,0 +1,140 @@
+body {
+    background: #f8f8f8;
+    background-color: #f8f8f8;
+    color: #000000;
+    font-size: 16px;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+ul {
+    padding-left: 1rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.circle {
+    border-radius: 100%;
+  }
+header {
+    height: 100%;
+    padding-top: 2.55rem;
+    padding-left: 2.55rem;
+    padding-right: 2.55rem;
+    padding-bottom: 2.55rem;
+}
+.sidebar {
+    padding: 0;
+}
+header .header-container {
+    padding: 0;
+}
+header ul {
+    list-style: none;
+    padding-left: 0;
+}
+.profile-photo {
+    max-width: 10rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+.profile-name {
+    display: block;
+    margin-bottom: 2rem;
+}
+.copyright {
+    font-size: 14px;
+}
+
+.theme-selector {
+    /* display: none; */
+    z-index: 100;
+    position: relative;
+  }
+
+header .social-icons svg {
+    width: 100%;
+    max-height: 1.1rem;
+}
+section {
+    padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+}
+.theme-selector ul li {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    list-style-type: none;
+  }
+  .theme-selector ul li.light {
+    background: #ffffff;
+  }
+  .theme-selector ul li.dark {
+    background: #9013FE;
+  }
+  .theme-selector ul li.orange {
+    background: #fc483a;
+  }
+  .theme-selector ul li.green {
+    background: #05386b;
+  }
+  .theme-selector ul li a {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: block;
+  }
+
+.typewriter > .wrap {
+    animation: blink 0.8s infinite;
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  li {
+    color: #9013FE;
+  }
+  .service-box li h4 {
+    color: #000000;
+  }
+  .portfolio-categories li {
+    margin-bottom: 0.5rem;
+  }
+  .timeline-container .content p.subtitle {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+  }
+  .experience-logo {
+    margin-top: 1.33rem;
+    margin-bottom: 0.33rem;
+    display: block;
+    height: 2.5rem;
+    width: auto;
+    max-height: 2.5rem;
+  }
+  .experience-logo.wtaa-logo {
+    height: 2.35rem;
+    max-height: 2.35rem;
+  }
+  .experience-logo.ncm-logo {
+    height: 2.95rem;
+    max-height: 2.95rem;
+  }
+  .experience-logo.vue-design-logo {
+    height: 2.95rem;
+    max-height: 2.95rem;
+  }
+  .experience-logo.mango-bay-logo {
+    height: 1.75rem;
+    max-height: 1.75rem;
+  }
+  .experience-logo.ff-design-logo {
+    height: 1.55rem;
+    max-height: 1.55rem;
+  }
