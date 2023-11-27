@@ -18,21 +18,30 @@ img {
     border-radius: 100%;
   }
 header {
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     padding-top: 2.55rem;
     padding-left: 2.55rem;
     padding-right: 2.55rem;
     padding-bottom: 2.55rem;
+    position: fixed;
 }
 .sidebar {
-    padding: 0;
-}
-header .header-container {
     padding: 0;
 }
 header ul {
     list-style: none;
     padding-left: 0;
+}
+footer {
+    margin-top: auto;
+}
+footer ul {
+    display: flex;
+}
+footer ul li {
+    margin-right: 1rem;
 }
 .profile-photo {
     max-width: 10rem;
@@ -45,14 +54,18 @@ header ul {
 }
 .copyright {
     font-size: 14px;
+    margin-top: auto;
 }
 
 .theme-selector {
     /* display: none; */
     z-index: 100;
     position: relative;
+    margin-bottom: 1rem;
   }
-
+.theme-selector ul {
+    display: flex;
+}
 header .social-icons svg {
     width: 100%;
     max-height: 1.1rem;
