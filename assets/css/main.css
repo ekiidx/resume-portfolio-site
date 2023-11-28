@@ -7,6 +7,9 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+a {
+    text-decoration: none;
+}
 ul {
     padding-left: 1rem;
 }
@@ -150,4 +153,9 @@ section {
   .experience-logo.ff-design-logo {
     height: 1.55rem;
     max-height: 1.55rem;
+  }
+  .item {
+    margin-bottom: 5rem;
+    padding-top: 1rem;
+    padding-right: 5rem;
   }

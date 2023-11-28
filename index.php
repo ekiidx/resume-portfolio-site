@@ -9,37 +9,37 @@ $theme_color = $_SESSION["theme_color"]; ?>
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta charset="utf-8">
-	<title>Erik Todd | Web Developer | Cleveland Ohio</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<link rel="shortcut icon" type="image/x-icon" href="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Erik Todd | Web Developer | Cleveland Ohio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
-	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9013fe">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#9013fe">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 
-	<!-- Search Engine -->
+    <!-- Search Engine -->
     <meta name="author" content="Vue Design">
-	<meta name="description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
-	<meta name="image" content="https://eriktodd.me/website-preview.jpg">
+    <meta name="description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
+    <meta name="image" content="https://eriktodd.me/website-preview.jpg">
     <meta name="keywords" content="">
-	<!-- Schema.org for Google -->
-	<meta itemprop="name" content="Erik Todd | Web Developer | Cleveland Ohio">
-	<meta itemprop="description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
-	<meta itemprop="image" content="website-preview.jpg">
-	<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-	<meta name="og:title" content="Erik Todd | Web Developer | Cleveland Ohio">
-	<meta name="og:description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
-	<!--<meta name="og:image" content="https://eriktodd.me/website-preview-fb.jpg">-->
-	<meta name="og:url" content="https://eriktodd.me">
-	<meta name="og:site_name" content="Erik Todd | Web Developer | Cleveland Ohio">
-	<meta name="og:locale" content="en_US">
-	<meta name="og:type" content="website">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Erik Todd | Web Developer | Cleveland Ohio">
+    <meta itemprop="description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
+    <meta itemprop="image" content="website-preview.jpg">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Erik Todd | Web Developer | Cleveland Ohio">
+    <meta name="og:description" content="Hello, I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.">
+    <!--<meta name="og:image" content="https://eriktodd.me/website-preview-fb.jpg">-->
+    <meta name="og:url" content="https://eriktodd.me">
+    <meta name="og:site_name" content="Erik Todd | Web Developer | Cleveland Ohio">
+    <meta name="og:locale" content="en_US">
+    <meta name="og:type" content="website">
     <meta property="og:description" content="">
     <meta property="og:image" content="">
     <meta property="og:image:alt" content="Resume portfolio website thumbnail">
@@ -54,23 +54,23 @@ $theme_color = $_SESSION["theme_color"]; ?>
     <!--<meta name="twitter:creator" content="@yourusername">-->
     <link rel="canonical" href=""> 
     <meta property="og:title" content="Erik Todd">
-	<meta property="og:image:width" content="1200">
-	<meta property="og:image:height" content="630">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-	<!-- STYLESHEETS -->
+    <!-- STYLESHEETS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<!--<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
-	<link rel="stylesheet" href="css/slick.css" type="text/css" media="all">-->
-	<link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all">
+    <!--<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/slick.css" type="text/css" media="all">-->
+    <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all">
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all"> <?php
 
-	if(isset($_SESSION["theme_color"])) { ?>
-		<link rel="stylesheet" href="assets/css/<?php echo $theme_color; ?>.css" type="text/css" media="all"> <?php
-	} ?>
+    if(isset($_SESSION["theme_color"])) { ?>
+        <link rel="stylesheet" href="assets/css/<?php echo $theme_color; ?>.css" type="text/css" media="all"> <?php
+    } ?>
 
-	<!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
     <!--
@@ -84,7 +84,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
 </head>
 <body>
 
-    <div style="max-width: 1440px; margin: 0 auto;">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-3 sidebar">
 
@@ -99,16 +99,16 @@ $theme_color = $_SESSION["theme_color"]; ?>
                     </div>
 
                     <a href="/"><img src="assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
-                    <a href="/"><span class="profile-name">Erik Todd</span></a>
+                    <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
 
                     <nav>
                         <ul class="scrollspy">
-                            <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#projects">Projects</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li><a href="#resume">Resume</a></li>
+                            <li class="active text-uppercase"><a href="#home">Home</a></li>
+                            <li class="text-uppercase"><a href="#skills">Skills</a></li>
+                            <li class="text-uppercase"><a href="#experience">Experience</a></li>
+                            <li class="text-uppercase"><a href="#projects">Projects</a></li>
+                            <li class="text-uppercase"><a href="#contact">Contact</a></li>
+                            <li class="text-uppercase"><a href="#resume">Resume</a></li>
                         </ul>
                     </nav>
 
@@ -147,9 +147,14 @@ $theme_color = $_SESSION["theme_color"]; ?>
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <h1>Hello_</h1>
+                         
+                                <h1>
+                                    <a href="#" class="typewriter text-uppercase" data-period="6000" data-type='[ "Hello_" ]'>
+                                        <span class="wrap"></span>
+                                    </a>
+                                </h1>
                                 <p>I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
-                            
+
                             </div>
                         </div>
                     </div>
@@ -158,7 +163,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
                 <section class="skills">
                     <div class="container">
                         <div class="row">
-                            <h2>Skills</h2>
+                            <h2 class="text-uppercase">Skills</h2>
                             <div class="col-md-4">
                                 <ul>
                                     <li>HTML</li>
@@ -192,164 +197,92 @@ $theme_color = $_SESSION["theme_color"]; ?>
                     </div>
                 </section>
 
-                <section class="experience">
-                    <div class="container">
-                        <div class="row">
-                            <h2>Experience</h2>
-                        </div>
-
-                    </div>
-                </section>
-
                 <section id="experience">
 		            <div class="container">
-			
-                        <!-- section title -->
-                        <h2 class="section-title font-black text-uppercase">Experience</h2>
-                        <div class="spacer" data-height="100"></div>
+                        <h2 class="text-uppercase">Experience</h2>
+                 
                         <div class="row">
-
                             <div class="col-md-6">
-                                <!-- timeline wrapper -->
-                                <div class="timeline">
 
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            
-                                            <span class="time">Jul 2023 - Current</span>
-                                            <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
-
-                                            <h4 style="display: inline-block" class="title">West Tech Alumni Association</h4>
-                                            <p class="subtitle">Web Developer, Project Manager</p>
-                                            <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">Mar 2022 - Nov 2022</span>
-                                            <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
-                                            <h4 class="title">North Coast Media</h4>
-                                            <p class="subtitle">Web Developer</p>
-                                            <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">May 2021 - Mar 2022</span>
-                                            <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
-                                            <h4 class="title">Vue Design</h4>
-                                            <p class="subtitle">Full Stack Web Developer, Project Manager</p>
-                                            <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- main line -->
-                                    <span class="line"></span>
-
+                                <div class="item">
+                                    <span class="time">Jul 2023 - Current</span>
+                                    <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
+                                    <h4 style="display: inline-block" class="title">West Tech Alumni Association</h4>
+                                    <p class="subtitle">Web Developer, Project Manager</p>
+                                    <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
+
+                                <div class="item">
+                                    <span class="time">Mar 2022 - Nov 2022</span>
+                                    <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
+                                    <h4 class="title">North Coast Media</h4>
+                                    <p class="subtitle">Web Developer</p>
+                                    <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
+                                </div>
+                                    
+                                <div class="item">
+                                    <span class="time">May 2021 - Mar 2022</span>
+                                    <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
+                                    <h4 class="title">Vue Design</h4>
+                                    <p class="subtitle">Full Stack Web Developer, Project Manager</p>
+                                    <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
+                                </div>
+                                 
                             </div>
 
                             <div class="col-md-6">
-                                
-                                <!-- responsive spacer -->
-                                <div class="spacer d-md-none d-lg-none" data-height="100"></div>
-
-                                <!-- timeline wrapper -->
-                                <div class="timeline">
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">Jan 2020 - Apr 2021</span>
-                                            <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
-                                            <h4 class="title">Mango Bay</h4>
-                                            <p class="subtitle">Lead Web Developer, Project Manager</p>
-                                            <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">Oct 2017 - Mar 2018</span>
-                                            <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
-                                            <h4 class="title">Ellet Sign</h4>
-                                            <p class="subtitle">Graphic Designer</p>
-                                            <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">Oct 2016 - Jan 2020</span>
-                                            <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
-                                            <h4 class="title">FF Design</h4>
-                                            <p class="subtitle">Web Developer</p>
-                                            <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- main line -->
-                                    <span class="line"></span>
-
+                                <div class="item">
+                                    <span class="time">Jan 2020 - Apr 2021</span>
+                                    <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
+                                    <h4 class="title">Mango Bay</h4>
+                                    <p class="subtitle">Lead Web Developer, Project Manager</p>
+                                    <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
+                                </div>
+                    
+                                <div class="item">
+                                    <span class="time">Oct 2017 - Mar 2018</span>
+                                    <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
+                                    <h4 class="title">Ellet Sign</h4>
+                                    <p class="subtitle">Graphic Designer</p>
+                                    <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
+                                </div>
+                
+                                <div class="item">
+                                    <span class="time">Oct 2016 - Jan 2020</span>
+                                    <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
+                                    <h4 class="title">FF Design</h4>
+                                    <p class="subtitle">Web Developer</p>
+                                    <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
 
-                <!-- section experience -->
-                <section id="experience">
+                <section id="education">
                     <div class="container">
                         
-                        <!-- section title -->
-                        <h2 class="section-title font-black text-uppercase">Education</h2>
-                        <div class="spacer" data-height="100"></div>
+                        <h2 class="text-uppercase">Education</h2>
                         
                         <div class="row">
-
-                            <div class="col-md-6">	
-                                <!-- timeline wrapper -->
-                                <div class="timeline">
-
-                                    <!-- timeline item -->
-                                    <div class="timeline-container">
-                                        <div class="content">
-                                            <span class="time">2012 - 2016</span>
-                                            <img class="experience-logo" src="assets/img/uakron-logo.svg">
-                                            <h4 class="title">University of Akron</h4>
-                                            <p>BA Studio & Fine Arts</p>
-                                            <p>Minor Japanese</p>
-                                        </div>
-                                    </div>
-
-                                    <!-- main line -->
-                                    <span class="line"></span>
-
+                            <div class="col-md-6">
+                                <div class="item">
+                                    <span class="time">2012 - 2016</span>
+                                    <img class="experience-logo" src="assets/img/uakron-logo.svg">
+                                    <h4 class="title">University of Akron</h4>
+                                    <p>BA Studio & Fine Arts</p>
+                                    <p>Minor Japanese</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </section>
 
-                
-                <!-- section contact -->
                 <section id="contact">
                     <div class="container">
                         
-                        <!-- section title -->
-                        <h2 class="section-title font-black text-uppercase">Contact</h2>
-                        <div class="spacer" data-height="100"></div>
-                        
-                        <!-- contact info -->
+                        <h2 class="text-uppercase">Contact</h2>
+
                         <div class="row">
                         
                             <div class="col-md-4">
@@ -377,12 +310,8 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                     <p class="mb-0">Cleveland, Ohio</p>
                                 </div>
                             </div>
-
                         </div>
 
-                        <div class="spacer" data-height="70"></div>
-
-                        <!-- Contact Form -->
                         <form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
                             
                             <div class="messages"></div>
@@ -424,24 +353,13 @@ $theme_color = $_SESSION["theme_color"]; ?>
                             <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit Message</button><!-- Send Button -->
 
                         </form>
-                        <!-- Contact Form end -->
 
                     </div>
                 </section>
-                
-            </main>
-
-
-
-
-
-
-
-
-
-
-
             </div>
         </div>
     </div>
+
+    <script src="assets/js/main.js"></script>
 </body>
+</html>
