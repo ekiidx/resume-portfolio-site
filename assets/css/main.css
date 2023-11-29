@@ -26,7 +26,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: "Montserrat", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
 }
 h1 {
   margin-bottom: 2rem;
@@ -35,12 +35,13 @@ h1 {
 }
 h2 {
   margin-bottom: 5rem;
+  font-weight: 900;
 }
 a {
     text-decoration: none;
 }
 .bold {
-  font-weight: 600;
+  font-weight: 900;
 }
 ul {
     padding-left: 1rem;
@@ -59,6 +60,7 @@ img {
   padding: 15px 24px;
   position: relative;
   text-transform: uppercase;
+  margin-right: 1rem;
 }
 .btn:focus {
   box-shadow: none;
@@ -84,11 +86,19 @@ header ul {
   list-style: none;
   padding-left: 0;
 }
+header .social-icon svg {
+  width: 100%;
+  max-height: 1.1rem;
+}
+header .social-icon svg:hover {
+  fill:#10d876;
+}
 .sidebar {
     padding: 0;
 }
 nav ul li {
   margin-bottom: 0.75rem;
+  font-weight: 900;
 }
 footer {
     margin-top: auto;
@@ -100,13 +110,15 @@ footer ul li {
     margin-right: 1rem;
 }
 .profile-photo {
-    max-width: 10rem;
+    max-width: 9rem;
     display: block;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .profile-name {
     display: block;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-weight: 900;
 }
 .copyright {
     font-size: 14px;
@@ -289,4 +301,22 @@ section {
     margin-bottom: 5rem;
     padding-top: 1rem;
     padding-right: 5rem;
+  }
+  .skills ul {
+    margin-bottom: 0;
+  }
+  .skills ul li {
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+  }
+  .title {
+    margin-bottom: 1rem;
+    font-weight: 900;
+  }
+  .experience-logo {
+    margin-bottom: 1.25rem;
+  }
+  .date {
+    display: block;
+    margin-bottom: 1rem;
   }

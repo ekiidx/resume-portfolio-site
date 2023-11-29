@@ -89,8 +89,6 @@ $theme_color = $_SESSION["theme_color"]; ?>
             <div class="col-2 sidebar">
 
                 <header>
-                   
-
                     <a href="/"><img src="assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
                     <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
 
@@ -107,11 +105,11 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
                     <footer>
                         <ul class="social-icons">
-                            <li>
+                            <li class="social-icon">
                                 <a href="https://linkedin.com/in/erik-todd">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="fill" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></li>
 
-                            <li>
+                            <li class="social-icon">
                                 <a href="https://github.com/ekiidx">
 
                                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 98 96" style="enable-background:new 0 0 98 96;" xml:space="preserve">
@@ -149,7 +147,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
                     <div class="container">
                         <h1><a href="#" class="typewriter text-uppercase" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
                         <p>I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
-                        <a href="#works" class="btn btn-default btn-animation mr-3">Projects</a>
+                        <a href="#works" class="btn btn-default btn-animation">Projects</a>
                         <a href="erik-todd-resume.pdf" download class="btn btn-alt-light btn-animation">Resume</a>
 
                         <div class="scroll-down">
@@ -204,19 +202,14 @@ $theme_color = $_SESSION["theme_color"]; ?>
                             <div class="col-md-6">
 
                                 <div class="item">
-                                    
                                     <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
-                                    <h4 style="display: inline-block" class="title">West Tech Alumni Association</h4>
-                                    
-                                    <p style="margin-bottom: 1rem" class="subtitle">Web Developer, Project Manager</p>
-
-                                    <span style="display: block; margin-bottom: 1rem;" class="time">Jul 2023 - Current</span>
-
+                                    <h4 class="title">West Tech Alumni Association</h4>
+                                    <p class="subtitle">Web Developer, Project Manager</p>
+                                    <span class="date">Jul 2023 - Current</span>
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
 
                                 <div class="item">
-                                   
                                     <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
                                     <h4 class="title">North Coast Media</h4>
                                     <p class="subtitle">Web Developer</p>
@@ -225,19 +218,16 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                 </div>
                                     
                                 <div class="item">
-                                    
                                     <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
                                     <h4 class="title">Vue Design</h4>
                                     <p class="subtitle">Full Stack Web Developer, Project Manager</p>
                                     <span class="date">May 2021 - Mar 2022</span>
                                     <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
                                 </div>
-                                 
                             </div>
 
                             <div class="col-md-6">
                                 <div class="item">
-                                    
                                     <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
                                     <h4 class="title">Mango Bay</h4>
                                     <p class="subtitle">Lead Web Developer, Project Manager</p>
@@ -246,7 +236,6 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                 </div>
                     
                                 <div class="item">
-                                   
                                     <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
                                     <h4 class="title">Ellet Sign</h4>
                                     <p class="subtitle">Graphic Designer</p>
@@ -255,7 +244,6 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                 </div>
                 
                                 <div class="item">
-                                    
                                     <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
                                     <h4 class="title">FF Design</h4>
                                     <p class="subtitle">Web Developer</p>
@@ -275,16 +263,132 @@ $theme_color = $_SESSION["theme_color"]; ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="item">
-                                   
                                     <img class="experience-logo" src="assets/img/uakron-logo.svg">
                                     <h4 class="title">University of Akron</h4>
                                     <p>BA Studio & Fine Arts</p>
                                     <p>Minor Japanese</p>
-                                    <span class="time">2012 - 2016</span>
+                                    <span class="date">2012 - 2016</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </section>
+
+                <section id="projects">
+                    <div class="container">
+                        
+                        <!-- section title -->
+                        <h2 class="section-title font-black text-uppercase">Projects</h2>
+
+                        <div class="spacer" data-height="90"></div>
+
+                        <!-- portfolio filter (desktop) -->
+                        <!--<ul class="portfolio-filter list-inline">
+                            <li class="current list-inline-item" data-filter="*">Everything</li>
+                            <li class="list-inline-item" data-filter=".creative">Creative</li>
+                            <li class="list-inline-item" data-filter=".art">Art</li>
+                            <li class="list-inline-item" data-filter=".design">Design</li>
+                            <li class="list-inline-item" data-filter=".branding">Branding</li>
+                        </ul>-->
+                        
+                        <!-- portfolio filter (mobile) -->
+                        <!--<div class="pf-filter-wrapper">
+                            <select class="portfolio-filter-mobile">
+                                <option value="*">Everything</option>
+                                <option value=".creative">Creative</option>
+                                <option value=".art">Art</option>
+                                <option value=".design">Design</option>
+                                <option value=".branding">Branding</option>
+                            </select>
+                        </div>-->
+                        
+                        <!-- portfolio wrapper -->
+                        <div class="row portfolio-wrapper"> <?php
+
+                            $projects = array(
+                                'the-monsters' => array(
+                                    'link' => '/the-monsters.php',
+                                    'title' => 'The Monsters',
+                                    'term' => 'E-commerce Webshop',
+                                    'image' => 'images/the-monsters-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'student-accounts' => array(
+                                    'link' => '/student-accounts.php',
+                                    'title' => 'Emory University',
+                                    'term' => 'University Student Services Website',
+                                    'image' => 'images/student-accounts-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'vue-design' => array(
+                                    'link' => '/vue-design.php',
+                                    'title' => 'Vue Design',
+                                    'term' => 'E-commerce Webshop',
+                                    'image' => 'images/vue-design-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'strong-way' => array(
+                                    'link' => '/strong-way.php',
+                                    'title' => 'Strong Way',
+                                    'term' => 'E-commerce Webshop',
+                                    'image' => 'images/strong-way-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'service-pro' => array(
+                                    'link' => '/service-pro.php',
+                                    'title' => 'ServicePRO',
+                                    'term' => 'E-commerce Webshop',
+                                    'image' => 'images/service-pro-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'firestone-trace' => array(
+                                    'link' => '/firestone-trace.php',
+                                    'title' => 'Firestone Trace',
+                                    'term' => 'HOA Website',
+                                    'image' => 'images/firestone-trace-ad.jpg',
+                                    'alt' => ''
+                                ),
+                                'pb-cle' => array(
+                                    'link' => '/pb-cle.php',
+                                    'title' => 'Pb-Cle.org',
+                                    'term' => 'Music Event Website',
+                                    'image' => 'images/firestone-trace-ad.jpg',
+                                    'alt' => ''
+                                ),
+                            );
+
+                            foreach($projects as $project) { ?>
+                                <!-- portfolio item -->
+                                <div class="col-md-4 col-sm-6 grid-item art">
+                                    <a href="<?php echo $project['link']; ?>">
+                                        <div class="portfolio-item">
+                                            <div class="details">
+                                                <h4 class="title"><?php echo $project['title']; ?></h4>
+                                                <span class="term"><?php echo $project['term']; ?></span>
+                                            </div>
+                                            <div class="thumb">
+                                                <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
+                                                <div class="mask"></div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div> <?php
+                            } ?>
+
+                        </div> <?php
+
+                        // <!-- more button -->
+                        // <div class="load-more text-center mt-4">
+                        //     <a href="javascript:" class="btn btn-default btn-animation"><i class="fas fa-spinner"></i> Load more</a>
+                        //     <!-- numbered pagination (hidden for infinite scroll) -->
+                        //     <ul class="portfolio-pagination list-inline d-none">
+                        //         <li class="list-inline-item">1</li>
+                        //         <li class="list-inline-item"><a href="works-2.html">2</a></li>
+                        //     </ul>
+                        // </div> ?>
+
+                    </div>
+
                 </section>
 
                 <section id="contact">
@@ -294,34 +398,32 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
                         <div class="row">
                         
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <div class="text-center">
                                     <span class="icon icon-location-pin simple"></span>
-                                    <h4 class="mb-2 mt-2 number">LinkedIn</h4>
+                                    <h4 class="bold">LinkedIn</h4>
                                     <p class="mb-0"><a href="https://www.linkedin.com/in/erik-todd">linkedin.com/in/erik-todd</a></p>
                                 </div>
-                                <div class="spacer d-md-none d-lg-none" data-height="30"></div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <div class="text-center">
                                     <span class="icon icon-envelope-open simple"></span>
-                                    <h4 class="mb-2 mt-2 number">Email</h4>
-                                    <p class="mb-0">hello@eriktodd.me</p>
+                                    <h4 class="bold">Email</h4>
+                                    <p class="">hello@eriktodd.me</p>
                                 </div>
-                                <div class="spacer d-md-none d-lg-none" data-height="30"></div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <div class="text-center">
                                     <span class="icon icon-location-pin simple"></span>
-                                    <h4 class="mb-2 mt-2 number">Location</h4>
-                                    <p class="mb-0">Cleveland, Ohio</p>
+                                    <h4 class="bold">Location</h4>
+                                    <p class="">Cleveland, Ohio</p>
                                 </div>
                             </div>
-                        </div>
+                        </div>   
 
-                        <form id="contact-form" class="contact-form mt-6" method="post" action="form/contact.php">
+                        <form id="contact-form" class="contact-form" method="post" action="forms/contact.php">
                             
                             <div class="messages"></div>
                             
@@ -359,7 +461,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                 </div>
                             </div>
 
-                            <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit Message</button><!-- Send Button -->
+                            <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit</button><!-- Send Button -->
 
                         </form>
 
