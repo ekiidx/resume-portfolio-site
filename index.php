@@ -86,17 +86,10 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3 sidebar">
+            <div class="col-2 sidebar">
 
                 <header>
-                    <div class="theme-selector">
-                        <ul>
-                            <li class="dark"><a href="?bg=dark"></a></li>
-                            <li class="light"><a href="?bg=light"></a></li>
-                            <li class="orange"><a href="?bg=orange"></a></li>
-                            <li class="green"><a href="?bg=green"></a></li>
-                        </ul>
-                    </div>
+                   
 
                     <a href="/"><img src="assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
                     <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
@@ -141,22 +134,28 @@ $theme_color = $_SESSION["theme_color"]; ?>
                 </header>
             </div>
 
-            <div class="col-9 main">
+            <div class="col-10 main">
+
+                <div class="theme-selector">
+                    <ul>
+                        <li class="dark"><a href="?bg=dark"></a></li>
+                        <li class="light"><a href="?bg=light"></a></li>
+                        <li class="orange"><a href="?bg=orange"></a></li>
+                        <li class="green"><a href="?bg=green"></a></li>
+                    </ul>
+                </div>
 
                 <section class="hero">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                         
-                                <h1>
-                                    <a href="#" class="typewriter text-uppercase" data-period="6000" data-type='[ "Hello_" ]'>
-                                        <span class="wrap"></span>
-                                    </a>
-                                </h1>
-                                <p>I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
+                        <h1><a href="#" class="typewriter text-uppercase" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
+                        <p>I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
+                        <a href="#works" class="btn btn-default btn-animation mr-3">Projects</a>
+                        <a href="erik-todd-resume.pdf" download class="btn btn-alt-light btn-animation">Resume</a>
 
-                            </div>
-                        </div>
+                        <div class="scroll-down">
+				            <a href="#services" class="mouse-wrapper"><span class="mouse"><span class="wheel"></span></span></a>
+			            </div>
+
                     </div>
                 </section>
 
@@ -205,26 +204,32 @@ $theme_color = $_SESSION["theme_color"]; ?>
                             <div class="col-md-6">
 
                                 <div class="item">
-                                    <span class="time">Jul 2023 - Current</span>
+                                    
                                     <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
                                     <h4 style="display: inline-block" class="title">West Tech Alumni Association</h4>
-                                    <p class="subtitle">Web Developer, Project Manager</p>
+                                    
+                                    <p style="margin-bottom: 1rem" class="subtitle">Web Developer, Project Manager</p>
+
+                                    <span style="display: block; margin-bottom: 1rem;" class="time">Jul 2023 - Current</span>
+
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
 
                                 <div class="item">
-                                    <span class="time">Mar 2022 - Nov 2022</span>
+                                   
                                     <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
                                     <h4 class="title">North Coast Media</h4>
                                     <p class="subtitle">Web Developer</p>
+                                    <span class="date">Mar 2022 - Nov 2022</span>
                                     <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
                                 </div>
                                     
                                 <div class="item">
-                                    <span class="time">May 2021 - Mar 2022</span>
+                                    
                                     <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
                                     <h4 class="title">Vue Design</h4>
                                     <p class="subtitle">Full Stack Web Developer, Project Manager</p>
+                                    <span class="date">May 2021 - Mar 2022</span>
                                     <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
                                 </div>
                                  
@@ -232,26 +237,29 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
                             <div class="col-md-6">
                                 <div class="item">
-                                    <span class="time">Jan 2020 - Apr 2021</span>
+                                    
                                     <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
                                     <h4 class="title">Mango Bay</h4>
                                     <p class="subtitle">Lead Web Developer, Project Manager</p>
+                                    <span class="date">Jan 2020 - Apr 2021</span>
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
                     
                                 <div class="item">
-                                    <span class="time">Oct 2017 - Mar 2018</span>
+                                   
                                     <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
                                     <h4 class="title">Ellet Sign</h4>
                                     <p class="subtitle">Graphic Designer</p>
+                                    <span class="date">Oct 2017 - Mar 2018</span>
                                     <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
                                 </div>
                 
                                 <div class="item">
-                                    <span class="time">Oct 2016 - Jan 2020</span>
+                                    
                                     <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
                                     <h4 class="title">FF Design</h4>
                                     <p class="subtitle">Web Developer</p>
+                                    <span class="date">Oct 2016 - Jan 2020</span>
                                     <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
                                 </div>
                             </div>
@@ -267,11 +275,12 @@ $theme_color = $_SESSION["theme_color"]; ?>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="item">
-                                    <span class="time">2012 - 2016</span>
+                                   
                                     <img class="experience-logo" src="assets/img/uakron-logo.svg">
                                     <h4 class="title">University of Akron</h4>
                                     <p>BA Studio & Fine Arts</p>
                                     <p>Minor Japanese</p>
+                                    <span class="time">2012 - 2016</span>
                                 </div>
                             </div>
                         </div>

@@ -1,3 +1,22 @@
+@import "satoshi.css";
+
+@font-face {
+  font-family: Montserrat-Variable;
+  src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Inter-Variable;
+  src: url(../fonts/inter/Inter-Variable.ttf);
+}
+@font-face {
+  font-family: MonumentExtended-Regular;
+  src: url(../fonts/monument/MonumentExtended-Regular.otf);
+}
+@font-face {
+  font-family: MonumentExtended-Ultrabold;
+  src: url(../fonts/monument/MonumentExtended-Ultrabold.otf);
+}
+
 body {
     background: #f8f8f8;
     background-color: #f8f8f8;
@@ -6,9 +25,22 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+h1 {
+  margin-bottom: 2rem;
+  font-family: "Inter-Variable", sans-serif;
+  font-weight: 900;
+}
+h2 {
+  margin-bottom: 5rem;
 }
 a {
     text-decoration: none;
+}
+.bold {
+  font-weight: 600;
 }
 ul {
     padding-left: 1rem;
@@ -16,6 +48,24 @@ ul {
 img {
     max-width: 100%;
     height: auto;
+}
+.btn {
+  border-radius: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  overflow: hidden;
+  line-height: 1;
+  padding: 15px 24px;
+  position: relative;
+  text-transform: uppercase;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: 0;
 }
 .circle {
     border-radius: 100%;
@@ -25,17 +75,20 @@ header {
     flex-direction: column;
     height: 100vh;
     padding-top: 2.55rem;
-    padding-left: 2.55rem;
-    padding-right: 2.55rem;
+    padding-left: 2.75rem;
+    padding-right: 2.75rem;
     padding-bottom: 2.55rem;
     position: fixed;
+}
+header ul {
+  list-style: none;
+  padding-left: 0;
 }
 .sidebar {
     padding: 0;
 }
-header ul {
-    list-style: none;
-    padding-left: 0;
+nav ul li {
+  margin-bottom: 0.75rem;
 }
 footer {
     margin-top: auto;
@@ -59,11 +112,13 @@ footer ul li {
     font-size: 14px;
     margin-top: auto;
 }
-
 .theme-selector {
     /* display: none; */
     z-index: 100;
-    position: relative;
+    position: absolute;
+    right: 0;
+    padding-top: 2.55rem;
+    padding-right: 2.75rem;
     margin-bottom: 1rem;
   }
 .theme-selector ul {
@@ -75,9 +130,92 @@ header .social-icons svg {
 }
 section {
     padding-top: 4rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     margin-bottom: 4rem;
+}
+.hero {
+  height: 100vh;
+  min-height: 100vh;
+  padding-left: 12rem;
+  padding-right: 12rem;
+  display: flex;
+  align-items: center;
+}
+.hero p {
+  margin-bottom: 2rem;
+}
+.scroll-down {
+	position: absolute;
+	bottom: 40px;
+	left: 0;
+	width: 100%;
+}
+.mouse {
+  border: solid 3px #ffffff;
+  border-radius: 1rem;
+  display: block;
+  margin: auto;
+  height: 2rem;
+  position: relative;
+  width: 1.5rem;
+}
+.mouse .wheel {
+		background: #ffffff;
+		border-radius: 100%;
+		display: block;
+		position: absolute;
+		top: 8px;
+		left: 50%;
+    	transform: translateX(-50%);
+		height: 5px;
+		width: 5px;
+		-webkit-animation: ani-mouse 2s linear infinite;
+		-moz-animation: ani-mouse 2s linear infinite;
+		animation: ani-mouse 2s linear infinite;
+}
+
+@-webkit-keyframes ani-mouse {
+	0% {
+		top: 29%;
+	}
+	15% {
+		top: 50%;
+	}
+	50% {
+		top: 50%;
+	}
+	100% {
+		top: 29%;
+	}
+}
+@-moz-keyframes ani-mouse {
+	0% {
+		top: 29%;
+	}
+	15% {
+		top: 50%;
+	}
+	50% {
+		top: 50%;
+	}
+	100% {
+		top: 29%;
+	}
+}
+@keyframes ani-mouse {
+	0% {
+		top: 29%;
+	}
+	15% {
+		top: 50%;
+	}
+	50% {
+		top: 50%;
+	}
+	100% {
+		top: 29%;
+	}
 }
 .theme-selector ul li {
     max-width: 1.5rem;
@@ -85,25 +223,25 @@ section {
     width: 1.5rem;
     height: 1.5rem;
     list-style-type: none;
-  }
-  .theme-selector ul li.light {
-    background: #ffffff;
-  }
-  .theme-selector ul li.dark {
-    background: #9013FE;
-  }
-  .theme-selector ul li.orange {
-    background: #fc483a;
-  }
-  .theme-selector ul li.green {
-    background: #05386b;
-  }
-  .theme-selector ul li a {
-    height: 100%;
-    width: 100%;
-    position: relative;
-    display: block;
-  }
+}
+.theme-selector ul li.light {
+  background: #ffffff;
+}
+.theme-selector ul li.dark {
+  background: #9013FE;
+}
+.theme-selector ul li.orange {
+  background: #fc483a;
+}
+.theme-selector ul li.green {
+  background: #05386b;
+}
+.theme-selector ul li a {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+}
 
 .typewriter > .wrap {
     animation: blink 0.8s infinite;
@@ -116,15 +254,8 @@ section {
   li {
     color: #9013FE;
   }
-  .service-box li h4 {
-    color: #000000;
-  }
-  .portfolio-categories li {
-    margin-bottom: 0.5rem;
-  }
-  .timeline-container .content p.subtitle {
-    margin-bottom: 0.5rem;
-    font-size: 1.1rem;
+  .subtitles {
+    margin-bottom: 1rem;
   }
   .experience-logo {
     margin-top: 1.33rem;
