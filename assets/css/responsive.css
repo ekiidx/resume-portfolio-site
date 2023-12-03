@@ -1,0 +1,39 @@
+
+@media (min-width: 576px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 4rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 6rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 8rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 10rem;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    section {
+        padding-left: 2rem;
+        padding-right: 12rem;
+    }
+}

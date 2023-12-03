@@ -25,12 +25,13 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Montserrat-Variable", sans-serif;
     font-weight: 500;
 }
 h1 {
   margin-bottom: 2rem;
-  font-family: "Inter-Variable", sans-serif;
+  font-family: "Montserrat-Variable", sans-serif;
+  font-size: 4rem;
   font-weight: 900;
 }
 h2 {
@@ -52,7 +53,7 @@ img {
 }
 .btn {
   border-radius: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat-Variable", sans-serif;
   font-size: 14px;
   font-weight: 900;
   overflow: hidden;
@@ -69,6 +70,16 @@ img {
 .btn:focus {
   outline: 0;
 }
+.circle-btn {
+  background: #10d876;
+  padding: 0.6rem 1.2rem;
+  border-radius: 40px;
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+  color:#000000;
+}
 .circle {
     border-radius: 100%;
   }
@@ -77,8 +88,8 @@ header {
     flex-direction: column;
     height: 100vh;
     padding-top: 2.55rem;
-    padding-left: 2.75rem;
-    padding-right: 2.75rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
     padding-bottom: 2.55rem;
     position: fixed;
 }
@@ -98,7 +109,9 @@ header .social-icon svg:hover {
 }
 nav ul li {
   margin-bottom: 0.75rem;
-  font-weight: 900;
+  font-size: 0.75rem;
+  font-weight: 700;
+  font-weight: 800;
 }
 footer {
     margin-top: auto;
@@ -110,14 +123,14 @@ footer ul li {
     margin-right: 1rem;
 }
 .profile-photo {
-    max-width: 9rem;
+    max-width: 7.5rem;
     display: block;
     margin-bottom: 1.5rem;
 }
 .profile-name {
     display: block;
     margin-bottom: 3rem;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 900;
 }
 .copyright {
@@ -142,8 +155,8 @@ header .social-icons svg {
 }
 section {
     padding-top: 4rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-bottom: 4rem;
 }
 .hero {

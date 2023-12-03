@@ -145,8 +145,9 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
                 <section class="hero">
                     <div class="container">
-                        <h1><a href="#" class="typewriter text-uppercase" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
-                        <p>I'm an experienced designer, developer, and project manager, located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
+                        <h1><a href="#" class="typewriter" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
+                        
+                        <p>I'm an experienced web developer located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
                         <a href="#works" class="btn btn-default btn-animation">Projects</a>
                         <a href="erik-todd-resume.pdf" download class="btn btn-alt-light btn-animation">Resume</a>
 
@@ -159,115 +160,137 @@ $theme_color = $_SESSION["theme_color"]; ?>
 
                 <section class="skills">
                     <div class="container">
-                        <div class="row">
-                            <h2 class="text-uppercase">Skills</h2>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>PHP</li>
-                                    <li>JavaScript</li>
-                                    <li>SQL</li>
-                                    <li>Docker</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li>MySQL</li>
-                                    <li>ASP.NET</li>
-                                    <li>C#</li>
-                                    <li>YAML</li>
-                                    <li>Git</li>
-                                    <li>Linux</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-4">
-                                <ul>
-                                    <li>AWS/EKS</li>
-                                    <li>WordPress</li>
-                                    <li>Laravel</li>
-                                    <li>Adobe Suite</li>
-                                    <li>Figma</li>
-                                </ul>
-                            </div>
-                        </div>
+                    
+                        <h2 class="text-uppercase">Skills</h2>
+                
+                        <span class="circle-btn">>HTML</span>
+                        <span class="circle-btn">CSS</span>
+                        <span class="circle-btn">PHP</span>
+                        <span class="circle-btn">JavaScript</span>
+                        <span class="circle-btn">SQL</span>
+                        <span class="circle-btn">Docker</span>
+                        <span class="circle-btn">MySQL</span>
+                        <span class="circle-btn">ASP.NET</span>
+                        <span class="circle-btn">C#</span>
+                        <span class="circle-btn">YAML</span>
+                        <span class="circle-btn">Git</span>
+                        <span class="circle-btn">AWS/EKS</span>
+                        <span class="circle-btn">WordPress</span>
+                        <span class="circle-btn">Laravel</span>
+                        <span class="circle-btn">Adobe Suite</span>
+                        <span class="circle-btn">Figma</span>
                     </div>
                 </section>
 
                 <section id="experience">
 		            <div class="container">
                         <h2 class="text-uppercase">Experience</h2>
-                 
-                        <div class="row">
-                            <div class="col-md-6">
 
-                                <div class="item">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">Jul 2023 - Current</span>
+                                </div>
+                                <div class="col-9">
                                     <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
                                     <h4 class="title">West Tech Alumni Association</h4>
                                     <p class="subtitle">Web Developer, Project Manager</p>
-                                    <span class="date">Jul 2023 - Current</span>
+                                
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
+                            </div>
+                        </div>
 
-                                <div class="item">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">Mar 2022 - Nov 2022</span>
+                                </div>
+                                <div class="col-9">
                                     <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
                                     <h4 class="title">North Coast Media</h4>
                                     <p class="subtitle">Web Developer</p>
-                                    <span class="date">Mar 2022 - Nov 2022</span>
+                            
                                     <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
                                 </div>
-                                    
-                                <div class="item">
-                                    <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
-                                    <h4 class="title">Vue Design</h4>
-                                    <p class="subtitle">Full Stack Web Developer, Project Manager</p>
-                                    <span class="date">May 2021 - Mar 2022</span>
-                                    <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
-                                </div>
                             </div>
+                        </div>
+                            
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">May 2021 - Mar 2022</span>
+                                </div>
+                                <div class="col-9">
+                                    <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
+                            <h4 class="title">Vue Design</h4>
+                            <p class="subtitle">Full Stack Web Developer, Project Manager</p>
+                            
+                            <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
+                        </div>
 
-                            <div class="col-md-6">
-                                <div class="item">
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">Jan 2020 - Apr 2021</span>
+                                </div>
+                                <div class="col-9"> 
                                     <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
                                     <h4 class="title">Mango Bay</h4>
                                     <p class="subtitle">Lead Web Developer, Project Manager</p>
-                                    <span class="date">Jan 2020 - Apr 2021</span>
+                            
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
                                 </div>
-                    
-                                <div class="item">
+                            </div>
+                        </div>
+            
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">Oct 2017 - Mar 2018</span>
+                                </div>
+                                <div class="col-9">
                                     <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
                                     <h4 class="title">Ellet Sign</h4>
                                     <p class="subtitle">Graphic Designer</p>
-                                    <span class="date">Oct 2017 - Mar 2018</span>
+                            
                                     <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
                                 </div>
-                
-                                <div class="item">
+                            </div>
+                        </div>
+        
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">Oct 2016 - Jan 2020</span>
+                                </div>
+                                <div class="col-9">
                                     <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
                                     <h4 class="title">FF Design</h4>
                                     <p class="subtitle">Web Developer</p>
-                                    <span class="date">Oct 2016 - Jan 2020</span>
+                                    
                                     <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
                                 </div>
                             </div>
                         </div>
+                   
                     </div>
                 </section>
 
                 <section id="education">
-                    <div class="container">
-                        
+                    <div class="container">   
                         <h2 class="text-uppercase">Education</h2>
-                        
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="item">
+                            
+                        <div class="item">
+                            <div class="row">
+                                <div class="col-3">
+                                    <span class="date">2012 - 2016</span>
+                                </div>
+                                <div class="col-9">
                                     <img class="experience-logo" src="assets/img/uakron-logo.svg">
                                     <h4 class="title">University of Akron</h4>
                                     <p>BA Studio & Fine Arts</p>
                                     <p>Minor Japanese</p>
-                                    <span class="date">2012 - 2016</span>
                                 </div>
                             </div>
                         </div>
