@@ -1,6 +1,5 @@
 @import "satoshi.css";
 
-
 @font-face {
   font-family: Montserrat-Variable;
   src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
@@ -80,6 +79,7 @@ img {
   margin-bottom: 0.5rem;
   font-size: 14px;
   color:#000000;
+  font-weight: 700;
 }
 .circle {
     border-radius: 100%;

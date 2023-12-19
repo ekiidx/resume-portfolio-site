@@ -163,7 +163,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
                     
                         <h2 class="text-uppercase">Skills</h2>
                 
-                        <span class="circle-btn">>HTML</span>
+                        <span class="circle-btn">HTML</span>
                         <span class="circle-btn">CSS</span>
                         <span class="circle-btn">PHP</span>
                         <span class="circle-btn">JavaScript</span>
