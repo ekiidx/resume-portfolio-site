@@ -223,10 +223,12 @@ $theme_color = $_SESSION["theme_color"]; ?>
                                 </div>
                                 <div class="col-9">
                                     <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
-                            <h4 class="title">Vue Design</h4>
-                            <p class="subtitle">Full Stack Web Developer, Project Manager</p>
+                                    <h4 class="title">Vue Design</h4>
+                                    <p class="subtitle">Full Stack Web Developer, Project Manager</p>
                             
-                            <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
+                                    <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="item">
