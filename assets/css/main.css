@@ -18,15 +18,48 @@
 }
 
 body {
-    background: #f8f8f8;
-    background-color: #f8f8f8;
-    color: #000000;
-    font-size: 16px;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-family: "Montserrat-Variable", sans-serif;
-    font-weight: 500;
+  background: #f8f8f8;
+  background-color: #f8f8f8;
+  color: #888;
+  font-size: 16px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat-Variable", sans-serif;
+  font-weight: 500;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {
+  color: #000;
+}
+body .mouse {
+  border-color: #f8f8f8;
+}
+body .mouse .wheel, body header.mobile-header .menu-icon span, body header.mobile-header .menu-icon span:before, body header.mobile-header .menu-icon span:after {
+  background: #f8f8f8;
+}
+body .timeline span.line {
+  background: #ececec;
+}
+body .slick-dots li.slick-active button:before {
+  background: #9013FE;
+}
+body .slick-dots li button:before {
+  background: rgba(255, 255, 255, 0.8);
+}
+body .form-control {
+  background-color: transparent;
+}
+body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
+  opacity: 1;
+}
+body #return-to-top {
+  background: rgba(255, 255, 255, 0.2);
+}
+body #return-to-top:hover {
+  background: #9013FE;
+}
+section {
+  border-top: solid 1px #ececec;
 }
 h1 {
   margin-bottom: 2rem;
@@ -41,11 +74,17 @@ h2 {
 a {
     text-decoration: none;
 }
+a:hover {
+  color: #9013FE;
+}
 .bold {
   font-weight: 900;
 }
 ul {
     padding-left: 1rem;
+}
+li {
+  color: #9013FE;
 }
 img {
     max-width: 100%;
@@ -71,28 +110,62 @@ img {
   outline: 0;
 }
 .circle-btn {
-  background: #10d876;
+  background: #9013FE;
   padding: 0.6rem 1.2rem;
   border-radius: 40px;
   display: inline-block;
   margin-right: 0.5rem;
   margin-bottom: 0.5rem;
   font-size: 14px;
-  color:#000000;
+  color:#ffffff;
   font-weight: 700;
+}
+.btn-default {
+  color: #edf5e1;
+  border: solid 3px #9013FE;
+  background: #9013FE;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #9013FE;
+  border-color: #9013FE;
+}
+.btn-alt-light {
+  color: #9013FE;
+  background: transparent;
+  border: solid 3px #9013FE;
+}
+.btn-alt-light:hover, .btn-alt-light:focus {
+  color: #9013FE;
+  border-color: #FFF;
+}
+header, body .btn-default:before, body #preloader {
+  background: #f8f8f8;
+}
+header.desktop-header {
+  background: #f8f8f8;
+}
+header.desktop-header .vertical-menu li a:after {
+  background: #9013FE;
+}
+header.desktop-header .vertical-menu li .nav-link.active:after {
+  background: #9013FE;
+}
+header.mobile-header {
+  background: #f8f8f8;
+  border-bottom: solid 1px #ececec;
 }
 .circle {
     border-radius: 100%;
   }
 header {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    padding-top: 2.55rem;
-    padding-left: 3.5rem;
-    padding-right: 3.5rem;
-    padding-bottom: 2.55rem;
-    position: fixed;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 2.55rem;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-bottom: 2.55rem;
+  position: fixed;
 }
 header ul {
   list-style: none;
@@ -101,9 +174,10 @@ header ul {
 header .social-icon svg {
   width: 100%;
   max-height: 1.1rem;
+  fill: #000;
 }
 header .social-icon svg:hover {
-  fill:#10d876;
+  fill: #9013FE;
 }
 .sidebar {
     padding: 0;
@@ -115,50 +189,50 @@ nav ul li {
   font-weight: 800;
 }
 footer {
-    margin-top: auto;
+  margin-top: auto;
 }
 footer ul {
-    display: flex;
+  display: flex;
 }
 footer ul li {
-    margin-right: 1rem;
+  margin-right: 1rem;
 }
 .profile-photo {
-    max-width: 7.5rem;
-    display: block;
-    margin-bottom: 1.5rem;
+  max-width: 7.5rem;
+  display: block;
+  margin-bottom: 1.5rem;
 }
 .profile-name {
-    display: block;
-    margin-bottom: 3rem;
-    font-size: 1.75rem;
-    font-weight: 900;
+  display: block;
+  margin-bottom: 3rem;
+  font-size: 1.75rem;
+  font-weight: 900;
 }
 .copyright {
-    font-size: 14px;
-    margin-top: auto;
+  font-size: 14px;
+  margin-top: auto;
 }
 .theme-selector {
-    /* display: none; */
-    z-index: 100;
-    position: absolute;
-    right: 0;
-    padding-top: 2.55rem;
-    padding-right: 2.75rem;
-    margin-bottom: 1rem;
+  /* display: none; */
+  z-index: 100;
+  position: absolute;
+  right: 0;
+  padding-top: 2.55rem;
+  padding-right: 2.75rem;
+  margin-bottom: 1rem;
   }
 .theme-selector ul {
     display: flex;
 }
 header .social-icons svg {
-    width: 100%;
-    max-height: 1.1rem;
+  width: 100%;
+  max-height: 1.1rem;
 }
 section {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-bottom: 4rem;
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 4rem;
 }
 .hero {
   height: 100vh;
@@ -187,18 +261,18 @@ section {
   width: 1.5rem;
 }
 .mouse .wheel {
-		background: #ffffff;
-		border-radius: 100%;
-		display: block;
-		position: absolute;
-		top: 8px;
-		left: 50%;
-    	transform: translateX(-50%);
-		height: 5px;
-		width: 5px;
-		-webkit-animation: ani-mouse 2s linear infinite;
-		-moz-animation: ani-mouse 2s linear infinite;
-		animation: ani-mouse 2s linear infinite;
+  background: #ffffff;
+  border-radius: 100%;
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+    transform: translateX(-50%);
+  height: 5px;
+  width: 5px;
+  -webkit-animation: ani-mouse 2s linear infinite;
+  -moz-animation: ani-mouse 2s linear infinite;
+  animation: ani-mouse 2s linear infinite;
 }
 
 @-webkit-keyframes ani-mouse {
@@ -271,66 +345,84 @@ section {
 
 .typewriter > .wrap {
     animation: blink 0.8s infinite;
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
-  }
-  li {
-    color: #9013FE;
-  }
-  .subtitles {
-    margin-bottom: 1rem;
-  }
-  .experience-logo {
-    margin-top: 1.33rem;
-    margin-bottom: 0.33rem;
-    display: block;
-    height: 2.5rem;
-    width: auto;
-    max-height: 2.5rem;
-  }
-  .experience-logo.wtaa-logo {
-    height: 2.35rem;
-    max-height: 2.35rem;
-  }
-  .experience-logo.ncm-logo {
-    height: 2.95rem;
-    max-height: 2.95rem;
-  }
-  .experience-logo.vue-design-logo {
-    height: 2.95rem;
-    max-height: 2.95rem;
-  }
-  .experience-logo.mango-bay-logo {
-    height: 1.75rem;
-    max-height: 1.75rem;
-  }
-  .experience-logo.ff-design-logo {
-    height: 1.55rem;
-    max-height: 1.55rem;
-  }
-  .item {
-    margin-bottom: 5rem;
-    padding-top: 1rem;
-    padding-right: 5rem;
-  }
-  .skills ul {
-    margin-bottom: 0;
-  }
-  .skills ul li {
-    margin-bottom: 0.5rem;
-    font-weight: 900;
-  }
-  .title {
-    margin-bottom: 1rem;
-    font-weight: 900;
-  }
-  .experience-logo {
-    margin-bottom: 1.25rem;
-  }
-  .date {
-    display: block;
-    margin-bottom: 1rem;
-  }
+}
+li {
+  color: #9013FE;
+}
+.subtitles {
+  margin-bottom: 1rem;
+}
+.experience-logo {
+  margin-top: 1.33rem;
+  margin-bottom: 0.33rem;
+  display: block;
+  height: 2.5rem;
+  width: auto;
+  max-height: 2.5rem;
+}
+.experience-logo.wtaa-logo {
+  height: 2.35rem;
+  max-height: 2.35rem;
+}
+.experience-logo.ncm-logo {
+  height: 2.95rem;
+  max-height: 2.95rem;
+}
+.experience-logo.vue-design-logo {
+  height: 2.95rem;
+  max-height: 2.95rem;
+}
+.experience-logo.mango-bay-logo {
+  height: 1.75rem;
+  max-height: 1.75rem;
+}
+.experience-logo.ff-design-logo {
+  height: 1.55rem;
+  max-height: 1.55rem;
+}
+.item {
+  margin-bottom: 5rem;
+  padding-top: 1rem;
+  padding-right: 5rem;
+}
+.skills ul {
+  margin-bottom: 0;
+}
+.skills ul li {
+  margin-bottom: 0.5rem;
+  font-weight: 900;
+}
+.title {
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+.experience-logo {
+  margin-bottom: 1.25rem;
+}
+.date {
+  display: block;
+  margin-bottom: 1rem;
+}
+.service-box li h4 {
+  color: #000000;
+}
+.portfolio-item .mask {
+  background: #9013FE;
+}
+.typewriter > .wrap {
+  border-right: 0.4rem solid #9013FE;
+}
+.timeline .timeline-container::after {
+  background-color: #9013FE;
+}
+.icon.simple {
+  color: #9013FE;
+}
+.portfolio-categories li a {
+  background-color: #9013FE;
+}

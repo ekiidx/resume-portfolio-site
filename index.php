@@ -62,9 +62,6 @@ $theme_color = $_SESSION["theme_color"]; ?>
     <!--<link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all">
     <link rel="stylesheet" href="css/slick.css" type="text/css" media="all">-->
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" media="all">
-    <?php if(!isset($_GET['bg'])) { ?> 
-        <link rel="stylesheet" href="assets/css/light.css" type="text/css" media="all"> <?php
-    }; ?>
     <link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all"> <?php
     if(isset($_SESSION["theme_color"])) { ?>
         <link rel="stylesheet" href="assets/css/<?php echo $theme_color; ?>.css" type="text/css" media="all"> <?php
@@ -139,7 +136,7 @@ $theme_color = $_SESSION["theme_color"]; ?>
                 <div class="theme-selector">
                     <ul>
                         <li class="dark"><a href="?bg=dark"></a></li>
-                        <li class="light"><a href="?bg=main"></a></li>
+                        <li class="light"><a href="?bg=light"></a></li>
                         <li class="orange"><a href="?bg=orange"></a></li>
                         <li class="green"><a href="?bg=green"></a></li>
                     </ul>
