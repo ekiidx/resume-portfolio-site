@@ -23,11 +23,11 @@ include('header.php'); ?>
 
                         <nav>
                             <ul class="scrollspy">
-                                <li class="active text-uppercase"><a href="#home">Home</a></li>
-                                <li class="text-uppercase"><a href="/#skills">Skills</a></li>
-                                <li class="text-uppercase"><a href="#experience">Experience</a></li>
-                                <li class="text-uppercase"><a href="#projects">Projects</a></li>
-                                <li class="text-uppercase"><a href="#contact">Contact</a></li>
+                                <li class="active text-uppercase"><a href="/">Home</a></li>
+                                <li class="text-uppercase"><a href="/index.php#skills">Skills</a></li>
+                                <li class="text-uppercase"><a href="/index.php#experience">Experience</a></li>
+                                <li class="text-uppercase"><a href="/projects.php">Projects</a></li>
+                                <li class="text-uppercase"><a href="/index.php#contact">Contact</a></li>
                                 <li class="text-uppercase"><a href="#resume">Resume</a></li>
                             </ul>
                         </nav>
