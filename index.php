@@ -13,7 +13,7 @@ include('header.php'); ?>
 
                     <nav>
                         <ul class="scrollspy">
-                            <li class="active text-uppercase"><a href="#home">Home</a></li>
+                            <li class="active text-uppercase"><a href="/">Home</a></li>
                             <li class="text-uppercase"><a href="#skills">Skills</a></li>
                             <li class="text-uppercase"><a href="#experience">Experience</a></li>
                             <li class="text-uppercase"><a href="#projects">Projects</a></li>
@@ -77,27 +77,36 @@ include('header.php'); ?>
                     </div>
                 </section>
 
-                <section class="skills">
+                <section id="skills" class="skills">
                     <div class="container">
                     
                         <h2 class="text-uppercase">Skills</h2>
+
+                        <div class="row">
+                            <div class="col-3">
+                            </div>
+
+                            <div class="col-9">
                 
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">CSS</span>
-                        <span class="circle-btn">PHP</span>
-                        <span class="circle-btn">JavaScript</span>
-                        <span class="circle-btn">SQL</span>
-                        <span class="circle-btn">Docker</span>
-                        <span class="circle-btn">MySQL</span>
-                        <span class="circle-btn">ASP.NET</span>
-                        <span class="circle-btn">C#</span>
-                        <span class="circle-btn">YAML</span>
-                        <span class="circle-btn">Git</span>
-                        <span class="circle-btn">AWS/EKS</span>
-                        <span class="circle-btn">WordPress</span>
-                        <span class="circle-btn">Laravel</span>
-                        <span class="circle-btn">Adobe Suite</span>
-                        <span class="circle-btn">Figma</span>
+                                <span class="circle-btn">HTML</span>
+                                <span class="circle-btn">CSS</span>
+                                <span class="circle-btn">PHP</span>
+                                <span class="circle-btn">JavaScript</span>
+                                <span class="circle-btn">SQL</span>
+                                <span class="circle-btn">Docker</span>
+                                <span class="circle-btn">MySQL</span>
+                                <span class="circle-btn">ASP.NET</span>
+                                <span class="circle-btn">C#</span>
+                                <span class="circle-btn">YAML</span>
+                                <span class="circle-btn">Git</span>
+                                <span class="circle-btn">AWS/EKS</span>
+                                <span class="circle-btn">WordPress</span>
+                                <span class="circle-btn">Laravel</span>
+                                <span class="circle-btn">Adobe Suite</span>
+                                <span class="circle-btn">Figma</span>
+
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -116,6 +125,10 @@ include('header.php'); ?>
                                     <p class="subtitle">Web Developer, Project Manager</p>
                                 
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
+
+                                    <span class="circle-btn">WordPress</span>
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">HTML</span>
                                 </div>
                             </div>
                         </div>
@@ -131,6 +144,13 @@ include('header.php'); ?>
                                     <p class="subtitle">Web Developer</p>
                             
                                     <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
+
+                                    <span class="circle-btn">WordPress</span>
+                                    <span class="circle-btn">Docker</span>
+                                    <span class="circle-btn">Adobe Suite</span>
+                                    <span class="circle-btn">AWS/EKS</span>
+                                    <span class="circle-btn">Git</span>
+                                    <span class="circle-btn">Figma</span>
                                 </div>
                             </div>
                         </div>
@@ -146,6 +166,10 @@ include('header.php'); ?>
                                     <p class="subtitle">Full Stack Web Developer, Project Manager</p>
                             
                                     <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
+
+                                    <span class="circle-btn">WordPress</span>
+                                    <span class="circle-btn">PHP</span>
+                                    <span class="circle-btn">Javascript</span>
                                 </div>
                             </div>
                         </div>
@@ -161,6 +185,10 @@ include('header.php'); ?>
                                     <p class="subtitle">Lead Web Developer, Project Manager</p>
                             
                                     <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
+
+                                    <span class="circle-btn">WordPress</span>
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">HTML</span>
                                 </div>
                             </div>
                         </div>
@@ -176,6 +204,10 @@ include('header.php'); ?>
                                     <p class="subtitle">Graphic Designer</p>
                             
                                     <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
+
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">HTML</span>
                                 </div>
                             </div>
                         </div>
@@ -191,6 +223,10 @@ include('header.php'); ?>
                                     <p class="subtitle">Web Developer</p>
                                     
                                     <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
+
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">PHP</span>
+                                    <span class="circle-btn">CSS</span>
                                 </div>
                             </div>
                         </div>

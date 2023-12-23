@@ -389,6 +389,14 @@ li {
   margin-bottom: 5rem;
   padding-top: 1rem;
   padding-right: 5rem;
+  padding: 2rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .15s;
+  border-radius: .8rem;
+}
+.item:hover {
+  background:rgba(255, 255, 255, 0.1);
 }
 .skills ul {
   margin-bottom: 0;

@@ -124,3 +124,6 @@ header .social-icon svg {
   background-color: #10d876;
   color: #1A1A1B;
 }
+.item:hover {
+  background: rgba(16, 216, 118, 0.1);
+}
