@@ -265,8 +265,6 @@ include('header.php'); ?>
                         <!-- section title -->
                         <h2 class="section-title font-black text-uppercase">Projects</h2>
 
-                        <div class="spacer" data-height="90"></div>
-
                         <!-- portfolio filter (desktop) -->
                         <!--<ul class="portfolio-filter list-inline">
                             <li class="current list-inline-item" data-filter="*">Everything</li>
@@ -287,62 +285,96 @@ include('header.php'); ?>
                             </select>
                         </div>-->
                         
-                        <!-- portfolio wrapper -->
-                        <div class="row portfolio-wrapper"> <?php
+                         <?php
 
                             $projects = array(
                                 'the-monsters' => array(
                                     'link' => '/the-monsters.php',
                                     'title' => 'The Monsters',
                                     'term' => 'E-commerce Webshop',
-                                    'image' => 'images/the-monsters-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/the-monsters-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'student-accounts' => array(
                                     'link' => '/student-accounts.php',
                                     'title' => 'Emory University',
                                     'term' => 'University Student Services Website',
-                                    'image' => 'images/student-accounts-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/student-accounts-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'vue-design' => array(
                                     'link' => '/vue-design.php',
                                     'title' => 'Vue Design',
                                     'term' => 'E-commerce Webshop',
-                                    'image' => 'images/vue-design-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/vue-design-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'strong-way' => array(
                                     'link' => '/strong-way.php',
                                     'title' => 'Strong Way',
                                     'term' => 'E-commerce Webshop',
-                                    'image' => 'images/strong-way-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/strong-way-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'service-pro' => array(
                                     'link' => '/service-pro.php',
                                     'title' => 'ServicePRO',
                                     'term' => 'E-commerce Webshop',
-                                    'image' => 'images/service-pro-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/service-pro-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'firestone-trace' => array(
                                     'link' => '/firestone-trace.php',
                                     'title' => 'Firestone Trace',
                                     'term' => 'HOA Website',
-                                    'image' => 'images/firestone-trace-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/firestone-trace-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                                 'pb-cle' => array(
                                     'link' => '/pb-cle.php',
                                     'title' => 'Pb-Cle.org',
                                     'term' => 'Music Event Website',
-                                    'image' => 'images/firestone-trace-ad.jpg',
-                                    'alt' => ''
+                                    'image' => 'assets/img/firestone-trace-ad.jpg',
+                                    'alt' => '',
+                                    'buttons' => array(
+                                        'HTML',
+                                        'PHP',
+                                        'CSS'
+                                    )
                                 ),
                             );
 
-                            foreach($projects as $project) { ?>
+                            /* foreach($projects as $project) { ?>
                                 <!-- portfolio item -->
                                 <div class="col-md-4 col-sm-6 grid-item art">
                                     <a href="<?php echo $project['link']; ?>">
@@ -358,9 +390,7 @@ include('header.php'); ?>
                                         </div>
                                     </a>
                                 </div> <?php
-                            } ?>
-
-                        </div> <?php
+                            } */ 
 
                         // <!-- more button -->
                         // <div class="load-more text-center mt-4">
@@ -370,10 +400,28 @@ include('header.php'); ?>
                         //         <li class="list-inline-item">1</li>
                         //         <li class="list-inline-item"><a href="works-2.html">2</a></li>
                         //     </ul>
-                        // </div> ?>
+                        // </div> 
 
+                        foreach($projects as $project) { ?>
+                            <div style="margin-bottom: 10rem;" class="row">
+                                <div class="col-3">
+                                    <a href="<?php echo $project['link']; ?>">
+                                        <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
+                                    </a>
+                                </div>
+                                <div class="col-9">
+                                    <h4 class="title"><?php echo $project['title']; ?></h4>
+                                    <span class="term"><?php echo $project['term']; ?></span> 
+                                    
+                                    <div> <?php
+                                        foreach ($project['buttons'] as $button) { ?>       
+                                            <span class="circle-btn"><?php echo $button; ?></span> <?php
+                                        }; ?>
+                                    </div>
+                                </div>
+                            </div> <?php
+                        } ?>
                     </div>
-
                 </section>
 
                 <section id="contact">
