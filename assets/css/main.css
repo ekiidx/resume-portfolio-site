@@ -72,7 +72,7 @@ h2 {
   font-weight: 900;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 a:hover {
   color: #9013FE;
@@ -81,14 +81,14 @@ a:hover {
   font-weight: 900;
 }
 ul {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 li {
   color: #9013FE;
 }
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 .btn {
   border-radius: 0;
@@ -267,7 +267,7 @@ section {
   position: absolute;
   top: 8px;
   left: 50%;
-    transform: translateX(-50%);
+  transform: translateX(-50%);
   height: 5px;
   width: 5px;
   -webkit-animation: ani-mouse 2s linear infinite;
@@ -318,11 +318,11 @@ section {
 	}
 }
 .theme-selector ul li {
-    max-width: 1.5rem;
-    max-height: 1.5rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    list-style-type: none;
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  list-style-type: none;
 }
 .theme-selector ul li.light {
   background: #ffffff;
@@ -344,7 +344,7 @@ section {
 }
 
 .typewriter > .wrap {
-    animation: blink 0.8s infinite;
+  animation: blink 0.8s infinite;
 }
 @keyframes blink {
   50% {

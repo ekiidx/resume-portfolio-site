@@ -248,6 +248,11 @@ include('header.php'); ?>
                                     <h4 class="title">University of Akron</h4>
                                     <p>BA Studio & Fine Arts</p>
                                     <p>Minor Japanese</p>
+
+                                    <span class="circle-btn">Adobe Suite</span>
+                                    <span class="circle-btn">Figma</span>
+                                    <span class="circle-btn">HTML</span>
+                                    <span class="circle-btn">CSS</span>
                                 </div>
                             </div>
                         </div>
