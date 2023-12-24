@@ -6,6 +6,9 @@ body {
 a:hover {
   color: #10d876;
 }
+.active {
+  color: #10d876;
+}
 li {
   color: #10d876;
 }
@@ -67,7 +70,7 @@ header.mobile-header {
 header .social-icon svg:hover {
   fill: #10d876;
 }
-body header, body .btn-default:before, body #preloader {
+body header, body .btn-default:before {
   background: #1A1A1B;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {

@@ -6,6 +6,9 @@ body {
 a:hover {
   color: #9013FE;
 }
+.active {
+  color: #9013FE;
+}
 li {
   color: #9013FE;
 }
@@ -41,7 +44,7 @@ li {
   color: #9013FE;
   border-color: #FFF;
 }
-header, body .btn-default:before, body #preloader {
+header, body .btn-default:before {
   background: #f8f8f8;
 }
 header.desktop-header {

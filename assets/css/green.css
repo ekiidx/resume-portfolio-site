@@ -6,6 +6,9 @@ body {
 a:hover {
     color: #EDF5E1;
 }
+.active {
+  color: #EDF5E1;
+}
 p {
   color: #05386b;
 }
@@ -76,7 +79,7 @@ header.mobile-header {
     background: #5cdb95;
     border-bottom: solid 1px #8EE4AF;
 }
-body header, body .btn-default:before, body #preloader {
+body header, body .btn-default:before {
   background: #5cdb95;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {

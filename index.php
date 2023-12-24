@@ -13,7 +13,7 @@ include('header.php'); ?>
 
                     <nav>
                         <ul id="navbar" role="tablist">
-                            <li class="text-uppercase"><a href="/">Home</a></li>
+                            <li class="text-uppercase"><a href="#home">Home</a></li>
                             <li class="text-uppercase"><a href="#skills">Skills</a></li>
                             <li class="text-uppercase"><a href="#experience">Experience</a></li>
                             <li class="text-uppercase"><a href="#projects">Projects</a></li>
@@ -62,7 +62,7 @@ include('header.php'); ?>
                     </ul>
                 </div>
 
-                <section class="hero">
+                <section id="home" class="hero">
                     <div class="container">
                         <h1><a href="#" class="typewriter" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
                         
