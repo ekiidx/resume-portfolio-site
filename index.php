@@ -120,7 +120,7 @@ include('header.php'); ?>
                                     <span class="date">Jul 2023 - Current</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp">
+                                    <!-- <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp"> -->
                                     <h4 class="title">West Tech Alumni Association</h4>
                                     <p class="subtitle">Web Developer, Project Manager</p>
                                 
@@ -139,7 +139,7 @@ include('header.php'); ?>
                                     <span class="date">Mar 2022 - Nov 2022</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png">
+                                    <!-- <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png"> -->
                                     <h4 class="title">North Coast Media</h4>
                                     <p class="subtitle">Web Developer</p>
                             
@@ -161,7 +161,7 @@ include('header.php'); ?>
                                     <span class="date">May 2021 - Mar 2022</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg">
+                                    <!-- <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg"> -->
                                     <h4 class="title">Vue Design</h4>
                                     <p class="subtitle">Full Stack Web Developer, Project Manager</p>
                             
@@ -180,7 +180,7 @@ include('header.php'); ?>
                                     <span class="date">Jan 2020 - Apr 2021</span>
                                 </div>
                                 <div class="col-9"> 
-                                    <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png">
+                                    <!-- <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png"> -->
                                     <h4 class="title">Mango Bay</h4>
                                     <p class="subtitle">Lead Web Developer, Project Manager</p>
                             
@@ -199,7 +199,7 @@ include('header.php'); ?>
                                     <span class="date">Oct 2017 - Mar 2018</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo" src="assets/img/ellet-sign-logo.gif">
+                                    <!-- <img class="experience-logo" src="assets/img/ellet-sign-logo.gif"> -->
                                     <h4 class="title">Ellet Sign</h4>
                                     <p class="subtitle">Graphic Designer</p>
                             
@@ -218,7 +218,7 @@ include('header.php'); ?>
                                     <span class="date">Oct 2016 - Jan 2020</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg">
+                                    <!-- <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg"> -->
                                     <h4 class="title">FF Design</h4>
                                     <p class="subtitle">Web Developer</p>
                                     
@@ -244,7 +244,7 @@ include('header.php'); ?>
                                     <span class="date">2012 - 2016</span>
                                 </div>
                                 <div class="col-9">
-                                    <img class="experience-logo" src="assets/img/uakron-logo.svg">
+                                    <!-- <img class="experience-logo" src="assets/img/uakron-logo.svg"> -->
                                     <h4 class="title">University of Akron</h4>
                                     <p>BA Studio & Fine Arts</p>
                                     <p>Minor Japanese</p>
@@ -291,7 +291,8 @@ include('header.php'); ?>
                                 'the-monsters' => array(
                                     'link' => '/the-monsters.php',
                                     'title' => 'The Monsters',
-                                    'term' => 'E-commerce Webshop',
+                                    'subtitle' => 'E-commerce Webshop',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/the-monsters-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -303,7 +304,8 @@ include('header.php'); ?>
                                 'student-accounts' => array(
                                     'link' => '/student-accounts.php',
                                     'title' => 'Emory University',
-                                    'term' => 'University Student Services Website',
+                                    'subtitle' => 'University Student Services Website',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/student-accounts-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -315,7 +317,8 @@ include('header.php'); ?>
                                 'vue-design' => array(
                                     'link' => '/vue-design.php',
                                     'title' => 'Vue Design',
-                                    'term' => 'E-commerce Webshop',
+                                    'subtitle' => 'E-commerce Webshop',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/vue-design-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -327,7 +330,8 @@ include('header.php'); ?>
                                 'strong-way' => array(
                                     'link' => '/strong-way.php',
                                     'title' => 'Strong Way',
-                                    'term' => 'E-commerce Webshop',
+                                    'subtitle' => 'E-commerce Webshop',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/strong-way-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -339,7 +343,8 @@ include('header.php'); ?>
                                 'service-pro' => array(
                                     'link' => '/service-pro.php',
                                     'title' => 'ServicePRO',
-                                    'term' => 'E-commerce Webshop',
+                                    'subtitle' => 'E-commerce Webshop',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/service-pro-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -351,7 +356,8 @@ include('header.php'); ?>
                                 'firestone-trace' => array(
                                     'link' => '/firestone-trace.php',
                                     'title' => 'Firestone Trace',
-                                    'term' => 'HOA Website',
+                                    'subtitle' => 'HOA Website',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/firestone-trace-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -363,7 +369,8 @@ include('header.php'); ?>
                                 'pb-cle' => array(
                                     'link' => '/pb-cle.php',
                                     'title' => 'Pb-Cle.org',
-                                    'term' => 'Music Event Website',
+                                    'subtitle' => 'Music Event Website',
+                                    'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
                                     'image' => 'assets/img/firestone-trace-ad.jpg',
                                     'alt' => '',
                                     'buttons' => array(
@@ -381,7 +388,7 @@ include('header.php'); ?>
                                         <div class="portfolio-item">
                                             <div class="details">
                                                 <h4 class="title"><?php echo $project['title']; ?></h4>
-                                                <span class="term"><?php echo $project['term']; ?></span>
+                                                <span class="subtitle"><?php echo $project['subtitle']; ?></span>
                                             </div>
                                             <div class="thumb">
                                                 <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
@@ -403,20 +410,23 @@ include('header.php'); ?>
                         // </div> 
 
                         foreach($projects as $project) { ?>
-                            <div style="margin-bottom: 10rem;" class="row">
-                                <div class="col-3">
-                                    <a href="<?php echo $project['link']; ?>">
-                                        <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
-                                    </a>
-                                </div>
-                                <div class="col-9">
-                                    <h4 class="title"><?php echo $project['title']; ?></h4>
-                                    <span class="term"><?php echo $project['term']; ?></span> 
-                                    
-                                    <div> <?php
-                                        foreach ($project['buttons'] as $button) { ?>       
-                                            <span class="circle-btn"><?php echo $button; ?></span> <?php
-                                        }; ?>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-3 project-img">
+                                        <a href="<?php echo $project['link']; ?>">
+                                            <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
+                                        </a>
+                                    </div>
+                                    <div class="col-9">
+                                        <h4 class="title"><?php echo $project['title']; ?></h4>
+                                        <p class="subtitle"><?php echo $project['subtitle']; ?></p>
+                                        <p><?php echo $project['info']; ?></p>
+                                        
+                                        <div> <?php
+                                            foreach ($project['buttons'] as $button) { ?>       
+                                                <span class="circle-btn"><?php echo $button; ?></span> <?php
+                                            }; ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div> <?php
@@ -494,7 +504,7 @@ include('header.php'); ?>
                                 </div>
                             </div>
 
-                            <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit</button><!-- Send Button -->
+                            <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit</button>
 
                         </form>
 
@@ -504,6 +514,4 @@ include('header.php'); ?>
         </div>
     </div>
 
-    <script src="assets/js/main.js"></script>
-</body>
-</html>
+<?php include('footer.php'); ?>

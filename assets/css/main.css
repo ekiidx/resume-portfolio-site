@@ -354,7 +354,7 @@ section {
 li {
   color: #9013FE;
 }
-.subtitles {
+.subtitle {
   margin-bottom: 1rem;
 }
 .experience-logo {
@@ -433,4 +433,7 @@ li {
 }
 .portfolio-categories li a {
   background-color: #9013FE;
+}
+.project-img {
+  padding-right: 1.5rem;
 }
