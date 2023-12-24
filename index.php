@@ -5,15 +5,15 @@ include('header.php'); ?>
 
     <div class="container-fluid">
         <div class="row">
-            <div class="col-2 sidebar">
+            <div class="col-lg-2 col-xl-3 sidebar">
 
                 <header>
                     <a href="/"><img src="assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
                     <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
 
                     <nav>
-                        <ul class="scrollspy">
-                            <li class="active text-uppercase"><a href="/">Home</a></li>
+                        <ul id="navbar" role="tablist">
+                            <li class="text-uppercase"><a href="/">Home</a></li>
                             <li class="text-uppercase"><a href="#skills">Skills</a></li>
                             <li class="text-uppercase"><a href="#experience">Experience</a></li>
                             <li class="text-uppercase"><a href="#projects">Projects</a></li>
@@ -51,7 +51,7 @@ include('header.php'); ?>
                 </header>
             </div>
 
-            <div class="col-10 main">
+            <div class="main col-lg-10 col-xl-9" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
 
                 <div class="theme-selector">
                     <ul>
