@@ -26,12 +26,6 @@ li {
 }
 .circle-btn {
   background: #05386b;
-  padding: 0.6rem 1.2rem;
-  border-radius: 40px;
-  display: inline-block;
-  margin-right: 0.5rem;
-  margin-bottom: 0.5rem;
-  font-size: 14px;
   color:#ffffff;
   font-weight: 700;
 }

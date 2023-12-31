@@ -93,64 +93,96 @@ include('header.php'); ?>
                                         <th>2023</th>
                                         <th>West Tech Alumni Website</th>
                                         <th>Vue Design</th>
-                                        <th>(skills)</th>
-                                        <th>pb-cle.org</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://westtechalumni.com">westtechalumni.com</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2023</th>
                                         <th>Pb-Cle.org</th>
                                         <th>Vue Design</th>
-                                        <th>(skills)</th>
-                                        <th>pb-cle.org</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://pb-cle.org">pb-cle.org</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2022</th>
                                         <th>The Monsters</th>
                                         <th>The Monsters, LLC</th>
-                                        <th>(Skills)</th>
-                                        <th>themonsters.art</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://themonsters.art">themonsters.art</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2021</th>
                                         <th>Emory University Website</th>
                                         <th>Mango Bay</th>
-                                        <th>(Skills)</th>
-                                        <th>Link</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://emory.edu">emory.edu</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2021</th>
                                         <th>Vue Design Website</th>
                                         <th>Vue Design</th>
-                                        <th>(Skills)</th>
-                                        <th>vuedesign.co</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://vuedesign.co">vuedesign.co</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2021</th>
                                         <th>Strong Way</th>
                                         <th>Vue Design</th>
-                                        <th>(Skills)</th>
-                                        <th>vuedesign.co/strongway</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://vuedesign.co/strongway">strongway.co</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2021</th>
                                         <th>ServicePRO</th>
                                         <th>Vue Design</th>
-                                        <th>(Skills)</th>
-                                        <th>vuedesign.co/servicepro</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://vuedesign.co/servicepro">service.pro</a></th>
                                     </tr>
 
                                     <tr>
                                         <th>2021</th>
                                         <th>Firestone Trace HOA</th>
                                         <th>Vue Design</th>
-                                        <th>(Skills)</th>
-                                        <th>firestonetrace.com</th>
+                                        <th>
+                                            <span class="circle-btn">WordPress</span>
+                                            <span class="circle-btn">Docker</span>
+                                            <span class="circle-btn">Adobe Suite</span>
+                                        </th>
+                                        <th><a href="https://firestonetrace.com">firestonetrace.com</a></th>
                                     </tr>
 
 

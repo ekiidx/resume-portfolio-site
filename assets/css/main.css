@@ -114,12 +114,12 @@ img {
 }
 .circle-btn {
   background: #9013FE;
-  padding: 0.6rem 1.2rem;
+  padding: 0.5rem 1rem;
   border-radius: 40px;
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.25rem;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 12px;
   color:#ffffff;
   font-weight: 700;
 }
