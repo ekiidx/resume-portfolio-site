@@ -4,12 +4,12 @@
 
     <nav>
         <ul id="navbar" role="tablist">
-            <li class="text-uppercase"><a href="#home">Home</a></li>
-            <li class="text-uppercase"><a href="#skills">Skills</a></li>
-            <li class="text-uppercase"><a href="#experience">Experience</a></li>
-            <li class="text-uppercase"><a href="#projects">Projects</a></li>
-            <li class="text-uppercase"><a href="#contact">Contact</a></li>
-            <li class="text-uppercase"><a href="#resume">Resume</a></li>
+            <li class="text-uppercase"><a href="/#home">Home</a></li>
+            <li class="text-uppercase"><a href="/#skills">Skills</a></li>
+            <li class="text-uppercase"><a href="/#experience">Experience</a></li>
+            <li class="text-uppercase"><a href="/#projects">Projects</a></li>
+            <li class="text-uppercase"><a href="/#contact">Contact</a></li>
+            <li class="text-uppercase"><a href="#">Resume</a></li>
         </ul>
     </nav>
 
