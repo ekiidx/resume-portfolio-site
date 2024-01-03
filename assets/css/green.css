@@ -26,7 +26,7 @@ li {
 }
 .circle-btn {
   background: #05386b;
-  color:#ffffff;
+  color: #EDF5E1;
   font-weight: 700;
 }
 .btn-default {
@@ -134,4 +134,10 @@ header .social-icon svg:hover {
 }
 .timeline .content .time {
   color: #05386b;
+}
+.item:hover {
+  background: rgba(5, 56, 107, 0.1);
+}
+#contact svg {
+  fill: #05386b;
 }

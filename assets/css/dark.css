@@ -124,3 +124,6 @@ header .social-icon svg {
 .item:hover {
   background: rgba(16, 216, 118, 0.1);
 }
+#contact svg {
+  fill: #10d876;
+}

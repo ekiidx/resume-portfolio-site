@@ -131,3 +131,9 @@ header .social-icon svg {
 .portfolio-categories li a {
   background-color: #fc483a;
 }
+.item:hover {
+  background: rgba(252, 72, 58, 0.1);
+}
+#contact svg {
+  fill: #fc483a;
+}

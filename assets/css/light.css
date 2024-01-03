@@ -110,3 +110,9 @@ section {
 .portfolio-categories li a {
   background-color: #9013FE;
 }
+.item:hover {
+  background: rgba(144, 19, 254, 0.05);
+}
+#contact svg {
+  fill: #9013FE;
+}
