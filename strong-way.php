@@ -41,7 +41,7 @@ include('header.php'); ?>
 
 					<div class="spacer" data-height="40"></div>
 					
-					<img src="images/strong-way-ad.jpg" alt="">
+					<img src="assets/img/strong-way-ad.jpg" alt="">
 
 					<div class="portfolio-content my-5">
 						<p>Strong Way is a gym by women, for women located near Columbus, Ohio. Strong Way originally started as a way for women to meet up digitally during the recent pandemic.</p>

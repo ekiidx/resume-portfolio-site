@@ -22,7 +22,6 @@ include('header.php'); ?>
                     </ul>
                 </div>
 
-
 				<div class="container">
 					
 					<!-- section title -->
@@ -42,9 +41,10 @@ include('header.php'); ?>
 
 					<div class="spacer" data-height="40"></div>
 					
-					<img src="images/firestone-trace-ad.jpg" alt="">
+					<img src="assets/img/firestone-trace-ad.jpg" alt="">
 
 					<div class="portfolio-content my-5">
+						<img src="">
 						<p>Firestone Trace is a residential community located near Bath OH. They have over 160 members in their HOA that needed a way to read and update local documents and newsletters. The client also requested permissions on certain pages for members that were not permitted to view or edit documents. Also requested, was the ability to make classified articles or announcements through a guest board that other users could interact with.</p>
 
 						<p>The site gives all users of the Firestone Trace website the ability to login and update account information. Certain members are permitted access to backend admin section to make updates or edit documents. The main admin has the ability to create and remove users. The system can handle password reset automatically through email verification.</p>

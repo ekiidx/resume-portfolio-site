@@ -42,7 +42,7 @@ include('header.php'); ?>
 
 					<div class="spacer" data-height="40"></div>
 					
-					<img src="images/vue-design-ad.jpg" alt="">
+					<img src="assets/img/vue-design-ad.jpg" alt="">
 
 					<div class="portfolio-content my-5">
 						<p>A design agency located in Cleveland, Ohio, that is building awesome websites. Vue Design needed a website to promote and market their services. The site was built from the ground up, and the company needed a branding solution that matched the their culture and client-base.</p>

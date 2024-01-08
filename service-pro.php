@@ -41,7 +41,7 @@ include('header.php'); ?>
 
 					<div class="spacer" data-height="40"></div>
 					
-					<img src="images/service-pro-ad.jpg" alt="">
+					<img src="assets/img/service-pro-ad.jpg" alt="">
 
 					<div class="portfolio-content my-5">
 						<p>This project was a re-brand and rebuild of a website for a construction company based out of Parma, Ohio. The website was designed and built from the ground up, including re-branding of the logo and other promotional materials.</p>

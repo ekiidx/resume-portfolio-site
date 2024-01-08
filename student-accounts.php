@@ -41,7 +41,7 @@ include('header.php'); ?>
 
 					<div class="spacer" data-height="40"></div>
 					
-					<img src="images/student-accounts-ad.jpg" alt="">
+					<img src="assets/img/student-accounts-ad.jpg" alt="">
 
 					<div class="portfolio-content my-5">
 						<p>Emory University is a private research university located in Atlanta, Georgia. Founded in 1836, the school currently has 32,000+ administrative staff, and 15,000+ students.</p>
