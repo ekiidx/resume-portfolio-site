@@ -22,25 +22,23 @@ include('header.php'); ?>
                     </ul>
                 </div>
 
-				<div class="container">
+				<section>
 					
 					<!-- section title -->
 					<h2 class="section-title font-black text-uppercase">The Monsters</h2>
 
-					<ul class="list-inline portfolio-categories mt-4 mb-0">
-						<li class="list-inline-item"><a href="#">WordPress</a></li>
-						<li class="list-inline-item"><a href="#">WooCommerce</a></li>
-						<li class="list-inline-item"><a href="#">Full Stack</a></li>
-						<li class="list-inline-item"><a href="#">Project Management</a></li>
-					</ul>
+					<div style="margin-bottom: 1rem;">
+						<a href="#"><span class="circle-btn">WordPress</span></a>
+						<a href="#"><span class="circle-btn">Full Stack</span></a>
+						<a href="#"><span class="circle-btn">Graphic Design</span></a>
+						<a href="#"><span class="circle-btn">Project Management</span></a>
+					</div>
 
-					<ul class="list-inline portfolio-info mb-0 mt-4">
-						<li class="list-inline-item"><strong>Year:</strong>2021-Present</li>
-						<li class="list-inline-item"><strong>Client:</strong>The Monsters, LLC</li>
-						<li class="list-inline-item"><strong>Website:</strong><a href="https://themonsters.art" target="_blank">https://themonsters.art</a></li>
-					</ul>
-
-					<div class="spacer" data-height="40"></div>
+					<div style="display: flex; margin-bottom: 4rem;">
+						<div style="margin-right: 2rem;"><span style="font-weight: 800; text-transform: uppercase;">Year:</span> 2020-Present</div>
+						<div style="margin-right: 2rem;"><span style="font-weight: 800; text-transform: uppercase:">Client:</span> Vue Design</div>
+						<div style="margin-right: 2rem;"><span style="font-weight: 800; text-transform: uppercase;">Website:</span> <a href="https://vuedesign.co" target="_blank">vuedesign.co</a></div>
+					</div>
 					
 					<img src="assets/img/the-monsters-ad.jpg" alt="">
 
@@ -60,7 +58,7 @@ include('header.php'); ?>
 						<li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
 					</ul>-->
 
-				</div>
+				</section>
 			</div>
 		</div>
 	</div>
