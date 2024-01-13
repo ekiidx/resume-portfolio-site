@@ -2,20 +2,13 @@
 
 require_once __DIR__.'/router.php';
 
-// ##################################################
-// ##################################################
-// ##################################################
-
-// Static GET
-// In the URL -> http://localhost
-// The output -> Index
-get('/', 'home.php');
+get('/', 'views/home/index.php');
 get('/tags', 'views/tags/index.php');
 get('/projects', 'views/projects/index.php');
 
 // Dynamic GET. Example with 1 variable
-// The $id will be available in user.php
-get('/tags/$id', 'views/tags/show.php');
+// The $id will be available in show.php
+get('/tags/$tag', 'views/tags/show.php');
 get('/projects/$id', 'views/projects/show.php');
 
 // Dynamic GET. Example with 2 variables
@@ -52,20 +45,10 @@ get('/projects/$id', 'views/projects/show.php');
 //   echo "Callback executed. The full name is $name $last_name";
 // });
 
-// ##################################################
-// ##################################################
-// ##################################################
 // Route that will use POST data
 // post('/user', '/api/save_user');
 
-
-
-// ##################################################
-// ##################################################
-// ##################################################
 // any can be used for GETs or POSTs
-
-// For GET or POST
 // The 404.php which is inside the views folder will be called
 // The 404.php has access to $_GET and $_POST
 any('/404','404.php');
