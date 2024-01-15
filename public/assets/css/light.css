@@ -1,0 +1,118 @@
+body {
+  background: #f8f8f8;
+  background-image: #f8f8f8;
+  color: #888;
+}
+a:hover {
+  color: #9013FE;
+}
+.active {
+  color: #9013FE;
+}
+li {
+  color: #9013FE;
+}
+.service-box li h4 {
+  color: #000000;
+}
+.circle-btn {
+  background: #9013FE;
+  color:#ffffff;
+  font-weight: 700;
+}
+.btn-default {
+  color: #edf5e1;
+  border: solid 3px #9013FE;
+  background: #9013FE;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #9013FE;
+  border-color: #9013FE;
+}
+.btn-alt-light {
+  color: #9013FE;
+  background: transparent;
+  border: solid 3px #9013FE;
+}
+.btn-alt-light:hover, .btn-alt-light:focus {
+  color: #9013FE;
+  border-color: #FFF;
+}
+header, body .btn-default:before {
+  background: #f8f8f8;
+}
+header.desktop-header {
+  background: #f8f8f8;
+}
+header.desktop-header .vertical-menu li a:after {
+  background: #9013FE;
+}
+header.desktop-header .vertical-menu li .nav-link.active:after {
+  background: #9013FE;
+}
+header.mobile-header {
+  background: #f8f8f8;
+  border-bottom: solid 1px #ececec;
+}
+header .social-icon svg {
+  width: 100%;
+  max-height: 1.1rem;
+  fill: #000;
+}
+header .social-icon svg:hover {
+  fill: #9013FE;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {
+  color: #000;
+}
+body .mouse {
+  border-color: #f8f8f8;
+}
+body .mouse .wheel, body header.mobile-header .menu-icon span, body header.mobile-header .menu-icon span:before, body header.mobile-header .menu-icon span:after {
+  background: #f8f8f8;
+}
+body .timeline span.line {
+  background: #ececec;
+}
+body .slick-dots li.slick-active button:before {
+  background: #9013FE;
+}
+body .slick-dots li button:before {
+  background: rgba(255, 255, 255, 0.8);
+}
+body .form-control {
+  background-color: transparent;
+}
+body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
+  opacity: 1;
+}
+body #return-to-top {
+  background: rgba(255, 255, 255, 0.2);
+}
+body #return-to-top:hover {
+  background: #9013FE;
+}
+section {
+  border-top: solid 1px #ececec;
+}
+.portfolio-item .mask {
+  background: #9013FE;
+}
+.typewriter > .wrap {
+  border-right: 0.4rem solid #9013FE;
+}
+.timeline .timeline-container::after {
+  background-color: #9013FE;
+}
+.icon.simple {
+  color: #9013FE;
+}
+.portfolio-categories li a {
+  background-color: #9013FE;
+}
+.item:hover {
+  background: rgba(144, 19, 254, 0.05);
+}
+#contact svg {
+  fill: #9013FE;
+}

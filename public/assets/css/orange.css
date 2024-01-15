@@ -1,0 +1,139 @@
+body {
+  background: #4f374f;
+  background-image: #4f374f;
+  color: #888;
+}
+a:hover {
+  color: #fc483a;
+}
+.active {
+  color: #fc483a;
+}
+li {
+  color: #fc483a;
+}
+.service-box li h4 {
+  color: #fc483a;
+}
+.circle-btn {
+  background: #fc483a;
+  color:#ffffff;
+  font-weight: 700;
+}
+.btn-default {
+  color: #edf5e1;
+  border: solid 3px #fc483a;
+  background: #fc483a;
+}
+.btn-default:hover, .btn-default:focus {
+  color: #fc483a;
+  border-color: #fc483a;
+}
+.btn-alt-light {
+  color: #fc483a;
+  background: transparent;
+  border: solid 3px #fc483a;
+}
+.btn-alt-light:hover, .btn-alt-light:focus {
+  color: #fc483a;
+  border-color: #FFF;
+}
+.mugi-folding-cube .mugi-cube:before {
+  background-color: #fc483a;
+}
+nav ul li {
+  color: #fc483a;
+}
+header {
+  background: #4f374f;
+}
+header.desktop-header {
+  background: #4a314a;
+  border-right: solid 1px #222222;
+}
+header.desktop-header .vertical-menu li a {
+  color: #fc483a;
+}
+header.desktop-header .vertical-menu li a:after {
+  background: #4f374f;
+}
+header.desktop-header .vertical-menu li .nav-link.active:after {
+  background: #4f374f;
+}
+header.mobile-header {
+  background: #4a314a;
+  border-bottom: solid 1px #ececec;
+}
+header .social-icon svg {
+  width: 100%;
+  max-height: 1.1rem;
+  fill: #fc483a;
+}
+header .social-icon svg:hover {
+  fill: #10d876;
+}
+body header, body .btn-default:before {
+  background: #4f374f;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {
+  color: #edf5e1;
+}
+body a:hover {
+  color: #fc483a;
+}
+body .mouse {
+  border-color: #fc483a;
+}
+body .mouse .wheel, body header.mobile-header .menu-icon span, body header.mobile-header .menu-icon span:before, body header.mobile-header .menu-icon span:after {
+  background: #fc483a;
+}
+body .timeline span.line {
+  background: #4f374f;
+}
+body .slick-dots li.slick-active button:before {
+  background: #fc483a;
+}
+body .slick-dots li button:before {
+  background: rgba(255, 255, 255, 0.8);
+}
+body .form-control {
+  background-color: transparent;
+}
+body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
+  opacity: 1;
+}
+body #return-to-top {
+  background: rgba(255, 255, 255, 0.2);
+}
+body #return-to-top:hover {
+  background: #fc483a;
+}
+section {
+  border-top: solid 1px #4f374f;
+}
+header .social-icon svg {
+  width: 100%;
+  max-height: 1.1rem;
+  fill: #fc483a;
+}
+.portfolio-item .mask {
+  background: #fc483a;
+}
+.typewriter > .wrap {
+  border-right: 0.4rem solid #fc483a;
+}
+.timeline .timeline-container::after {
+  background-color: #fc483a;
+}
+.icon.simple {
+  color: #fc483a;
+}
+.portfolio-categories li a {
+  background-color: #fc483a;
+}
+.item:hover {
+  background: rgba(252, 72, 58, 0.1);
+}
+#contact svg {
+  fill: #fc483a;
+}

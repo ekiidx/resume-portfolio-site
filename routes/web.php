@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
+use App\Http\Controllers\TagController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,15 +18,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/projects', function () {
-    return view('projects/index');
-});
-Route::get('/projects/{$id}', function () {
-    return view('projects/show');
-});
-Route::get('/tags', function () {
-    return view('tags/index');
-});
-Route::get('/tags/{$id}', function () {
-    return view('tags/index');
-});
+Route::get('/projects', [ProjectController::class, 'index']);
+Route::get('/projects/{slug}', [ProjectController::class, 'show']);
+Route::get('/tags', [TagController::class, 'index']);
+Route::get('/tags/{slug}', [TagController::class, 'show']);
