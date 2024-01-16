@@ -12,7 +12,7 @@ class TagController extends Controller
      */
     public function index()
     {
-        $tags = Tag::latest()->get();
+        $tags = Tag::with('projects')->get();
         
         return view('tags/index', [
             'tags' => $tags
@@ -24,7 +24,7 @@ class TagController extends Controller
      */
     public function show(string $slug)
     {
-        $tag = Tag::where('slug', $slug)->firstOrFail();
+        $tag = Tag::withCount('projects')->where('slug', $slug)->firstOrFail();
         
         return view('tags/show', [
             'tag' => $tag

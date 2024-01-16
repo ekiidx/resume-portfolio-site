@@ -14,7 +14,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $projects = Project::latest()->get();
+        $projects = Project::with('tags')->get();
         //$projects = DB::select('select * from projects');
         //$projects = ['content' => 'b'];
         
