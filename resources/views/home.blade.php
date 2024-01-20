@@ -29,7 +29,13 @@
 
                 <div class="col-9">
 
-                    <span class="circle-btn">HTML</span>
+                    @foreach ($tags as $tag)
+
+                    <a href="/tags/{{ $tag->slug }}"><span class="circle-btn">{{ $tag->name }}</span></a>
+
+                    @endforeach
+
+                    {{-- <span class="circle-btn">HTML</span>
                     <span class="circle-btn">CSS</span>
                     <span class="circle-btn">PHP</span>
                     <span class="circle-btn">JavaScript</span>
@@ -44,7 +50,7 @@
                     <span class="circle-btn">WordPress</span>
                     <span class="circle-btn">Laravel</span>
                     <span class="circle-btn">Adobe Suite</span>
-                    <span class="circle-btn">Figma</span>
+                    <span class="circle-btn">Figma</span> --}}
 
                 </div>
             </div>
