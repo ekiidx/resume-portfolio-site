@@ -30,27 +30,8 @@
                 <div class="col-9">
 
                     @foreach ($tags as $tag)
-
-                    <a href="/tags/{{ $tag->slug }}"><span class="circle-btn">{{ $tag->name }}</span></a>
-
+                        <a href="/tags/{{ $tag->slug }}"><span class="circle-btn">{{ $tag->name }}</span></a>
                     @endforeach
-
-                    {{-- <span class="circle-btn">HTML</span>
-                    <span class="circle-btn">CSS</span>
-                    <span class="circle-btn">PHP</span>
-                    <span class="circle-btn">JavaScript</span>
-                    <span class="circle-btn">SQL</span>
-                    <span class="circle-btn">Docker</span>
-                    <span class="circle-btn">MySQL</span>
-                    <span class="circle-btn">ASP.NET</span>
-                    <span class="circle-btn">C#</span>
-                    <span class="circle-btn">YAML</span>
-                    <span class="circle-btn">Git</span>
-                    <span class="circle-btn">AWS/EKS</span>
-                    <span class="circle-btn">WordPress</span>
-                    <span class="circle-btn">Laravel</span>
-                    <span class="circle-btn">Adobe Suite</span>
-                    <span class="circle-btn">Figma</span> --}}
 
                 </div>
             </div>
@@ -208,9 +189,16 @@
 
     <section id="projects">
         <div class="container">
-            
-            <!-- section title -->
-            <h2 class="section-title font-black text-uppercase">Projects</h2>
+            <div class="row">
+                <div class="col-3 project-img">
+
+                    <!-- section title -->
+                    <h2 class="section-title font-black text-uppercase">Projects</h2>
+                </div>
+                <div class="col-9">
+                    <a class="circle-btn btn-all-projects" href="/projects">All Projects (25)</a>
+                </div>
+            </div>
 
             <!-- portfolio filter (desktop) -->
             <!--<ul class="portfolio-filter list-inline">
@@ -236,7 +224,7 @@
 
                 $projects = array(
                     'the-monsters' => array(
-                        'link' => '/the-monsters.php',
+                        'link' => '/projects/the-monsters',
                         'title' => 'The Monsters',
                         'subtitle' => 'E-commerce Webshop',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -249,7 +237,7 @@
                         )
                     ),
                     'student-accounts' => array(
-                        'link' => '/student-accounts.php',
+                        'link' => '/projects/emory-university',
                         'title' => 'Emory University',
                         'subtitle' => 'University Student Services Website',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -262,7 +250,7 @@
                         )
                     ),
                     'vue-design' => array(
-                        'link' => '/vue-design.php',
+                        'link' => '/projects/vue-design',
                         'title' => 'Vue Design',
                         'subtitle' => 'E-commerce Webshop',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -275,7 +263,7 @@
                         )
                     ),
                     'strong-way' => array(
-                        'link' => '/strong-way.php',
+                        'link' => '/projects/strong-way',
                         'title' => 'Strong Way',
                         'subtitle' => 'E-commerce Webshop',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -288,7 +276,7 @@
                         )
                     ),
                     'service-pro' => array(
-                        'link' => '/service-pro.php',
+                        'link' => '/projects/service-pro',
                         'title' => 'ServicePRO',
                         'subtitle' => 'E-commerce Webshop',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -301,7 +289,7 @@
                         )
                     ),
                     'firestone-trace' => array(
-                        'link' => '/firestone-trace.php',
+                        'link' => '/projects/firestone-trace',
                         'title' => 'Firestone Trace',
                         'subtitle' => 'HOA Website',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -314,7 +302,7 @@
                         )
                     ),
                     'pb-cle' => array(
-                        'link' => '/pb-cle.php',
+                        'link' => '/projects/pb-cle',
                         'title' => 'Pb-Cle.org',
                         'subtitle' => 'Music Event Website',
                         'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',

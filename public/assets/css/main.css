@@ -62,7 +62,7 @@ section {
   border-top: solid 1px #ececec;
 }
 h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
   font-family: "Montserrat-Variable", sans-serif;
   font-size: 4rem;
   font-weight: 900;
@@ -141,6 +141,9 @@ img {
   color: #9013FE;
   border-color: #FFF;
 }
+.btn-all-projects {
+  float: right;
+}
 header, body .btn-default:before {
   background: #f8f8f8;
 }
@@ -160,16 +163,6 @@ header.mobile-header {
 .circle {
     border-radius: 100%;
   }
-header {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  padding-top: 2.55rem;
-  padding-left: 3.5rem;
-  padding-right: 3.5rem;
-  padding-bottom: 2.55rem;
-  position: fixed;
-}
 header ul {
   list-style: none;
   padding-left: 0;
@@ -194,10 +187,18 @@ nav ul li {
 footer {
   margin-top: auto;
 }
-footer ul {
+.footer-top {
+  display: none;
+}
+.footer-bottom {
+  padding-bottom: 2.55rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.social-icons ul {
   display: flex;
 }
-footer ul li {
+.social-icons ul li {
   margin-right: 1rem;
 }
 .profile-photo {
@@ -216,7 +217,6 @@ footer ul li {
   margin-top: auto;
 }
 .theme-selector {
-  /* display: none; */
   z-index: 100;
   position: absolute;
   right: 0;
@@ -246,7 +246,7 @@ section {
   align-items: center;
 }
 .hero p {
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .scroll-down {
 	position: absolute;
@@ -321,23 +321,32 @@ section {
 	}
 }
 .theme-selector ul li {
-  max-width: 1.5rem;
-  max-height: 1.5rem;
-  width: 1.5rem;
-  height: 1.5rem;
+  max-width: 1.65rem;
+  max-height: 1.65rem;
+  width: 1.65rem;
+  height: 1.65rem;
   list-style-type: none;
-}
-.theme-selector ul li.light {
-  background: #ffffff;
+  border: 3px solid #00000000;
 }
 .theme-selector ul li.dark {
   background: #9013FE;
 }
+.theme-selector ul li.dark:hover {
+  border: 3px solid #10d876;
+}
+.theme-selector ul li.light {
+  background: #ffffff;
+}
+.theme-selector ul li.light:hover {
+  border: 3px solid #000000;
+}
 .theme-selector ul li.orange {
   background: #fc483a;
+  border: 3px solid #edf5e1;
 }
 .theme-selector ul li.green {
   background: #05386b;
+  border: 3px solid #8EE4AF;
 }
 .theme-selector ul li a {
   height: 100%;

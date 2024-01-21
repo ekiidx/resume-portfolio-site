@@ -2,12 +2,17 @@
 @section('title', $project->name)
 
 @section('content')
-    <h1>{{ $project->name }}</h1>
+    <section>
+        <h1 style="font-size: 3rem;">{{ $project->name }}</h1>
 
-    <img src="/assets/img/{{ $project->img }}"></a>
-    <p>{{ $project->content }}</p>
+        <div style="margin-bottom: 1rem;">
+            @foreach ($project->tags as $tag )
+                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+            @endforeach
+        </div>
 
-    @foreach ($project->tags as $tag )
-        <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
-    @endforeach
+        <img style="margin-bottom: 1rem;" src="/assets/img/{{ $project->img }}"></a>
+        <p style="white-space: pre-wrap;">{{ $project->content }}</p>
+        <a href="/projects" class="circle-btn">All Projects (25)</a>
+    </section>
 @endsection

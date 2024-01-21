@@ -90,7 +90,7 @@ if (isset($_SESSION["theme_color"])) {
             <div class="col-lg-2 col-xl-3 sidebar">
 
                 <header>
-                    <a href="/"><img src="assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
+                    <a href="/"><img src="/assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
                     <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
                 
                     <nav>
@@ -103,9 +103,9 @@ if (isset($_SESSION["theme_color"])) {
                             <li class="text-uppercase"><a href="#">Resume</a></li>
                         </ul>
                     </nav>
-                
-                    <footer>
-                        <ul class="social-icons">
+                    <footer class="footer-top social-icons">
+              
+                        <ul>
                             <li class="social-icon">
                                 <a href="https://linkedin.com/in/erik-todd">
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="fill" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a></li>
@@ -128,15 +128,26 @@ if (isset($_SESSION["theme_color"])) {
                             </li>
                         </ul>
                 
+                
+                   
                         <span class="copyright">© <?php echo date('Y'); ?> Erik Todd</span>
                     </footer>
+
+                    <div class="theme-selector theme-selector-mobile">
+                        <ul>
+                            <li class="dark"><a href="?bg=dark"></a></li>
+                            <li class="light"><a href="?bg=light"></a></li>
+                            <li class="orange"><a href="?bg=orange"></a></li>
+                            <li class="green"><a href="?bg=green"></a></li>
+                        </ul>
+                    </div>
+
                 </header>
-                
             </div>
 
             <div class="main col-lg-10 col-xl-9" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
 
-                <div class="theme-selector">
+                <div class="theme-selector theme-selector-desktop">
                     <ul>
                         <li class="dark"><a href="?bg=dark"></a></li>
                         <li class="light"><a href="?bg=light"></a></li>
@@ -149,6 +160,10 @@ if (isset($_SESSION["theme_color"])) {
             </div>
         </div>
     </div>
+
+    <footer class="footer-bottom">
+        <span class="copyright">© <?php echo date('Y'); ?> Erik Todd</span>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
