@@ -141,3 +141,10 @@ header .social-icon svg:hover {
 #contact svg {
   fill: #05386b;
 }
+
+.project-table  th, td {
+  border-bottom: 1px solid #8EE4AF;
+}
+.project-table td.link a {
+  color: #05386b;
+}

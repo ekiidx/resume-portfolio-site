@@ -127,3 +127,10 @@ header .social-icon svg {
 #contact svg {
   fill: #10d876;
 }
+
+.project-table  th, td {
+  border-bottom: 1px solid #222222;
+}
+.project-table td.link a {
+  color: #10d876;
+}

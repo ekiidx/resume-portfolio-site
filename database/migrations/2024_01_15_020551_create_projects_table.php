@@ -17,6 +17,11 @@ return new class extends Migration
             $table->string('name');
             $table->string('slug');
             $table->string('img');
+            $table->string('year');
+            $table->string('company');
+            $table->string('link');
+            $table->string('description');
+            $table->string('timeline');
             $table->text('content');
             $table->timestamps();
         });

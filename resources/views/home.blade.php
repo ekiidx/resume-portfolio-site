@@ -196,7 +196,7 @@
                     <h2 class="section-title font-black text-uppercase">Projects</h2>
                 </div>
                 <div class="col-9">
-                    <a class="circle-btn btn-all-projects" href="/projects">All Projects (25)</a>
+                    <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $projects->count() }})</a>
                 </div>
             </div>
 

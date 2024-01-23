@@ -109,7 +109,7 @@ body #return-to-top:hover {
   background: #fc483a;
 }
 section {
-  border-top: solid 1px #4f374f;
+  border-top: solid 1px #614561;
 }
 header .social-icon svg {
   width: 100%;
@@ -136,4 +136,11 @@ header .social-icon svg {
 }
 #contact svg {
   fill: #fc483a;
+}
+
+.project-table  th, td {
+  border-bottom: 1px solid #614561;
+}
+.project-table td.link a {
+  color: #fc483a;
 }

@@ -116,3 +116,10 @@ section {
 #contact svg {
   fill: #9013FE;
 }
+
+.project-table  th, td {
+  border-bottom: 1px solid #ececec;
+}
+.project-table td.link a {
+  color: #9013FE;
+}

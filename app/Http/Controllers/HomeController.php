@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Tag;
+use App\Models\Project;
 
 class HomeController extends Controller
 {
@@ -13,9 +14,11 @@ class HomeController extends Controller
     public function home()
     {
         $tags = Tag::all();
+        $projects = Project::all();
 
         return view('home', [
-            'tags' => $tags 
+            'tags' => $tags,
+            'projects' => $projects
         ]);
     }
 
