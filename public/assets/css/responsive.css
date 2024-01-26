@@ -29,8 +29,8 @@ p {
 
 @media (min-width: 576px) {
     section {
-        padding-left: 2rem;
-        padding-right: 4rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 }
 
@@ -38,7 +38,7 @@ p {
 @media (min-width: 768px) {
     section {
         padding-left: 2rem;
-        padding-right: 6rem;
+        padding-right: 2rem;
     }
 }
 
@@ -49,14 +49,20 @@ p {
         flex-direction: column;
         height: 100vh;
         padding-top: 2.55rem;
-        padding-left: 3.5rem;
-        padding-right: 3.5rem;
+        padding-left: 2.65rem;
+        padding-right: 2.65rem;
         padding-bottom: 2.55rem;
         position: fixed;
     }
+    .navbar-expand-lg .navbar-nav {
+        flex-direction: column;
+    }
     section {
-        padding-left: 2rem;
+        padding-left: 0rem;
         padding-right: 8rem;
+    }
+    .project-table  th.company, td.company {
+        display: block;
     }
     .theme-selector-desktop {
         display: initial;

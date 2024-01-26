@@ -23,8 +23,8 @@
                     <tr>
                         <td>{{ $project->year }}</td>
                         <td><a href="/projects/{{ $project->slug }}"><img style="max-width: 7rem;" src="/assets/img/{{ $project->img }}"></a></td>
-                        <td><a style="display: block;" href="/projects/{{ $project->slug }}">{{ $project->name }}</a></td>
-                        <td>{{ $project->company }}</td>
+                        <td><a style="display: block; font-weight: 700;" href="/projects/{{ $project->slug }}">{{ $project->name }}</a></td>
+                        <td><p>{{ $project->company }}</p></td>
                         <td><div>
                             @foreach ($project->tags as $tag )
                                 <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>

@@ -87,14 +87,14 @@ if (isset($_SESSION["theme_color"])) {
 <body>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-2 col-xl-3 sidebar">
+            <div class="col-lg-3 sidebar">
 
                 <header>
                     <a href="/"><img src="/assets/img/erik-todd.jpg" alt="" class="circle profile-photo"></a>
                     <a href="/"><span class="profile-name text-uppercase">Erik Todd</span></a>
                 
-                    <nav>
-                        <ul id="navbar" role="tablist">
+                    {{-- <nav>
+                        <ul role="tablist">
                             <li class="text-uppercase"><a href="/#home">Home</a></li>
                             <li class="text-uppercase"><a href="/#skills">Skills</a></li>
                             <li class="text-uppercase"><a href="/#experience">Experience</a></li>
@@ -102,7 +102,57 @@ if (isset($_SESSION["theme_color"])) {
                             <li class="text-uppercase"><a href="/#contact">Contact</a></li>
                             <li class="text-uppercase"><a href="#">Resume</a></li>
                         </ul>
-                    </nav>
+                    </nav> --}}
+
+
+
+
+                    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
+                      
+                          <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                            <span class="navbar-toggler-icon"></span>
+                          </a>
+
+                          <!-- Off Canvas -->
+                          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+
+                            <div class="offcanvas-body">
+                              <ul id="navbar" class="navbar-nav" role="tablist">
+
+                                <li class="nav-item"><a href="/#home"><button class="text-uppercase" data-bs-dismiss="offcanvas">Home</button></a></li>
+                                <li class="nav-item text-uppercase"><a href="/#skills"><button class="text-uppercase" data-bs-dismiss="offcanvas">Skills</button></a></li>
+                                <li class="nav-item text-uppercase"><a data-bs-dismiss="offcanvas" href="/#experience"><button class="text-uppercase" data-bs-dismiss="offcanvas">Experience</button></a></li>
+                                <li class="nav-item text-uppercase"><a data-bs-dismiss="offcanvas" href="/#projects"><button class="text-uppercase" data-bs-dismiss="offcanvas">Projects</button></a></li>
+                                <li class="nav-item text-uppercase"><a data-bs-dismiss="offcanvas" href="/#contact"><button class="text-uppercase" data-bs-dismiss="offcanvas">Contact</button></a></li>
+                                <li class="nav-item text-uppercase"><a href="#">Resume</a></li>
+                                {{-- <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                  </a>
+                                  <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                      <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                  </ul>
+                                </li> --}}
+                              </ul>
+                            </div>
+                          </div>
+                
+                      </nav>
+
+
+
+
+
+
                     <footer class="footer-top social-icons">
               
                         <ul>
@@ -142,10 +192,16 @@ if (isset($_SESSION["theme_color"])) {
                         </ul>
                     </div>
 
+
+
+
+
+                    
+
                 </header>
             </div>
 
-            <div class="main col-lg-10 col-xl-9" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
+            <div class="main col-lg-9" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
 
                 <div class="theme-selector theme-selector-desktop">
                     <ul>
