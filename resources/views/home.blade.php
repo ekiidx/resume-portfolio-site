@@ -42,26 +42,33 @@
         <div class="container">
             <h2 class="text-uppercase">Experience</h2>
 
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">Jul 2023 - Current</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp"> -->
-                        <h4 class="title">West Tech Alumni Association</h4>
-                        <p class="subtitle">Web Developer, Project Manager</p>
-                    
-                        <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
 
-                        <span class="circle-btn">WordPress</span>
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">HTML</span>
+            @foreach ($experiences as $experience)
+                <div class="item">
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="date">{{ $experience->timeline }}</span>
+                        </div>
+                        <div class="col-9">
+                            <!-- <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp"> -->
+                            <h4 class="title">{{ $experience->name }}</h4>
+                            <p class="subtitle">{{ $experience->description }}</p>
+                        
+                            <p>{{ $experience->content }}</p>
+
+                            @foreach ($experience->tags as $tag )
+                                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                            @endforeach
+
+                            {{-- <span class="circle-btn">WordPress</span>
+                            <span class="circle-btn">HTML</span>
+                            <span class="circle-btn">HTML</span> --}}
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endforeach    
 
-            <div class="item">
+            {{-- <div class="item">
                 <div class="row">
                     <div class="col-3">
                         <span class="date">Mar 2022 - Nov 2022</span>
@@ -157,7 +164,7 @@
                         <span class="circle-btn">CSS</span>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
         </div>
     </section>

@@ -104,9 +104,6 @@ if (isset($_SESSION["theme_color"])) {
                         </ul>
                     </nav> --}}
 
-
-
-
                     <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Offcanvas navbar large">
                       
                           <a class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
@@ -148,11 +145,6 @@ if (isset($_SESSION["theme_color"])) {
                 
                       </nav>
 
-
-
-
-
-
                     <footer class="footer-top social-icons">
               
                         <ul>
@@ -191,12 +183,6 @@ if (isset($_SESSION["theme_color"])) {
                             <li class="green"><a href="?bg=green"></a></li>
                         </ul>
                     </div>
-
-
-
-
-
-                    
 
                 </header>
             </div>
