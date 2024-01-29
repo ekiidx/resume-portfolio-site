@@ -172,25 +172,28 @@
     <section id="education">
         <div class="container">   
             <h2 class="text-uppercase">Education</h2>
-                
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">2012 - 2016</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo" src="assets/img/uakron-logo.svg"> -->
-                        <h4 class="title">University of Akron</h4>
-                        <p>BA Studio & Fine Arts</p>
-                        <p>Minor Japanese</p>
 
-                        <span class="circle-btn">Adobe Suite</span>
-                        <span class="circle-btn">Figma</span>
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">CSS</span>
+            @foreach ($schools as $school)
+                <div class="item">
+                    <div class="row">
+                        <div class="col-3">
+                            <span class="date">{{ $school->timeline }}</span>
+                        </div>
+                        <div class="col-9">
+                            <!-- <img class="experience-logo wtaa-logo" src="assets/img/wtaa-logo.webp"> -->
+                            <h4 class="title">{{ $school->name }}</h4>
+                            <p class="subtitle">{{ $school->description }}</p>
+                        
+                            <p>{{ $school->content }}</p>
+
+                            @foreach ($school->tags as $tag )
+                                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                            @endforeach
+                        </div>
                     </div>
                 </div>
-            </div>
+            @endforeach
+
         </div>
     </section>
 
@@ -207,172 +210,29 @@
                 </div>
             </div>
 
-            <!-- portfolio filter (desktop) -->
-            <!--<ul class="portfolio-filter list-inline">
-                <li class="current list-inline-item" data-filter="*">Everything</li>
-                <li class="list-inline-item" data-filter=".creative">Creative</li>
-                <li class="list-inline-item" data-filter=".art">Art</li>
-                <li class="list-inline-item" data-filter=".design">Design</li>
-                <li class="list-inline-item" data-filter=".branding">Branding</li>
-            </ul>-->
-            
-            <!-- portfolio filter (mobile) -->
-            <!--<div class="pf-filter-wrapper">
-                <select class="portfolio-filter-mobile">
-                    <option value="*">Everything</option>
-                    <option value=".creative">Creative</option>
-                    <option value=".art">Art</option>
-                    <option value=".design">Design</option>
-                    <option value=".branding">Branding</option>
-                </select>
-            </div>-->
-            
-            <?php
-
-                $projects = array(
-                    'the-monsters' => array(
-                        'link' => '/projects/the-monsters',
-                        'title' => 'The Monsters',
-                        'subtitle' => 'E-commerce Webshop',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/the-monsters-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'student-accounts' => array(
-                        'link' => '/projects/emory-university',
-                        'title' => 'Emory University',
-                        'subtitle' => 'University Student Services Website',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/student-accounts-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'vue-design' => array(
-                        'link' => '/projects/vue-design',
-                        'title' => 'Vue Design',
-                        'subtitle' => 'E-commerce Webshop',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/vue-design-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'strong-way' => array(
-                        'link' => '/projects/strong-way',
-                        'title' => 'Strong Way',
-                        'subtitle' => 'E-commerce Webshop',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/strong-way-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'service-pro' => array(
-                        'link' => '/projects/service-pro',
-                        'title' => 'ServicePRO',
-                        'subtitle' => 'E-commerce Webshop',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/service-pro-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'firestone-trace' => array(
-                        'link' => '/projects/firestone-trace',
-                        'title' => 'Firestone Trace',
-                        'subtitle' => 'HOA Website',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/firestone-trace-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                    'pb-cle' => array(
-                        'link' => '/projects/pb-cle',
-                        'title' => 'Pb-Cle.org',
-                        'subtitle' => 'Music Event Website',
-                        'info' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-                        'image' => 'assets/img/firestone-trace-ad.jpg',
-                        'alt' => '',
-                        'buttons' => array(
-                            'HTML',
-                            'PHP',
-                            'CSS'
-                        )
-                    ),
-                );
-
-                /* foreach($projects as $project) { ?>
-                    <!-- portfolio item -->
-                    <div class="col-md-4 col-sm-6 grid-item art">
-                        <a href="<?php echo $project['link']; ?>">
-                            <div class="portfolio-item">
-                                <div class="details">
-                                    <h4 class="title"><?php echo $project['title']; ?></h4>
-                                    <span class="subtitle"><?php echo $project['subtitle']; ?></span>
-                                </div>
-                                <div class="thumb">
-                                    <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
-                                    <div class="mask"></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div> <?php
-                } */ 
-
-            // <!-- more button -->
-            // <div class="load-more text-center mt-4">
-            //     <a href="javascript:" class="btn btn-default btn-animation"><i class="fas fa-spinner"></i> Load more</a>
-            //     <!-- numbered pagination (hidden for infinite scroll) -->
-            //     <ul class="portfolio-pagination list-inline d-none">
-            //         <li class="list-inline-item">1</li>
-            //         <li class="list-inline-item"><a href="works-2.html">2</a></li>
-            //     </ul>
-            // </div> 
-
-            foreach($projects as $project) { ?>
+            @foreach ($projects as $project)
                 <div class="item">
                     <div class="row">
                         <div class="col-3 project-img">
-                            <a href="<?php echo $project['link']; ?>">
-                                <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['alt']; ?>">
+                            <a href="{{ $project->slug }}">
+                                <img src="/assets/img/{{ $project->img }}" alt="">
                             </a>
                         </div>
                         <div class="col-9">
-                            <h4 class="title"><?php echo $project['title']; ?></h4>
-                            <p class="subtitle"><?php echo $project['subtitle']; ?></p>
-                            <p><?php echo $project['info']; ?></p>
+                            <h4 class="title">{{ $project->name }}</h4>
+                            <p class="subtitle">{{ $project->description }}</p>
+                            {{-- <p>{{ $project->content }}</p> --}}
                             
-                            <div> <?php
-                                foreach ($project['buttons'] as $button) { ?>       
-                                    <span class="circle-btn"><?php echo $button; ?></span> <?php
-                                }; ?>
+                            <div>
+                                @foreach ($project->tags as $tag)    
+                                    <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                                @endforeach
                             </div>
                         </div>
                     </div>
-                </div> <?php
-            } ?>
+                </div>
+            @endforeach
+
         </div>
     </section>
 

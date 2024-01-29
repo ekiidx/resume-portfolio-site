@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Tag;
 use App\Models\Project;
 use App\Models\Experience;
+use App\Models\School;
 
 class HomeController extends Controller
 {
@@ -15,13 +16,15 @@ class HomeController extends Controller
     public function home()
     {
         $tags = Tag::all();
-        $projects = Project::all();
-        $experiences = Experience::latest()->get();
+        $projects = Project::with('tags')->latest()->get();
+        $experiences = Experience::with('tags')->latest()->get();
+        $schools = School::with('tags')->latest()->get();
 
         return view('home', [
             'tags' => $tags,
             'projects' => $projects,
-            'experiences' => $experiences
+            'experiences' => $experiences,
+            'schools' => $schools
         ]);
     }
 
