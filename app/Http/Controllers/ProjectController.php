@@ -28,6 +28,7 @@ class ProjectController extends Controller
      */
     public function show(string $slug)
     {
+        $projects = Project::all();
         $project = Project::where('slug', $slug)->firstOrFail();
 
         return view('projects/show', [

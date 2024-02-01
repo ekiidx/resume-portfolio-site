@@ -21,6 +21,7 @@ return new class extends Migration
             $table->string('company');
             $table->string('link');
             $table->string('description');
+            $table->string('excerpt');
             $table->string('timeline');
             $table->text('content');
             $table->timestamps();

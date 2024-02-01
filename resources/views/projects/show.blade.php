@@ -4,6 +4,7 @@
 @section('content')
     <section>
         <h1 style="font-size: 3rem;">{{ $project->name }}</h1>
+        <p>{{ $project->description }}</p>
 
         <div style="margin-bottom: 1rem;">
             @foreach ($project->tags as $tag )
