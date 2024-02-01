@@ -59,112 +59,10 @@
                             @foreach ($experience->tags as $tag )
                                 <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
                             @endforeach
-
-                            {{-- <span class="circle-btn">WordPress</span>
-                            <span class="circle-btn">HTML</span>
-                            <span class="circle-btn">HTML</span> --}}
                         </div>
                     </div>
                 </div>
-            @endforeach    
-
-            {{-- <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">Mar 2022 - Nov 2022</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo ncm-logo" src="assets/img/ncm-logo.png"> -->
-                        <h4 class="title">North Coast Media</h4>
-                        <p class="subtitle">Web Developer</p>
-                
-                        <p>Tasks included writing and maintaining WordPress code, troubleshooting Kubernetes issues. updating and maintaining email designs, testing and debugging, collaborating with others,  staying up-to-date with new technologies.</p>
-
-                        <span class="circle-btn">WordPress</span>
-                        <span class="circle-btn">Docker</span>
-                        <span class="circle-btn">Adobe Suite</span>
-                        <span class="circle-btn">AWS/EKS</span>
-                        <span class="circle-btn">Git</span>
-                        <span class="circle-btn">Figma</span>
-                    </div>
-                </div>
-            </div>
-                
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">May 2021 - Mar 2022</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo vue-design-logo" src="assets/img/vue-logo-short.svg"> -->
-                        <h4 class="title">Vue Design</h4>
-                        <p class="subtitle">Full Stack Web Developer, Project Manager</p>
-                
-                        <p>Maintained client code, managed client relationships, testing, debugging, updating and maintaining websites, staying up-to-date with new WordPress issues. HTML and CSS redesigning for small businesses.</p>
-
-                        <span class="circle-btn">WordPress</span>
-                        <span class="circle-btn">PHP</span>
-                        <span class="circle-btn">Javascript</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">Jan 2020 - Apr 2021</span>
-                    </div>
-                    <div class="col-9"> 
-                        <!-- <img class="experience-logo mango-bay-logo" src="assets/img/mango-bay-logo.png"> -->
-                        <h4 class="title">Mango Bay</h4>
-                        <p class="subtitle">Lead Web Developer, Project Manager</p>
-                
-                        <p>Managaged projects for company client base, using creative skills and design to create visually engaging websites. Duties included writing and maintaining code, updating and maintaining responsively built websites, and troubleshooting website issues.</p>
-
-                        <span class="circle-btn">WordPress</span>
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">HTML</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">Oct 2017 - Mar 2018</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo" src="assets/img/ellet-sign-logo.gif"> -->
-                        <h4 class="title">Ellet Sign</h4>
-                        <p class="subtitle">Graphic Designer</p>
-                
-                        <p>Created impactful visual designs that effectively communicated client messages and brand identities. Tasks included designing visually engaging and user-friendly visual designs, wireframes, concepts, and finals, collaborating with clients and team members.</p>
-
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">HTML</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="row">
-                    <div class="col-3">
-                        <span class="date">Oct 2016 - Jan 2020</span>
-                    </div>
-                    <div class="col-9">
-                        <!-- <img class="experience-logo ff-design-logo" src="assets/img/ff-design-logo.svg"> -->
-                        <h4 class="title">FF Design</h4>
-                        <p class="subtitle">Web Developer</p>
-                        
-                        <p>Daily tasks included creating visually engaging, intuitive, and user-friendly websites that meet and exceed client expectations, while collaborating with cross-functional teams and staying current with emerging design trends and technologies.</p>
-
-                        <span class="circle-btn">HTML</span>
-                        <span class="circle-btn">PHP</span>
-                        <span class="circle-btn">CSS</span>
-                    </div>
-                </div>
-            </div> --}}
+            @endforeach
 
         </div>
     </section>
@@ -204,8 +102,6 @@
 
                     <!-- section title -->
                     <h2 class="section-title font-black text-uppercase">Projects</h2>
-                </div>
-                <div class="col-9">
                     <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $projects->count() }})</a>
                 </div>
             </div>
@@ -214,14 +110,16 @@
                 <div class="item">
                     <div class="row">
                         <div class="col-3 project-img">
-                            <a href="{{ $project->slug }}">
+                            <a href="/projects/{{ $project->slug }}">
                                 <img src="/assets/img/{{ $project->img }}" alt="">
                             </a>
                         </div>
                         <div class="col-9">
-                            <h4 class="title">{{ $project->name }}</h4>
+                            <a href="/projects/{{ $project->slug }}">
+                                <h4 class="title">{{ $project->name }}</h4>
+                            </a>
                             <p class="subtitle">{{ $project->description }}</p>
-                            {{-- <p>{{ $project->content }}</p> --}}
+                            <p>{{ $project->excerpt }}</p>
                             
                             <div>
                                 @foreach ($project->tags as $tag)    

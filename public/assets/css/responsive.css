@@ -1,8 +1,4 @@
 
-header {
-    display: flex;
-
-}
 section { 
     padding-left: 0.25rem;
     padding-right: 0.25rem;
@@ -53,6 +49,11 @@ p {
         padding-right: 2.65rem;
         padding-bottom: 2.55rem;
         position: fixed;
+        justify-content: flex-start;
+    }
+    header .name-title {
+        flex-direction: column;
+        align-items: flex-start;
     }
     .navbar-expand-lg .navbar-nav {
         flex-direction: column;
