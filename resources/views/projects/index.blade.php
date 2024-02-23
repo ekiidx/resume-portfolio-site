@@ -27,7 +27,7 @@
                         <td><p>{{ $project->company }}</p></td>
                         <td><div>
                             @foreach ($project->tags as $tag )
-                                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                                <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
                             @endforeach
                         </div></td>
                         <td class="link"><a href="https://{{ $project->link }}">{{ $project->link }}</a></td>

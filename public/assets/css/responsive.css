@@ -3,10 +3,6 @@ section {
     padding-left: 0.25rem;
     padding-right: 0.25rem;
 }
-.hero {
-    padding-left: 0;
-    padding-right: 0;
-}
 .date {
     font-size: 0.7rem;
 }
@@ -62,6 +58,9 @@ p {
         padding-left: 0rem;
         padding-right: 8rem;
     }
+    .hero {
+        padding-right: 10rem;
+    }
     .project-table  th.company, td.company {
         display: block;
     }
@@ -85,6 +84,9 @@ p {
         padding-left: 2rem;
         padding-right: 10rem;
     }
+    .hero {
+        padding-right: 25rem;
+    }
 }
 
 
@@ -92,5 +94,8 @@ p {
     section {
         padding-left: 2rem;
         padding-right: 12rem;
+    }
+    .hero {
+        padding-right: 35rem;
     }
 }

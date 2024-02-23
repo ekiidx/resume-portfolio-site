@@ -19,6 +19,13 @@ li {
   background: #9013FE;
   color:#ffffff;
   font-weight: 700;
+  border: none;
+  border: 0.175rem solid #9013FE;
+}
+.circle-btn:hover {
+  background:rgba(255, 255, 255, 0);
+  color: #9013FE;
+  border: 0.175rem solid #9013FE;
 }
 .btn-default {
   color: #edf5e1;

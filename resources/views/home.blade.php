@@ -8,8 +8,8 @@
             <h1><a href="#" class="typewriter" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
             
             <p>I'm an experienced web developer located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
-            <a href="/projects" class="btn btn-default btn-animation">Projects</a>
-            <a href="erik-todd-resume.pdf" download class="btn btn-alt-light btn-animation">Resume</a>
+            <a href="/projects" class="btn circle-btn">Projects</a>
+            <a href="erik-todd-resume.pdf" download class="btn circle-btn btn-alt-light">Resume</a>
 
             <div class="scroll-down">
                 <a href="#services" class="mouse-wrapper"><span class="mouse"><span class="wheel"></span></span></a>
@@ -30,7 +30,7 @@
                 <div class="col-9">
 
                     @foreach ($tags as $tag)
-                        <a href="/tags/{{ $tag->slug }}"><span class="circle-btn">{{ $tag->name }}</span></a>
+                        <a href="/tags/{{ $tag->slug }}"><span class="btn circle-btn">{{ $tag->name }}</span></a>
                     @endforeach
 
                 </div>
@@ -57,7 +57,7 @@
                             <p>{{ $experience->content }}</p>
 
                             @foreach ($experience->tags as $tag )
-                                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                                <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
                             @endforeach
                         </div>
                     </div>
@@ -85,7 +85,7 @@
                             <p>{{ $school->content }}</p>
 
                             @foreach ($school->tags as $tag )
-                                <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                                <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
                             @endforeach
                         </div>
                     </div>
@@ -102,7 +102,7 @@
 
                     <!-- section title -->
                     <h2 class="section-title font-black text-uppercase">Projects</h2>
-                    <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $projects->count() }})</a>
+                    <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $all_projects->count() }})</a>
                 </div>
             </div>
 
@@ -123,7 +123,7 @@
                             
                             <div>
                                 @foreach ($project->tags as $tag)    
-                                    <a class="circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
+                                    <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
                                 @endforeach
                             </div>
                         </div>

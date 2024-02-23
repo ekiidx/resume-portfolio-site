@@ -17,12 +17,14 @@ class HomeController extends Controller
     {
         $tags = Tag::all();
         $projects = Project::with('tags')->latest()->limit(4)->get();
+        $all_projects = Project::all();
         $experiences = Experience::with('tags')->latest()->get();
         $schools = School::with('tags')->latest()->get();
 
         return view('home', [
             'tags' => $tags,
             'projects' => $projects,
+            'all_projects' => $all_projects,
             'experiences' => $experiences,
             'schools' => $schools
         ]);
