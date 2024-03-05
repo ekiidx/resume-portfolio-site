@@ -132,8 +132,8 @@ button, input[type="submit"], input[type="reset"] {
   font-weight: 700;
 }
 .circle-btn {
-  background:rgba(255, 255, 255, 0);
-  color: #9013FE;
+  background:#9013FE;
+  color: #edf5e1;
 }
 .btn-default {
   color: #edf5e1;
