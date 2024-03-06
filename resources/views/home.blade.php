@@ -97,13 +97,10 @@
 
     <section id="projects">
         <div class="container">
-            <div class="row">
-                <div class="col-3 project-img">
-
-                    <!-- section title -->
-                    <h2 class="section-title font-black text-uppercase">Projects</h2>
-                    <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $all_projects->count() }})</a>
-                </div>
+            <!-- section title -->
+            <div class="d-flex align-items-start justify-content-between">
+                <h2 class="section-title font-black text-uppercase">Projects</h2>
+                <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $all_projects->count() }})</a>
             </div>
 
             @foreach ($projects as $project)
