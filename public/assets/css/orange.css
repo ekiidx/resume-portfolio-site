@@ -149,3 +149,35 @@ header .social-icon svg {
 .btn-back-to-top {
   fill: #fc483a;
 }
+.theme-selector ul li.light {
+  background: #f8f8f8;
+  border: 3px solid #f8f8f8;
+}
+.theme-selector ul li.light:hover {
+  background: #f8f8f8;
+  border: 3px solid #f8f8f8;
+}
+.theme-selector ul li.dark {
+  background: #1a1a1b;
+  border: 3px solid #1A1A1B;
+}
+.theme-selector ul li.dark:hover {
+  background: #1a1a1b;
+  border: 3px solid #1A1A1B;
+}
+.theme-selector ul li.orange {
+  border: 3px solid #edf5e1;
+  background: #fc483a;
+}
+.theme-selector ul li.orange:hover {
+  border: 3px solid #edf5e1;
+  background: #fc483a;
+}
+.theme-selector ul li.green {
+  background: #05386b;
+  border: 3px solid #05386b;
+}
+.theme-selector ul li.green:hover {
+  background: #05386b;
+  border: 3px solid #05386b;
+}

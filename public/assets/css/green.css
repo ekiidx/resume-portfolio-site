@@ -144,7 +144,6 @@ header .social-icon svg:hover {
 #contact svg {
   fill: #05386b;
 }
-
 .project-table  th, td {
   border-bottom: 1px solid #8EE4AF;
 }
@@ -153,4 +152,36 @@ header .social-icon svg:hover {
 }
 .btn-back-to-top {
   fill: #EDF5E1;
+}
+.theme-selector ul li.light {
+  background: #f8f8f8;
+  border: 3px solid #f8f8f8;
+}
+.theme-selector ul li.light:hover {
+  background: #f8f8f8;
+  border: 3px solid #f8f8f8;
+}
+.theme-selector ul li.dark {
+  background: #10d876;
+  border: 3px solid #10d876;
+}
+.theme-selector ul li.dark:hover {
+  background: #10d876;
+  border: 3px solid #10d876;
+}
+.theme-selector ul li.orange {
+  background: #fc483a;
+  border: 3px solid #fc483a;
+}
+.theme-selector ul li.orange:hover {
+  background: #fc483a;
+  border: 3px solid #fc483a;
+}
+.theme-selector ul li.green {
+  background: #05386b;
+  border: 3px solid #EDF5E1;
+}
+.theme-selector ul li.green:hover {
+  background: #05386b;
+  border: 3px solid #EDF5E1;
 }

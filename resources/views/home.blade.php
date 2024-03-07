@@ -8,7 +8,7 @@
             <h1><a href="#" class="typewriter" data-period="6000" data-type='[ "Hello_" ]'><span class="wrap"></span></a></h1>
             
             <p>I'm an experienced web developer located in Cleveland, Ohio. I like to think about websites and how to build them. Professionally skilled in Adobe Suite, Figma, HTML, CSS, PHP, C#, JavaScript, .NET, WordPress, Laravel, and Docker.</p>
-            <a href="/projects" class="btn circle-btn">Projects</a>
+            <a href="#projects" class="btn circle-btn">Projects</a>
             <a href="erik-todd-resume.pdf" download class="btn circle-btn btn-alt-light">Resume</a>
 
             <div class="scroll-down">

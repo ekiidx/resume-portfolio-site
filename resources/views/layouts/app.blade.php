@@ -181,8 +181,8 @@ if (isset($_SESSION["theme_color"])) {
 
                         <div class="theme-selector theme-selector-mobile">
                             <ul>
-                                <li class="dark"><a href="?bg=dark"></a></li>
                                 <li class="light"><a href="?bg=light"></a></li>
+                                <li class="dark"><a href="?bg=dark"></a></li>
                                 <li class="orange"><a href="?bg=orange"></a></li>
                                 <li class="green"><a href="?bg=green"></a></li>
                             </ul>
@@ -195,8 +195,8 @@ if (isset($_SESSION["theme_color"])) {
 
                 <div class="theme-selector theme-selector-desktop">
                     <ul>
-                        <li class="dark"><a href="?bg=dark"></a></li>
                         <li class="light"><a href="?bg=light"></a></li>
+                        <li class="dark"><a href="?bg=dark"></a></li>
                         <li class="orange"><a href="?bg=orange"></a></li>
                         <li class="green"><a href="?bg=green"></a></li>
                     </ul>

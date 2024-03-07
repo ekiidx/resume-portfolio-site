@@ -359,27 +359,38 @@ section {
   width: 1.65rem;
   height: 1.65rem;
   list-style-type: none;
-  border: 3px solid #00000000;
-}
-.theme-selector ul li.dark {
-  background: #9013FE;
-}
-.theme-selector ul li.dark:hover {
-  border: 3px solid #10d876;
 }
 .theme-selector ul li.light {
   background: #ffffff;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  border: 3px solid #000000;
+  background: #ffffff;
+  border: 3px solid #9013FE;
+}
+.theme-selector ul li.dark {
+  background: #1A1A1B;
+  border: 3px solid #1A1A1B;
+}
+.theme-selector ul li.dark:hover {
+  background: #1A1A1B;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {
   background: #fc483a;
-  border: 3px solid #edf5e1;
+  border: 3px solid #fc483a;
+}
+.theme-selector ul li.orange:hover {
+  background: #fc483a;
+  border: 3px solid #4f374f;
 }
 .theme-selector ul li.green {
   background: #05386b;
-  border: 3px solid #8EE4AF;
+  border: 3px solid #05386b;
+}
+.theme-selector ul li.green:hover {
+  background: #05386b;
+  border: 3px solid #EDF5E1;
 }
 .theme-selector ul li a {
   height: 100%;
