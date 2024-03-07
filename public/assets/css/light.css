@@ -73,10 +73,10 @@ body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-men
   color: #000;
 }
 body .mouse {
-  border-color: #f8f8f8;
+  border-color: #000000;
 }
 body .mouse .wheel, body header.mobile-header .menu-icon span, body header.mobile-header .menu-icon span:before, body header.mobile-header .menu-icon span:after {
-  background: #f8f8f8;
+  background: #000000;
 }
 body .timeline span.line {
   background: #ececec;
@@ -92,12 +92,6 @@ body .form-control {
 }
 body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
   opacity: 1;
-}
-body #return-to-top {
-  background: rgba(255, 255, 255, 0.2);
-}
-body #return-to-top:hover {
-  background: #9013FE;
 }
 section {
   border-top: solid 1px #ececec;
@@ -129,4 +123,7 @@ section {
 }
 .project-table td.link a {
   color: #9013FE;
+}
+.btn-back-to-top {
+  fill: #9013FE;
 }

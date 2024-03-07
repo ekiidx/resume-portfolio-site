@@ -100,12 +100,6 @@ body .form-control {
 body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
   opacity: 1;
 }
-body #return-to-top {
-  background: rgba(255, 255, 255, 0.2);
-}
-body #return-to-top:hover {
-  background: #10d876;
-}
 section {
   border-top: solid 1px #222222;
 }
@@ -136,10 +130,12 @@ header .social-icon svg {
 #contact svg {
   fill: #10d876;
 }
-
 .project-table  th, td {
   border-bottom: 1px solid #222222;
 }
 .project-table td.link a {
   color: #10d876;
+}
+.btn-back-to-top {
+  fill: #10d876;
 }

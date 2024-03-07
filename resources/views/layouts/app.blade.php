@@ -213,6 +213,18 @@ if (isset($_SESSION["theme_color"])) {
         </div>
     </footer>
 
+    <div id="btn-back-to-top" style="width: 2rem; max-width: 2rem; height: auto; cursor: pointer;">
+        <?xml version="1.0" encoding="utf-8"?>
+        <!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
+        <path class="btn-back-to-top" d="M7.5,0C3.4,0,0,3.3,0,7.5c0,4.1,3.3,7.5,7.5,7.5c4.1,0,7.5-3.3,7.5-7.5C15,3.3,11.6,0,7.5,0z M11,8c-0.3,0.3-0.8,0.3-1.1,0
+            C9.4,7.4,8.8,6.9,8.2,6.3c0,0.7,0,1.3,0,2c0,0.7,0,1.4,0,2.2c0,0.4-0.3,0.8-0.8,0.8c-0.4,0-0.7-0.3-0.7-0.8c0-1.3,0-2.6,0-3.9
+            c0-0.1,0-0.1,0-0.2C6.2,6.9,5.6,7.4,5.1,7.9C4.7,8.3,4.3,8.3,4,8C3.6,7.7,3.7,7.2,4,6.9C5,5.9,5.9,5,6.9,4c0.4-0.4,0.8-0.4,1.2,0
+            C9,5,10,5.9,11,6.9C11.3,7.2,11.3,7.7,11,8z"/>
+        </svg>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
     <script src="assets/js/main.js"></script>
 </body>

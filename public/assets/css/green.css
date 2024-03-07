@@ -109,12 +109,6 @@ body .form-control {
 body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
   opacity: 1;
 }
-body #return-to-top {
-  background: rgba(255, 255, 255, 0.2);
-}
-body #return-to-top:hover {
-  background: #05386b;
-}
 section {
   border-top: solid 1px #8EE4AF;
 }
@@ -156,4 +150,7 @@ header .social-icon svg:hover {
 }
 .project-table td.link a {
   color: #05386b;
+}
+.btn-back-to-top {
+  fill: #EDF5E1;
 }

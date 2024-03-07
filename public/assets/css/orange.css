@@ -10,7 +10,7 @@ a:hover {
   color: #fc483a;
 }
 li {
-  color: #fc483a;
+  color: #edf5e1;
 }
 .service-box li h4 {
   color: #fc483a;
@@ -76,7 +76,7 @@ header.mobile-header {
 header .social-icon svg {
   width: 100%;
   max-height: 1.1rem;
-  fill: #fc483a;
+  fill: #edf5e1;
 }
 header .social-icon svg:hover {
   fill: #10d876;
@@ -91,10 +91,10 @@ body a:hover {
   color: #fc483a;
 }
 body .mouse {
-  border-color: #fc483a;
+  border-color: #edf5e1;
 }
 body .mouse .wheel, body header.mobile-header .menu-icon span, body header.mobile-header .menu-icon span:before, body header.mobile-header .menu-icon span:after {
-  background: #fc483a;
+  background: #edf5e1;
 }
 body .timeline span.line {
   background: #4f374f;
@@ -111,19 +111,13 @@ body .form-control {
 body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
   opacity: 1;
 }
-body #return-to-top {
-  background: rgba(255, 255, 255, 0.2);
-}
-body #return-to-top:hover {
-  background: #fc483a;
-}
 section {
   border-top: solid 1px #614561;
 }
 header .social-icon svg {
   width: 100%;
   max-height: 1.1rem;
-  fill: #fc483a;
+  fill: #edf5e1;
 }
 .portfolio-item .mask {
   background: #fc483a;
@@ -146,10 +140,12 @@ header .social-icon svg {
 #contact svg {
   fill: #fc483a;
 }
-
 .project-table  th, td {
   border-bottom: 1px solid #614561;
 }
 .project-table td.link a {
   color: #fc483a;
+}
+.btn-back-to-top {
+  fill: #fc483a;
 }
