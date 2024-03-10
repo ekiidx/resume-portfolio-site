@@ -540,3 +540,14 @@ li {
 .btn-back-to-top {
   fill: #9013FE;
 }
+svg.link-arrow {
+  width: auto;
+  height: 0.6rem;
+  transition: 300ms;
+}
+.project-link:hover .link-arrow {
+  transform: translate(5px, -5px);
+}
+.link-arrow-path { 
+  fill: #9013FE;
+}

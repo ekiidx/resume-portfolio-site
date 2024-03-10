@@ -185,3 +185,6 @@ header .social-icon svg:hover {
   background: #05386b;
   border: 3px solid #EDF5E1;
 }
+.link-arrow-path { 
+  fill: #05386b;
+}
