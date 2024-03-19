@@ -195,6 +195,9 @@ header .social-icon svg:hover {
 .sidebar {
     padding: 0;
 }
+.main {
+  margin-left: 0rem;
+}
 nav ul li {
   margin-bottom: 0.75rem;
   font-size: 0.85rem;
