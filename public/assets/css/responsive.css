@@ -16,9 +16,6 @@ p {
     display: none;
 }
 
-
-
-
 @media (min-width: 576px) {
     section {
         padding-left: 1rem;
@@ -26,14 +23,12 @@ p {
     }
 }
 
-
 @media (min-width: 768px) {
     section {
         padding-left: 2rem;
         padding-right: 2rem;
     }
 }
-
 
 @media (min-width: 992px) {
     header {
@@ -54,8 +49,11 @@ p {
     .navbar-expand-lg .navbar-nav {
         flex-direction: column;
     }
+    .main {
+        margin-left: 16rem;
+    }
     section {
-        padding-left: 0rem;
+        padding-left: 4rem;
         padding-right: 8rem;
     }
     .hero {
@@ -78,10 +76,9 @@ p {
     }
 }
 
-
 @media (min-width: 1200px) {
     section {
-        padding-left: 2rem;
+        padding-left: 6rem;
         padding-right: 10rem;
     }
     .hero {
@@ -89,10 +86,9 @@ p {
     }
 }
 
-
 @media (min-width: 1400px) {
     section {
-        padding-left: 2rem;
+        padding-left: 8rem;
         padding-right: 12rem;
     }
     .hero {
