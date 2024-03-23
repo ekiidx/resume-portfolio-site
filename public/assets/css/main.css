@@ -372,11 +372,11 @@ section {
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
-  background: #1A1A1B;
-  border: 3px solid #1A1A1B;
+  background: #10d876;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #1A1A1B;
+  background: #10d876;
   border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {

@@ -19,6 +19,12 @@ li {
   background: #10d876;
   color:#000000;
   font-weight: 700;
+  border: solid 3px #10d876;
+}
+.circle-btn:hover {
+  background: #1A1A1B;
+  color: #10d876;
+  border: solid 3px #10d876;
 }
 .btn-default {
   color: #edf5e1;
@@ -149,7 +155,7 @@ header .social-icon svg {
 }
 .theme-selector ul li.dark {
   background: #10d876;
-  border: 3px solid #ffffff;
+  border: 3px solid #000000;
 }
 .theme-selector ul li.dark:hover {
   background: #10d876;

@@ -19,6 +19,7 @@ li {
   background: #fc483a;
   color:#ffffff;
   font-weight: 700;
+  border: solid 3px #fc483a;
 }
 .btn-default {
   color: #edf5e1;

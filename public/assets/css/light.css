@@ -128,11 +128,11 @@ section {
   fill: #9013FE;
 }
 .theme-selector ul li.light {
-  background: #f8f8f8;
+  background: #ffffff;
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #f8f8f8;
+  background: #ffffff;
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
@@ -149,7 +149,7 @@ section {
 }
 .theme-selector ul li.orange:hover {
   background: #fc483a;
-  border: 3px solid #fc483a;
+  border: 3px solid #4f374f;
 }
 .theme-selector ul li.green {
   background: #05386b;
@@ -157,7 +157,7 @@ section {
 }
 .theme-selector ul li.green:hover {
   background: #05386b;
-  border: 3px solid #05386b;
+  border: 3px solid #EDF5E1;
 }
 .link-arrow-path { 
   fill: #9013FE;

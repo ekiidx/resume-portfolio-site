@@ -28,6 +28,7 @@ li {
   background: #05386b;
   color: #EDF5E1;
   font-weight: 700;
+  border: solid 3px #05386b;
 }
 .btn-default {
   color: #EDF5E1;
