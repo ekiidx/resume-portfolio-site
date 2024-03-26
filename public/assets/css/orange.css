@@ -17,8 +17,13 @@ li {
 }
 .circle-btn {
   background: #fc483a;
-  color:#ffffff;
+  color:#edf5e1;
   font-weight: 700;
+  border: solid 3px #fc483a;
+}
+.circle-btn:hover {
+  background: transparent;
+  color: #edf5e1;
   border: solid 3px #fc483a;
 }
 .btn-default {
@@ -36,8 +41,9 @@ li {
   border: solid 3px #fc483a;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
-  color: #fc483a;
-  border-color: #FFF;
+  color: #edf5e1;
+  background: transparent;
+  border: solid 3px #edf5e1;
 }
 .mugi-folding-cube .mugi-cube:before {
   background-color: #fc483a;
@@ -80,7 +86,7 @@ header .social-icon svg {
   fill: #edf5e1;
 }
 header .social-icon svg:hover {
-  fill: #10d876;
+  fill: #fc483a;
 }
 body header, body .btn-default:before {
   background: #4f374f;
@@ -151,35 +157,35 @@ header .social-icon svg {
   fill: #fc483a;
 }
 .theme-selector ul li.light {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #9013FE;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #4f374f;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
-  background: #1a1a1b;
-  border: 3px solid #1A1A1B;
+  background: #10d876;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #1a1a1b;
-  border: 3px solid #1A1A1B;
+  background: #4f374f;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {
-  border: 3px solid #edf5e1;
   background: #fc483a;
+  border: 3px solid #fc483a;
 }
 .theme-selector ul li.orange:hover {
-  border: 3px solid #edf5e1;
-  background: #fc483a;
+  background: #4f374f;
+  border: 3px solid #fc483a;
 }
 .theme-selector ul li.green {
   background: #05386b;
   border: 3px solid #05386b;
 }
 .theme-selector ul li.green:hover {
-  background: #05386b;
+  background: #4f374f;
   border: 3px solid #05386b;
 }
 .link-arrow-path { 

@@ -41,8 +41,8 @@ li {
   border: solid 3px #10d876;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
-  color: #10d876;
-  border-color: #FFF;
+  color: #ffffff;
+  border: solid 3px #ffffff;
 }
 nav ul li {
   color: #fff;
@@ -146,19 +146,19 @@ header .social-icon svg {
   fill: #10d876;
 }
 .theme-selector ul li.light {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #9013FE;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #1A1A1B;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
   background: #10d876;
-  border: 3px solid #000000;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #10d876;
+  background: #1A1A1B;
   border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {
@@ -166,7 +166,7 @@ header .social-icon svg {
   border: 3px solid #fc483a;
 }
 .theme-selector ul li.orange:hover {
-  background: #fc483a;
+  background: #1A1A1B;
   border: 3px solid #fc483a;
 }
 .theme-selector ul li.green {
@@ -174,7 +174,7 @@ header .social-icon svg {
   border: 3px solid #05386b;
 }
 .theme-selector ul li.green:hover {
-  background: #05386b;
+  background: #1A1A1B;
   border: 3px solid #05386b;
 }
 .link-arrow-path { 

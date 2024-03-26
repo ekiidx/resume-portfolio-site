@@ -30,6 +30,11 @@ li {
   font-weight: 700;
   border: solid 3px #05386b;
 }
+.circle-btn:hover {
+  color: #05386b;
+  background: transparent;
+  border: solid 3px #05386b;
+}
 .btn-default {
   color: #EDF5E1;
   border: solid 3px #05386b;
@@ -46,7 +51,8 @@ li {
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
   color: #05386b;
-  border-color: #EDF5E1;
+  background: transparent;
+  border: solid 3px #05386b;
 }
 .mugi-folding-cube .mugi-cube:before {
   background-color: #05386b;
@@ -155,35 +161,35 @@ header .social-icon svg:hover {
   fill: #EDF5E1;
 }
 .theme-selector ul li.light {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #9013FE;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #f8f8f8;
-  border: 3px solid #f8f8f8;
+  background: #5cdb95;
+  border: 3px solid #EDF5E1
 }
 .theme-selector ul li.dark {
   background: #10d876;
   border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #10d876;
-  border: 3px solid #10d876;
+  background: #5cdb95;
+  border: 3px solid #EDF5E1;
 }
 .theme-selector ul li.orange {
   background: #fc483a;
   border: 3px solid #fc483a;
 }
 .theme-selector ul li.orange:hover {
-  background: #fc483a;
-  border: 3px solid #fc483a;
+  background: #5cdb95;
+  border: 3px solid #EDF5E1;
 }
 .theme-selector ul li.green {
   background: #05386b;
-  border: 3px solid #EDF5E1;
+  border: 3px solid #05386b;
 }
 .theme-selector ul li.green:hover {
-  background: #05386b;
+  background: #5cdb95;
   border: 3px solid #EDF5E1;
 }
 .link-arrow-path { 

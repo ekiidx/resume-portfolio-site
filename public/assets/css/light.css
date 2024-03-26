@@ -42,8 +42,9 @@ li {
   border: solid 3px #9013FE;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
-  color: #9013FE;
-  border-color: #FFF;
+  color: #f8f8f8;
+  background: #9013FE;
+  border: solid 3px #9013FE;
 }
 header, body .btn-default:before {
   background: #f8f8f8;
@@ -128,11 +129,11 @@ section {
   fill: #9013FE;
 }
 .theme-selector ul li.light {
-  background: #ffffff;
+  background: #9013FE;
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #ffffff;
+  background: #f8f8f8;
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
@@ -140,7 +141,7 @@ section {
   border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #10d876;
+  background: #f8f8f8;
   border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {
@@ -148,16 +149,16 @@ section {
   border: 3px solid #fc483a;
 }
 .theme-selector ul li.orange:hover {
-  background: #fc483a;
-  border: 3px solid #4f374f;
+  background: #f8f8f8;
+  border: 3px solid #fc483a;
 }
 .theme-selector ul li.green {
   background: #05386b;
   border: 3px solid #05386b;
 }
 .theme-selector ul li.green:hover {
-  background: #05386b;
-  border: 3px solid #EDF5E1;
+  background: #f8f8f8;
+  border: 3px solid #05386b;
 }
 .link-arrow-path { 
   fill: #9013FE;
