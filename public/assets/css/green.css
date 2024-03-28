@@ -165,32 +165,32 @@ header .social-icon svg:hover {
   border: 3px solid #9013FE;
 }
 .theme-selector ul li.light:hover {
-  background: #5cdb95;
-  border: 3px solid #EDF5E1
+  background: #f8f8f8;
+  border: 3px solid #9013FE;
 }
 .theme-selector ul li.dark {
   background: #10d876;
   border: 3px solid #10d876;
 }
 .theme-selector ul li.dark:hover {
-  background: #5cdb95;
-  border: 3px solid #EDF5E1;
+  background: #f8f8f8;
+  border: 3px solid #10d876;
 }
 .theme-selector ul li.orange {
   background: #fc483a;
   border: 3px solid #fc483a;
 }
 .theme-selector ul li.orange:hover {
-  background: #5cdb95;
-  border: 3px solid #EDF5E1;
+  background: #f8f8f8;
+  border: 3px solid #fc483a;
 }
 .theme-selector ul li.green {
   background: #05386b;
   border: 3px solid #05386b;
 }
 .theme-selector ul li.green:hover {
-  background: #5cdb95;
-  border: 3px solid #EDF5E1;
+  background: #f8f8f8;
+  border: 3px solid #05386b;
 }
 .link-arrow-path { 
   fill: #05386b;
