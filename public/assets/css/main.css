@@ -122,15 +122,17 @@ button, input[type="submit"], input[type="reset"] {
   margin-right: 0.05rem;
   margin-bottom: 0.45rem;
   font-size: 12px;
-  color:#ffffff;
+  color: #f8f8f8;
   font-weight: 700;
+  border: 0.175rem solid #9013FE;
 }
-.circle-btn {
-  background:#9013FE;
-  color: #edf5e1;
+.circle-btn:hover {
+  background: #f8f8f8;
+  color: #9013FE;
+  border: 0.175rem solid #9013FE;
 }
 .btn-default {
-  color: #edf5e1;
+  color: #f8f8f8;
   border: solid 3px #9013FE;
   background: #9013FE;
 }
@@ -233,6 +235,7 @@ footer {
 }
 .social-icons ul {
   display: flex;
+  margin-bottom: 0.75rem;
 }
 .social-icons ul li {
   margin-right: 1rem;
@@ -513,6 +516,11 @@ li {
 #projects.list-view {
   padding-top: 2.55rem;
 }
+.project-amount {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .project-table {
   font-size: 14px;
   text-align: left;
@@ -520,6 +528,7 @@ li {
 .project-table th {
   text-transform: uppercase;
   font-size: 0.75rem;
+  color: #000000;
   /*background: rgba(144, 19, 254, 0.05);*/
 }
 .project-table  th, td {

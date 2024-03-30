@@ -147,6 +147,9 @@ header .social-icon svg {
 #contact svg {
   fill: #fc483a;
 }
+.project-table th {
+  color: #edf5e1;
+}
 .project-table  th, td {
   border-bottom: 1px solid #614561;
 }
