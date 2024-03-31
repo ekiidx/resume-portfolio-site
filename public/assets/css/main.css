@@ -116,7 +116,8 @@ button, input[type="submit"], input[type="reset"] {
 }
 .circle-btn {
   background: #9013FE;
-  padding: 0.45rem 0.9rem;
+  /* padding: 0.45rem 0.9rem; */
+  padding: 0.35rem 0.7rem;
   border-radius: 40px;
   display: inline-block;
   margin-right: 0.05rem;
@@ -150,6 +151,9 @@ button, input[type="submit"], input[type="reset"] {
   background: #9013FE;
   border: solid 3px #9013FE;
 }
+.hero .btn.circle-btn {
+  padding: 0.6rem 1.2rem;
+} 
 .btn-all-projects {
   float: left;
 }
@@ -202,7 +206,7 @@ header .social-icon svg:hover {
   margin-left: 0rem;
 }
 nav ul li {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   font-size: 0.85rem;
   font-weight: 700;
   font-weight: 800;
@@ -243,7 +247,7 @@ footer {
 .profile-photo {
   max-width: 7.5rem;
   display: block;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 .profile-name {
   display: block;
@@ -512,6 +516,9 @@ li {
 #contact h4 {
   margin-bottom: 1rem;
   font-size: 1.35rem;
+}
+#contact .item {
+  margin-bottom: 0;
 }
 #projects.list-view {
   padding-top: 2.55rem;

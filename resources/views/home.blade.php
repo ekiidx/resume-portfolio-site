@@ -188,13 +188,13 @@
                 <div class="row">
                     <div class="column col-md-4">
                         <!-- Name input -->
-                        <div class="form-group">
+                        <div class="form-group" style="margin-bottom: 1.5rem;">
                             <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
                             <div class="help-block with-errors"></div>
                         </div>
                     </div>
                     
-                    <div class="column col-md-4">
+                    <div class="column col-md-4" style="margin-bottom: 1.5rem;">
                         <!-- Email input -->
                         <div class="form-group">
                             <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
@@ -202,7 +202,7 @@
                         </div>
                     </div>
 
-                    <div class="column col-md-4">
+                    <div class="column col-md-4" style="margin-bottom: 1.5rem;">
                         <!-- Email input -->
                         <div class="form-group">
                             <input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject is required.">
@@ -210,7 +210,7 @@
                         </div>
                     </div>
             
-                    <div class="column col-md-12">
+                    <div class="column col-md-12" style="margin-bottom: 1rem;">
                         <!-- Message textarea -->
                         <div class="form-group">
                             <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Message" required="required" data-error="Message is required."></textarea>
@@ -219,7 +219,7 @@
                     </div>
                 </div>
 
-                <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default btn-full btn-animation">Submit</button>
+                <button type="submit" name="submit" id="submit" value="Submit" class="btn circle-btn">Submit</button>
 
             </form>
 

@@ -53,7 +53,7 @@ p {
         margin-left: 16rem;
     }
     section {
-        padding-left: 4rem;
+        padding-left: 2rem;
         padding-right: 8rem;
     }
     .hero {
@@ -89,7 +89,7 @@ p {
 @media (min-width: 1400px) {
     section {
         padding-left: 8rem;
-        padding-right: 12rem;
+        padding-right: 20rem;
     }
     .hero {
         padding-right: 35rem;
