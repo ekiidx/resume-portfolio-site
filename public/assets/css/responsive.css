@@ -4,14 +4,11 @@ section {
     padding-right: 0.25rem;
 }
 .date {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
 }
 /* .item {
     padding: 0;
 } */
-p {
-    font-size: 0.85rem;
-}
 .theme-selector-desktop {
     display: none;
 }
@@ -31,6 +28,9 @@ p {
 }
 
 @media (min-width: 992px) {
+    p {
+        font-size: 0.9rem;
+    }
     header {
         display: flex;
         flex-direction: column;

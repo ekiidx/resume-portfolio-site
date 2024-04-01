@@ -71,6 +71,10 @@ a {
 a:hover {
   color: #9013FE;
 }
+p {
+  margin-bottom: 2rem;
+  font-size: 0.85rem;
+}
 .active {
   color: #9013FE;
 }
@@ -122,7 +126,7 @@ button, input[type="submit"], input[type="reset"] {
   display: inline-block;
   margin-right: 0.05rem;
   margin-bottom: 0.45rem;
-  font-size: 12px;
+  font-size: 11px;
   color: #f8f8f8;
   font-weight: 700;
   border: 0.175rem solid #9013FE;
@@ -474,7 +478,7 @@ li {
 }
 .title {
   margin-bottom: 1rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 .experience-logo {
   margin-bottom: 1.25rem;
