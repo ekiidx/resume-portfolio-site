@@ -52,6 +52,12 @@ body .form-control {
 body header.desktop-header .vertical-menu li .nav-link.active:after, body header.desktop-header .vertical-menu li a:after, body .portfolio-filter li.current:after, body .portfolio-filter li:after {
   opacity: 1;
 }
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #9013FE;
+}
 section {
   border-top: solid 1px #ececec;
 }
@@ -70,12 +76,6 @@ h1 {
 h2 {
   margin-bottom: 5rem;
   font-weight: 900;
-}
-a {
-  text-decoration: none;
-}
-a:hover {
-  color: #9013FE;
 }
 p {
   margin-bottom: 2rem;
@@ -173,7 +173,6 @@ header {
 }
 header .name-title {
   display: flex;
-  align-items: center;
 }
 header .nav-container {
   align-items: center;
@@ -210,7 +209,9 @@ header .social-icon svg:hover {
   fill: #9013FE;
 }
 .sidebar {
-    padding: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 .main {
   margin-left: 0rem;
@@ -255,13 +256,12 @@ footer {
   margin-right: 1rem;
 }
 .profile-photo {
-  max-width: 7.5rem;
+  max-width: 4rem;
   display: block;
-  margin-bottom: 1.25rem;
+  margin-right: 1rem;
 }
 .profile-name {
   display: block;
-  margin-bottom: 3rem;
   font-size: 1.75rem;
   font-weight: 900;
 }
@@ -514,6 +514,19 @@ li {
 .project-img {
   padding-right: 1.5rem;
 }
+.project-show h2 {
+  margin-bottom: .75rem;
+  font-size: 1.5rem;
+}
+.project-show ul {
+  margin-bottom: 2rem;
+}
+.project-show ul li {
+  color: #888;
+}
+.project-show a {
+  font-weight: 700;
+}
 #contact svg {
   max-height: 2rem;
   width: auto;
@@ -558,7 +571,7 @@ li {
 }
 .project-table td.link a {
   color: #9013FE;
-  font-weight: 600;
+  font-weight: 700;
 }
 .project-table  th.company, td.company {
   display: none;

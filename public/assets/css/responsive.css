@@ -25,6 +25,14 @@ section {
         padding-left: 2rem;
         padding-right: 2rem;
     }
+    .sidebar {
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    header .name-title {
+        align-items: center;
+    }
 }
 
 @media (min-width: 992px) {
@@ -74,6 +82,19 @@ section {
     .footer-top {
         display: block;
     }
+    .sidebar {
+        padding-top: 0rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .profile-photo {
+        max-width: 6.5rem;
+        margin-bottom: 1rem;
+        margin-right: 0rem;
+    }
+    .profile-name {
+        margin-bottom: 3rem;
+      }
 }
 
 @media (min-width: 1200px) {
