@@ -13,7 +13,7 @@
         </div>
 
         <img style="margin-bottom: 1rem;" src="/assets/img/{{ $project->img }}"></a>
-        <p style="white-space: pre-wrap;">{{ $project->content }}</p>
-        <a href="/projects" class="btn circle-btn">All Projects (25)</a>
+        <p style="white-space: pre-wrap;">{!! $project->content !!}</p>
+        <a href="/projects" class="btn circle-btn">All Projects ({{ $all_projects->count() }})</a>
     </section>
 @endsection

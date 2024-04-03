@@ -5,9 +5,9 @@
     <section id="projects" class="">
         <div class="d-flex align-items-start justify-content-between">
             <h2 class="text-uppercase">Projects</h2>
-            <a class="circle-btn btn-all-projects" href="/projects">All Projects (4)</a>
+            <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $all_projects->count() }})</a>
         </div>
-        <p class="project-amount">{{ $projects->count() }} Projects</p>
+        <p class="project-amount">{{ $all_projects->count() }} Projects</p>
         
         <table class="project-table">
             <tr>

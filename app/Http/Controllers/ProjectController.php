@@ -15,11 +15,13 @@ class ProjectController extends Controller
     public function index()
     {
         $projects = Project::with('tags')->latest()->get();
+        $all_projects = Project::all();
         //$projects = DB::select('select * from projects');
         //$projects = ['content' => 'b'];
         
         return view('projects/index', [
-            'projects' => $projects
+            'projects' => $projects,
+            'all_projects' => $all_projects
         ]);
     }
 
@@ -28,11 +30,12 @@ class ProjectController extends Controller
      */
     public function show(string $slug)
     {
-        $projects = Project::all();
+        $all_projects = Project::all();
         $project = Project::where('slug', $slug)->firstOrFail();
 
         return view('projects/show', [
-            'project' => $project
+            'project' => $project,
+            'all_projects' => $all_projects
         ]);
     }
 
