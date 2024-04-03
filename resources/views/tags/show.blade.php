@@ -2,7 +2,7 @@
 @section('title', $tag->name)
 
 @section('content')
-    <section id="projects" class="">
+    <section id="projects" class="projects">
         <div class="d-flex align-items-start justify-content-between">
             <h2 class="text-uppercase">{{ $tag->name }}</h2>
             <a class="circle-btn btn-all-projects" href="/projects">All Projects ({{ $all_projects->count() }})</a>

@@ -55,6 +55,12 @@ body header.desktop-header .vertical-menu li .nav-link.active:after, body header
 section {
   border-top: solid 1px #ececec;
 }
+section#home {
+  border-top: none;
+}
+section.projects {
+  border-top: none;
+}
 h1 {
   margin-bottom: 2.5rem;
   font-family: "Montserrat-Variable", sans-serif;

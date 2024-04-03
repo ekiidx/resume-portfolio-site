@@ -3,7 +3,7 @@
 
 @section('content')
 
-    <section>
+    <section class="projects">
         <h1>Tags</h1>
 
         @foreach ( $tags as $tag )
