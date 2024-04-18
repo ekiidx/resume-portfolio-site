@@ -475,6 +475,9 @@ li {
 .item:hover {
   background: rgba(144, 19, 254, 0.05);
 }
+.item img {
+  border: 2px solid rgba(144, 19, 254, 0.05);
+}
 .skills ul {
   margin-bottom: 0;
 }
@@ -526,6 +529,12 @@ li {
 }
 .project-show a {
   font-weight: 700;
+}
+#contact .contact-items {
+  margin-bottom: 2rem;
+}
+#contact .contact-items .item p {
+  margin-bottom: 0;
 }
 #contact svg {
   max-height: 2rem;
