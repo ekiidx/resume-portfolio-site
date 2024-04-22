@@ -201,7 +201,7 @@ header ul {
   padding-left: 0;
 }
 header .social-icon svg {
-  width: 100%;
+  max-width: 1.1rem;
   max-height: 1.1rem;
   fill: #000;
 }

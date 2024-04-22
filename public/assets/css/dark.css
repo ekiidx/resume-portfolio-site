@@ -110,8 +110,6 @@ section {
   border-top: solid 1px #222222;
 }
 header .social-icon svg {
-  width: 100%;
-  max-height: 1.1rem;
   fill: #ffffff;
 }
 .portfolio-item .mask {

@@ -120,8 +120,6 @@ section {
   border-top: solid 1px #8EE4AF;
 }
 header .social-icon svg {
-  width: 100%;
-  max-height: 1.1rem;
   fill: #05386b;
 }
 header .social-icon svg:hover {

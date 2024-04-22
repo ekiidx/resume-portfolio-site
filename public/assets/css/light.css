@@ -62,8 +62,6 @@ header.mobile-header {
   border-bottom: solid 1px #ececec;
 }
 header .social-icon svg {
-  width: 100%;
-  max-height: 1.1rem;
   fill: #000;
 }
 header .social-icon svg:hover {
