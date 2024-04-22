@@ -202,7 +202,7 @@ if (isset($_SESSION["theme_color"])) {
     </footer>
 
     <div id="btn-back-to-top" style="width: 2rem; max-width: 2rem; height: auto; cursor: pointer;">
-        <?xml version="1.0" encoding="utf-8"?>
+        <?php echo '<?xml version="1.0" encoding="utf-8"?>';
         <!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                 viewBox="0 0 15 15" style="enable-background:new 0 0 15 15;" xml:space="preserve">
