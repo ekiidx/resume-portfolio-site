@@ -59,7 +59,11 @@ a:hover {
   color: #9013FE;
 }
 section {
+  padding-top: 4rem;
   border-top: solid 1px #ececec;
+  padding-left: .35rem;
+  padding-right: .35rem;
+  margin-bottom: 4rem;
 }
 section#home {
   border-top: none;
@@ -127,7 +131,7 @@ button, input[type="submit"], input[type="reset"] {
 .circle-btn {
   background: #9013FE;
   /* padding: 0.45rem 0.9rem; */
-  padding: 0.35rem 0.7rem;
+  padding: 0.3rem 0.6rem;
   border-radius: 40px;
   display: inline-block;
   margin-right: 0.05rem;
@@ -256,7 +260,7 @@ footer {
   margin-right: 1rem;
 }
 .profile-photo {
-  max-width: 4rem;
+  max-width: 2.75rem;
   display: block;
   margin-right: 1rem;
 }
@@ -285,15 +289,7 @@ header .social-icons svg {
   width: 100%;
   max-height: 1.1rem;
 }
-section {
-  padding-top: 4rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-bottom: 4rem;
-}
 .hero {
-  height: 100vh;
-  min-height: 100vh;
   /* padding-left: 0; */
   padding-right: 0;
   display: flex;
@@ -303,10 +299,8 @@ section {
   margin-bottom: 2.5rem;
 }
 .scroll-down {
-	position: absolute;
-	bottom: 40px;
-	left: 0;
 	width: 100%;
+  margin-top: 4rem;
 }
 .mouse {
   border: solid 3px #ffffff;
@@ -419,7 +413,9 @@ section {
   position: relative;
   display: block;
 }
-
+.theme-selector-desktop {
+  display: none;
+}
 .typewriter > .wrap {
   animation: blink 0.8s infinite;
 }
@@ -465,18 +461,16 @@ li {
 .item {
   margin-bottom: 2.5rem;
   padding-top: 1rem;
-  padding-right: 5rem;
-  padding: 2rem;
   transition-property: all;
   transition-timing-function: cubic-bezier(.4,0,.2,1);
   transition-duration: .15s;
   border-radius: .8rem;
 }
-.item:hover {
-  background: rgba(144, 19, 254, 0.05);
-}
 .item img {
   border: 2px solid rgba(144, 19, 254, 0.05);
+}
+.date {
+  font-size: 0.75rem;
 }
 .skills ul {
   margin-bottom: 0;
@@ -513,9 +507,6 @@ li {
 }
 .portfolio-categories li a {
   background-color: #9013FE;
-}
-.project-img {
-  padding-right: 1.5rem;
 }
 .project-show h2 {
   margin-bottom: .75rem;
@@ -584,6 +575,10 @@ li {
 }
 .project-table  th.company, td.company {
   display: none;
+}
+.project-table img {
+  max-width: 3.5rem;
+  height: auto;
 }
 #btn-back-to-top {
   position: fixed;

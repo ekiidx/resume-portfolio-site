@@ -24,10 +24,10 @@
             <h2 class="text-uppercase">Skills</h2>
 
             <div class="row">
-                <div class="col-3">
+                <div class="col-sm-3">
                 </div>
 
-                <div class="col-9">
+                <div class="col-12 col-sm-9">
 
                     @foreach ($tags as $tag)
                         <a href="/tags/{{ $tag->slug }}"><span class="btn circle-btn">{{ $tag->name }}</span></a>
@@ -138,7 +138,7 @@
 
             <div class="row contact-items">
 
-                <div class="col-md-3 item linkedin">
+                <div class="col-6 col-md-3 item linkedin">
                     <div class="text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path class="fill" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
                         <h4 class="bold">LinkedIn</h4>
@@ -146,7 +146,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 item github">
+                <div class="col-6 col-md-3 item github">
                     <div class="text-center">
                         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 98 96" style="enable-background:new 0 0 98 96;" xml:space="preserve">
                         <style type="text/css">
@@ -164,7 +164,7 @@
                     </div>
                 </div>
             
-                <div class="col-md-3 item email">
+                <div class="col-6 col-md-3 item email">
                     <div class="text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M11.021,10.591l-2.591-2.591,7.164-.006-2.597,2.597c-.527,.527-1.448,.527-1.976,0Zm12.979,1.409c0,6.617-5.383,12-12,12S0,18.617,0,12,5.383,0,12,0s12,5.383,12,12Zm-5.007-3.007c0-.458-.111-.887-.295-1.276l.009-.009-.032-.032c-.293-.593-.772-1.073-1.365-1.365l-.017-.017-.005,.005c-.394-.19-.83-.306-1.296-.306l-7.992,.007c-.458,0-.887,.111-1.275,.295h-.001l-.004,.003c-1.013,.482-1.72,1.508-1.72,2.702v8l13.993-.008v-8Zm-6.984,4.007c-.907,0-1.761-.354-2.402-.995l-2.606-2.607v5.601l9.993-.006v-5.572l-2.583,2.583c-.641,.642-1.494,.995-2.401,.995Z"/></svg>
                         <h4 class="bold">Email</h4>
@@ -172,7 +172,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 item location">
+                <div class="col-6 col-md-3 item location">
                     <div class="text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M19.071,2.936A10,10,0,1,0,4.937,17.085L12,23.994l7.071-6.917a10,10,0,0,0,0-14.141ZM17,14H7V9.409a2.513,2.513,0,0,1,.983-1.986l2.5-1.91a2.507,2.507,0,0,1,3.035,0l2.5,1.91A2.515,2.515,0,0,1,17,9.409Zm-2.2-4.987a.5.5,0,0,1,.2.4V12H13V10H11v2H9V9.409a.5.5,0,0,1,.2-.4L11.7,7.1a.5.5,0,0,1,.608,0Z"/></svg>
                         <h4 class="bold">Location</h4>
