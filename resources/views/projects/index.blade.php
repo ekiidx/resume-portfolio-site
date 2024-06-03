@@ -10,12 +10,12 @@
             </div>
             <p class="project-amount">{{ $all_projects->count() }} Projects</p>
             
-            <table class="project-table">
+            <table id="projects-table" class="project-table">
                 <tr>
-                    <th>Year</th>
+                    <th onclick="mySort(0)" class="mouse-pointer">Year</th>
                     <th></th>
-                    <th>Name</th>
-                    <th class="d-none-md">Company</th>
+                    <th onclick="mySort(1)" class="mouse-pointer">Name</th>
+                    <th onclick="mySort(1)" class="d-none-md mouse-pointer">Company</th>
                     <th class="d-none-sm">Tags</th>
                     <th>Link</th>
                 </tr>
@@ -48,4 +48,45 @@
             </table>
         </div>
     </section>
+    <script>
+        function mySort(n) {
+            var table, rows, i, x, y, isSorting, isSorted, dir, count = 0
+            table = document.getElementById("projects-table")
+            isSorting = true
+            dir = "asc"
+
+            while(isSorting){
+                isSorting = false
+                rows = table.rows
+
+                for(i = 1; i < (rows.length -1); i++) {
+                    isSorted = false
+                    x = rows[i].getElementsByTagName("TD")[n]
+                    y = rows[i+1].getElementsByTagName("TD")[n]
+
+                    if (dir == "asc") {
+                        if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                            isSorted = true
+                            break
+                        }
+                    }else if (dir == "desc") {
+                        if(x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                            isSorted = true
+                            break
+                        }
+                    }
+                }
+                if (isSorted) {
+                    rows[i].parentNode.insertBefore(rows[i+1], rows[i])
+                    count ++
+                    isSorting = true
+                }else{
+                    if(count == 0 && dir == "asc") {
+                        dir = "desc"
+                        isSorting = true
+                    }
+                }
+            }
+        }
+    </script>
 @endsection

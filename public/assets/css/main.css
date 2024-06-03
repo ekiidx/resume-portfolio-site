@@ -58,6 +58,9 @@ a {
 a:hover {
   color: #9013FE;
 }
+.mouse-pointer {
+  cursor: pointer;
+}
 section {
   padding-top: 4rem;
   border-top: solid 1px #ececec;
