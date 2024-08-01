@@ -13,7 +13,7 @@
                 @endforeach
             </div>
 
-            <img style="margin-bottom: 1rem;" src="/assets/img/{{ $project->img }}"></a>
+            <img src="/assets/img/{{ $project->img }}"></a>
             <p style="white-space: pre-wrap;">{!! $project->content !!}</p>
             <a href="/projects" class="btn circle-btn">All Projects ({{ $all_projects->count() }})</a>
         </div>

@@ -470,7 +470,7 @@ li {
   border-radius: .8rem;
 }
 .item img {
-  border: 2px solid rgba(144, 19, 254, 0.05);
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .date {
   font-size: 0.75rem;
@@ -523,6 +523,10 @@ li {
 }
 .project-show a {
   font-weight: 700;
+}
+.project-show img {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 1rem;
 }
 #contact .contact-items {
   margin-bottom: 2rem;
@@ -582,6 +586,7 @@ li {
 .project-table img {
   max-width: 3.5rem;
   height: auto;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 #btn-back-to-top {
   position: fixed;
