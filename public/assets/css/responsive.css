@@ -39,6 +39,9 @@
     .project-table img {
         max-width: 4.5rem;
       }
+    .profile-name {
+    font-size: 1.75rem;
+    }
 }
 
 @media (min-width: 992px) {

@@ -13,8 +13,13 @@ class TagController extends Controller
      */
     public function index()
     {
-        $tags = Tag::with('projects')->get();
-        $all_projects = Project::all();
+        $tags = Tag::with('projects')
+        ->orderBy('year', 'desc')
+        ->orderBy('id', 'desc')
+        ->get();
+        
+        $all_projects = Project::where('is_active', '1')
+            ->get();
         
         return view('tags/index', [
             'tags' => $tags,
@@ -28,7 +33,8 @@ class TagController extends Controller
     public function show(string $slug)
     {
         $tag = Tag::withCount('projects')->where('slug', $slug)->firstOrFail();
-        $all_projects = Project::all();
+        $all_projects = Project::where('is_active', '1')
+            ->get();
         
         return view('tags/show', [
             'tag' => $tag,

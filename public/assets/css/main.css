@@ -16,6 +16,18 @@
   font-family: MonumentExtended-Ultrabold;
   src: url(../fonts/monument/MonumentExtended-Ultrabold.otf);
 }
+@font-face {
+  font-family: Wotfard-Regular;
+  src: url(../fonts/wotfard/Wotfard-Regular.otf);
+}
+@font-face {
+  font-family: Safiro-Medium;
+  src: url(../fonts/safiro/Safiro-Medium.otf);
+}
+@font-face {
+  font-family: Strawford-Medium;
+  src: url(../fonts/strawford/Strawford-Medium.otf);
+}
 
 body {
   background: #f8f8f8;
@@ -25,8 +37,11 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* font-family: "Safiro-Medium", sans-serif; */
+  /* font-family: "Strawford-Medium", sans-serif; */
   font-family: "Montserrat-Variable", sans-serif;
-  font-weight: 500;
+  /* font-family: "Wotfard-Regular", sans-serif; */
+  font-weight: 450;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {
   color: #000;
@@ -92,7 +107,7 @@ p {
   color: #9013FE;
 }
 .bold {
-  font-weight: 900;
+  font-weight: 800;
 }
 ul {
   padding-left: 1rem;
@@ -117,7 +132,7 @@ button, input[type="submit"], input[type="reset"] {
   border-radius: 0;
   font-family: "Montserrat-Variable", sans-serif;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 800;
   overflow: hidden;
   line-height: 1;
   padding: 15px 24px;
@@ -180,6 +195,7 @@ header {
 }
 header .name-title {
   display: flex;
+  align-items: center;
 }
 header .nav-container {
   align-items: center;
@@ -224,9 +240,8 @@ header .social-icon svg:hover {
   margin-left: 0rem;
 }
 nav ul li {
-  margin-bottom: 0.5rem;
-  font-size: 0.85rem;
-  font-weight: 700;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
   font-weight: 800;
 }
 .navbar-toggler-icon {
@@ -257,10 +272,10 @@ footer {
 }
 .social-icons ul {
   display: flex;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
 }
 .social-icons ul li {
-  margin-right: 1rem;
+  margin-right: 0.8rem;
 }
 .profile-photo {
   max-width: 2.75rem;
@@ -269,7 +284,7 @@ footer {
 }
 .profile-name {
   display: block;
-  font-size: 1.75rem;
+  font-size: 1.55rem;
   font-weight: 900;
 }
 .copyright {
@@ -432,6 +447,7 @@ li {
 }
 .subtitle {
   margin-bottom: 1rem;
+  font-weight: 600;
 }
 .experience-logo {
   /*margin-top: 1.33rem;*/
@@ -484,7 +500,7 @@ li {
 }
 .title {
   margin-bottom: 1rem;
-  font-weight: 800;
+  font-weight: 900;
 }
 .experience-logo {
   margin-bottom: 1.25rem;

@@ -181,8 +181,8 @@
                 </div>
             </div>   
 
-            <form id="contact-form" class="contact-form" method="post" action="forms/contact.php">
-                
+            <form id="contact-form" class="contact-form" method="post" action="/contact/submit">
+                @csrf 
                 <div class="messages"></div>
                 
                 <div class="row">
@@ -190,7 +190,8 @@
                         <!-- Name input -->
                         <div class="form-group" style="margin-bottom: 1.5rem;">
                             <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Your name" required="required" data-error="Name is required.">
-                            <div class="help-block with-errors"></div>
+                           @error('InputName') {{ $message }} @enderror
+                            {{-- <div class="help-block with-errors"></div> --}}
                         </div>
                     </div>
                     
@@ -198,7 +199,7 @@
                         <!-- Email input -->
                         <div class="form-group">
                             <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email is required.">
-                            <div class="help-block with-errors"></div>
+                            {{-- <div class="help-block with-errors"></div> --}}
                         </div>
                     </div>
 
@@ -219,11 +220,37 @@
                     </div>
                 </div>
 
-                <button type="submit" name="submit" id="submit" value="Submit" class="btn circle-btn">Submit</button>
+                <button type="submit" name="submit" id="submit" class="btn circle-btn">Submit</button>
 
             </form>
+
+                @if(session('success'))
+                <div class="alert alert-success">
+                    {{ session('success') }}
+                </div>
+              @endif
+
+                @if ($errors->any())
+                    <div class="alert alert-danger">
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                                <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
+
+                <div id="demo"></div>
+                <button  onclick="getData()" name="demo-button" id="demo-button" class="btn circle-btn">Demo</button>
+         
+                <meta name="csrf-token" content="{{ csrf_token() }}">
 
         </div>
     </section>
           
+@endsection
+
+@section('scripts')
+    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/ajax.js"></script>
 @endsection

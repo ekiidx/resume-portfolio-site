@@ -16,8 +16,16 @@ class HomeController extends Controller
     public function home()
     {
         $tags = Tag::all();
-        $projects = Project::with('tags')->latest()->limit(4)->get();
-        $all_projects = Project::all();
+        $projects = Project::with('tags')
+            ->orderBy('year', 'desc')
+            ->orderBy('id', 'desc')
+            ->where('is_active', '1')
+            ->limit(5)
+            ->get();
+
+         $all_projects = Project::where('is_active', '1')
+            ->get();
+
         $experiences = Experience::with('tags')->latest()->get();
         $schools = School::with('tags')->latest()->get();
 

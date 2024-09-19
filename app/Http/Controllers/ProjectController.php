@@ -14,8 +14,14 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        $projects = Project::with('tags')->latest()->get();
-        $all_projects = Project::all();
+        $projects = Project::with('tags')
+            ->orderBy('year', 'desc')
+            ->orderBy('id', 'desc')
+            ->where('is_active', '1')
+            ->get();
+
+        $all_projects = Project::where('is_active', '1')
+            ->get();
         //$projects = DB::select('select * from projects');
         //$projects = ['content' => 'b'];
         
@@ -30,7 +36,8 @@ class ProjectController extends Controller
      */
     public function show(string $slug)
     {
-        $all_projects = Project::all();
+        $all_projects = Project::where('is_active', '1')
+            ->get();;
         $project = Project::where('slug', $slug)->firstOrFail();
 
         return view('projects/show', [
