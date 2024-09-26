@@ -54,7 +54,7 @@
                             <h4 class="title">{{ $experience->name }}</h4>
                             <p class="subtitle">{{ $experience->description }}</p>
                         
-                            <p>{{ $experience->content }}</p>
+                            <p>{!!$experience->bullet_points !!}</p>
 
                             @foreach ($experience->tags as $tag )
                                 <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>

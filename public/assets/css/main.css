@@ -112,7 +112,10 @@ p {
 ul {
   padding-left: 1rem;
 }
-li {
+/* li {
+  color: #9013FE;
+} */
+li::marker {
   color: #9013FE;
 }
 img {
@@ -442,9 +445,6 @@ header .social-icons svg {
     border-color: transparent;
   }
 }
-li {
-  color: #9013FE;
-}
 .subtitle {
   margin-bottom: 1rem;
   font-weight: 600;
@@ -558,13 +558,14 @@ li {
 }
 #contact .location svg {
   max-height: 2.25rem;
+  margin-bottom: 0.75rem;
 }
 #contact h4 {
   margin-bottom: 1rem;
   font-size: 1.35rem;
 }
 #contact .item {
-  margin-bottom: 0;
+  margin-bottom: 1rem;
 }
 #projects.list-view {
   padding-top: 2.55rem;

@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('timeline');
             $table->string('description');
             $table->text('content');
+            $table->text('bullet_points');
             $table->timestamps();
         });
     }

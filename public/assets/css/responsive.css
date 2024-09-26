@@ -3,12 +3,21 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
+    #contact .item {
+        margin-bottom: 0;
+    }
+    #contact p {
+        font-size: 0.85rem;
+    }
 }
 
 @media (min-width: 768px) {
     section {
         padding-left: 2rem;
         padding-right: 2rem;
+    }
+    section#home {
+        padding-top: 0;
     }
     .sidebar {
         padding-top: 2rem;
@@ -25,6 +34,9 @@
     .item {
         padding: 1.5rem;
         padding-right: 5rem;
+    }
+    #contact .item {
+        padding-right: 1.5rem;
     }
     .item:hover {
         background: rgba(144, 19, 254, 0.05);
@@ -116,6 +128,9 @@
     }
     .hero {
         padding-right: 25rem;
+    }
+    #contact p {
+        font-size: 1rem;
     }
 }
 

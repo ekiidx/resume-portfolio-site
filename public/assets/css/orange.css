@@ -10,7 +10,10 @@ a:hover {
   color: #fc483a;
 }
 li {
-  color: #edf5e1;
+  color: #888;
+}
+li::marker {
+  color: #fc483a;
 }
 .service-box li h4 {
   color: #fc483a;

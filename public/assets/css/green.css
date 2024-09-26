@@ -13,6 +13,9 @@ p {
   color: #05386b;
 }
 li {
+  color: #05386b;
+}
+li::marker {
   color: #EDF5E1;
 }
 .service-box li h4 {
