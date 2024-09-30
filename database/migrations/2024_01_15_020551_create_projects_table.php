@@ -24,6 +24,7 @@ return new class extends Migration
             $table->string('excerpt');
             $table->string('timeline');
             $table->text('content');
+            $table->text('bullet_points');
             $table->timestamps();
         });
     }

@@ -116,7 +116,7 @@
                                 <h4 class="title">{{ $project->name }}</h4>
                             </a>
                             <p class="subtitle">{{ $project->description }}</p>
-                            <p>{{ $project->excerpt }}</p>
+                            <p>{!! $project->bullet_points !!}</p>
                             
                             <div>
                                 @foreach ($project->tags as $tag)    
