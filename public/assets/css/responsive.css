@@ -88,9 +88,9 @@
     .hero {
         padding-right: 10rem;
     }
-    .project-table  th.company, td.company {
+    /* .project-table  th.company, td.company {
         display: block;
-    }
+    } */
     .theme-selector-desktop {
         display: initial;
     }

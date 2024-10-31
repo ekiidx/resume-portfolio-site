@@ -31,16 +31,16 @@ li::marker {
   background: #05386b;
   color: #EDF5E1;
   font-weight: 700;
-  border: solid 3px #05386b;
+  border-color: #05386b;
 }
 .circle-btn:hover {
   color: #05386b;
   background: transparent;
-  border: solid 3px #05386b;
+  border-color: #05386b;
 }
 .btn-default {
   color: #EDF5E1;
-  border: solid 3px #05386b;
+  border-color: #05386b;
   background: #05386b;
 }
 .btn-default:hover, .btn-default:focus {
@@ -50,12 +50,12 @@ li::marker {
 .btn-alt-light {
   color: #05386b;
   background: transparent;
-  border: solid 3px #05386b;
+  border-color: #05386b;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
   color: #05386b;
   background: transparent;
-  border: solid 3px #05386b;
+  border-color: #05386b;
 }
 .mugi-folding-cube .mugi-cube:before {
   background-color: #05386b;

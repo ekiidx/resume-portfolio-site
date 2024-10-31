@@ -42,7 +42,6 @@
         <div class="container">
             <h2 class="text-uppercase">Experience</h2>
 
-
             @foreach ($experiences as $experience)
                 <div class="item">
                     <div class="row">
@@ -54,7 +53,7 @@
                             <h4 class="title">{{ $experience->name }}</h4>
                             <p class="subtitle">{{ $experience->description }}</p>
                         
-                            <p>{!!$experience->bullet_points !!}</p>
+                            {!!$experience->bullet_points !!}
 
                             @foreach ($experience->tags as $tag )
                                 <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
@@ -82,7 +81,9 @@
                             <h4 class="title">{{ $school->name }}</h4>
                             <p class="subtitle">{{ $school->description }}</p>
                         
-                            <p>{{ $school->content }}</p>
+                            <ul>
+                                <li>{{ $school->content }}</li>
+                            </ul>
 
                             @foreach ($school->tags as $tag )
                                 <a class="btn circle-btn" href="/tags/{{ $tag->slug }}">{{ $tag->name }}</a>
@@ -116,7 +117,8 @@
                                 <h4 class="title">{{ $project->name }}</h4>
                             </a>
                             <p class="subtitle">{{ $project->description }}</p>
-                            <p>{!! $project->bullet_points !!}</p>
+
+                            {!! $project->bullet_points !!}
                             
                             <div>
                                 @foreach ($project->tags as $tag)    
@@ -181,6 +183,8 @@
                 </div>
             </div>   
 
+            <?php /*
+
             <form id="contact-form" class="contact-form" method="post" action="/contact/submit">
                 @csrf 
                 <div class="messages"></div>
@@ -243,7 +247,7 @@
                 <div id="demo"></div>
                 <button  onclick="getData()" name="demo-button" id="demo-button" class="btn circle-btn">Demo</button>
          
-                <meta name="csrf-token" content="{{ csrf_token() }}">
+                <meta name="csrf-token" content="{{ csrf_token() }}"> */ ?>
 
         </div>
     </section>

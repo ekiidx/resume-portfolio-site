@@ -1,7 +1,7 @@
 body {
   background: #f8f8f8;
   background-image: #f8f8f8;
-  color: #888;
+  color: #666;
 }
 a:hover {
   color: #9013FE;
@@ -10,7 +10,7 @@ a:hover {
   color: #9013FE;
 }
 li {
-  color: #888;
+  color: #777;
 }
 li::marker {
   color: #9013FE;
@@ -41,12 +41,12 @@ li::marker {
 .btn-alt-light {
   color: #9013FE;
   background: transparent;
-  border: solid 3px #9013FE;
+  border-color: #9013FE;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
   color: #f8f8f8;
   background: #9013FE;
-  border: solid 3px #9013FE;
+  border-color: #9013FE;
 }
 header, body .btn-default:before {
   background: #f8f8f8;

@@ -22,16 +22,16 @@ li::marker {
   background: #10d876;
   color:#000000;
   font-weight: 700;
-  border: solid 3px #10d876;
+  border-color: #10d876;
 }
 .circle-btn:hover {
   background: #1A1A1B;
   color: #10d876;
-  border: solid 3px #10d876;
+  border-color: #10d876;
 }
 .btn-default {
   color: #edf5e1;
-  border: solid 3px #10d876;
+  border-color: #10d876;
   background: #10d876;
 }
 .btn-default:hover, .btn-default:focus {
@@ -41,11 +41,11 @@ li::marker {
 .btn-alt-light {
   color: #10d876;
   background: transparent;
-  border: solid 3px #10d876;
+  border-color: #10d876;
 }
 .btn-alt-light:hover, .btn-alt-light:focus {
   color: #ffffff;
-  border: solid 3px #ffffff;
+  border-color: #ffffff;
 }
 nav ul li {
   color: #fff;

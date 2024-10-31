@@ -7,6 +7,8 @@
             <a href="https://{{ $project->link }}">
                 <h1 style="font-size: calc(1.325rem + .9vw)">{{ $project->name }}</h1>
             </a>
+
+            <p class="project-subtitle">{{ $project->description }}</p>
                 
             <a class="project-link" href="https://{{ $project->link }}"><span>{{ $project->link }}</span>
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -18,7 +20,6 @@
                 </g>
                 </svg>
             </a>
-            <p style="margin-bottom: 1rem;">{{ $project->description }}</p>
 
             <div style="margin-bottom: 1rem;">
                 @foreach ($project->tags as $tag )
@@ -27,7 +28,7 @@
             </div>
 
             <a href="https://{{ $project->link}}"><img src="/assets/img/{{ $project->img }}"></a>
-            <p style="white-space: pre-wrap;">{!! $project->content !!}</p>
+            <p style="white-space: pre-wrap; font-size: 0.85rem;">{!! $project->content !!}</p>
             <a href="/projects" class="btn circle-btn">All Projects ({{ $all_projects->count() }})</a>
         </div>
     </section>
