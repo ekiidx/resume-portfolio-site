@@ -1,32 +1,52 @@
-@import "satoshi.css";
-
 @font-face {
-  font-family: Montserrat-Variable;
-  src: url(../fonts/montserrat/Montserrat-VariableFont_wght.ttf);
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins-Regular.eot');
+    src: url('../fonts/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Poppins-Regular.woff2') format('woff2'),
+         url('../fonts/Poppins-Regular.woff') format('woff'),
+         url('../fonts/Poppins-Regular.ttf')  format('truetype'),
+         url('../fonts/Poppins-Regular.svg#Poppins') format('svg');
+    font-weight: 400;
 }
 @font-face {
-  font-family: Inter-Variable;
-  src: url(../fonts/inter/Inter-Variable.ttf);
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Medium.eot');
+  src: url('fonts/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Poppins-Medium.woff2') format('woff2'),
+       url('fonts/Poppins-Medium.woff') format('woff'),
+       url('fonts/Poppins-Medium.ttf')  format('truetype'),
+       url('fonts/Poppins-Medium.svg#Poppins Medium') format('svg');
+  font-weight: 500;
 }
 @font-face {
-  font-family: MonumentExtended-Regular;
-  src: url(../fonts/monument/MonumentExtended-Regular.otf);
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-SemiBold.eot');
+  src: url('fonts/Poppins-SemiBold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Poppins-SemiBold.woff2') format('woff2'),
+       url('fonts/Poppins-SemiBold.woff') format('woff'),
+       url('fonts/Poppins-SemiBold.ttf')  format('truetype'),
+       url('fonts/Poppins-SemiBold.svg#Poppins SemiBold') format('svg');
+  font-weight: 600;
 }
 @font-face {
-  font-family: MonumentExtended-Ultrabold;
-  src: url(../fonts/monument/MonumentExtended-Ultrabold.otf);
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-Bold.eot');
+  src: url('fonts/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Poppins-Bold.woff2') format('woff2'),
+       url('fonts/Poppins-Bold.woff') format('woff'),
+       url('fonts/Poppins-Bold.ttf')  format('truetype'),
+       url('fonts/Poppins-Bold.svg#Poppins') format('svg');
+  font-weight: 700;
 }
 @font-face {
-  font-family: Wotfard-Regular;
-  src: url(../fonts/wotfard/Wotfard-Regular.otf);
-}
-@font-face {
-  font-family: Safiro-Medium;
-  src: url(../fonts/safiro/Safiro-Medium.otf);
-}
-@font-face {
-  font-family: Strawford-Medium;
-  src: url(../fonts/strawford/Strawford-Medium.otf);
+  font-family: 'Poppins';
+  src: url('fonts/Poppins-ExtraBold.eot');
+  src: url('fonts/Poppins-ExtraBold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/Poppins-ExtraBold.woff2') format('woff2'),
+       url('fonts/Poppins-ExtraBold.woff') format('woff'),
+       url('fonts/Poppins-ExtraBold.ttf')  format('truetype'),
+       url('fonts/Poppins-ExtraBold.svg#Poppins ExtraBold') format('svg');
+  font-weight: 800;
 }
 
 body {
@@ -37,10 +57,7 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* font-family: "Safiro-Medium", sans-serif; */
-  /* font-family: "Strawford-Medium", sans-serif; */
-  font-family: "Montserrat-Variable", sans-serif;
-  /* font-family: "Wotfard-Regular", sans-serif; */
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 body h1, body h2, body h3, body h4, body h5, body h6, body a, body .vertical-menu li a, body .portfolio-filter li.current, body .portfolio-filter li:hover, body .portfolio-info li strong, body .social-share .share-text {
@@ -91,13 +108,12 @@ section.projects {
 }
 h1 {
   margin-bottom: 2.5rem;
-  font-family: "Montserrat-Variable", sans-serif;
   font-size: 4rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 h2 {
   margin-bottom: 4rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 p {
   margin-bottom: 2rem;
@@ -133,7 +149,6 @@ button, input[type="submit"], input[type="reset"] {
 }
 .btn {
   border-radius: 0;
-  font-family: "Montserrat-Variable", sans-serif;
   font-size: 14px;
   font-weight: 800;
   overflow: hidden;
@@ -276,7 +291,7 @@ footer {
 }
 .social-icons ul {
   display: flex;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 .social-icons ul li {
   margin-right: 0.8rem;
@@ -289,7 +304,7 @@ footer {
 .profile-name {
   display: block;
   font-size: 1.55rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 .copyright {
   font-size: 0.75rem;
@@ -318,7 +333,7 @@ header .social-icons svg {
   align-items: center;
 }
 .hero p {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .scroll-down {
 	width: 100%;
@@ -447,7 +462,7 @@ header .social-icons svg {
   }
 }
 .subtitle {
-  margin-bottom: 1rem;
+  margin-bottom: .75rem;
   font-weight: 600;
 }
 .experience-logo {
@@ -503,17 +518,18 @@ header .social-icons svg {
 }
 .skills ul li {
   margin-bottom: 0.5rem;
-  font-weight: 900;
+  font-weight: 800;
 }
 .title {
-  margin-bottom: 1rem;
-  font-weight: 900;
+  margin-bottom: .75rem;
+  font-weight: 800;
 }
 .experience-logo {
   margin-bottom: 1.25rem;
 }
 .date {
   display: block;
+  padding-top: .35rem;
   margin-bottom: 1rem;
 }
 .service-box li h4 {
@@ -586,13 +602,13 @@ header .social-icons svg {
   padding-top: 2.55rem;
 }
 .project-amount {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   margin-bottom: 0.5rem;
 }
 .project-table {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   text-align: left;
 }
 .project-table th {

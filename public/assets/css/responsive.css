@@ -110,7 +110,7 @@
     }
     .profile-photo {
         max-width: 6.5rem;
-        margin-bottom: 1rem;
+        margin-bottom: .5rem;
         margin-right: 0rem;
     }
     .profile-name {
@@ -140,7 +140,7 @@
         padding-right: 20rem;
     }
     .hero {
-        padding-right: 35rem;
+        padding-right: 25rem;
     }
 }
 
