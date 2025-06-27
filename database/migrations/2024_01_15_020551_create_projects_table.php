@@ -25,6 +25,7 @@ return new class extends Migration
             $table->string('timeline');
             $table->text('content');
             $table->text('bullet_points');
+            $table->integer('is_active')->unsigned();
             $table->timestamps();
         });
     }
