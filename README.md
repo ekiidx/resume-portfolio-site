@@ -1,6 +1,30 @@
 # resume-portfolio-site
 This is my personal resume and portfolio site. I decided to build myself a custom theme selector (the little boxes up at the top right of the screen).
 
+## Installation
+
+Run composer install.
+
+```sh
+$ composer install
+```
+
+Run database migration.
+
+```sh
+$ php artisan migrate
+```
+
+## Usage
+
+### Starting the app
+
+Start the app on localhost:
+
+```sh
+$ php artisan serve
+```
+
 ## Goals
 - Project section that listed all projects I have been involved with over the years.
 - Ability to click on each item and each tag to generate a list of projects that are involved with that tag.
